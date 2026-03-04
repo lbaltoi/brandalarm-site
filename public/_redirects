@@ -1,0 +1,13 @@
+http://brandalarm.ro/* https://brandalarm.ro/:splat 301
+http://www.brandalarm.ro/* https://brandalarm.ro/:splat 301
+https://www.brandalarm.ro/* https://brandalarm.ro/:splat 301
+/en/* /index.html 200
+/monitorizare-marci/* /index.html 200
+/monitorizare-domenii/* /index.html 200
+/cautare-marci/* /index.html 200
+/preturi/* /index.html 200
+/rapoarte-ai/* /index.html 200
+/opozitie-marca/* /index.html 200
+/blog/* /index.html 200
+/confidentialitate/* /index.html 200
+/termeni/* /index.html 200

@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Sitemap: https://brandalarm.ro/sitemap.xml
+Disallow: /api/
+Disallow: /admin/
