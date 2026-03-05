@@ -25,19 +25,6 @@
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Web",
     "description": "Intelligent trademark, brand, and domain monitoring platform",
-    "author": {
-      "@type": "Organization",
-      "name": "Trademark Alliance SRL",
-      "url": "https://brandalarm.ro",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Str. Aviator Mircea Zorileanu 43",
-        "addressLocality": "Bucuresti",
-        "addressRegion": "Sector 1",
-        "addressCountry": "RO"
-      },
-      "vatID": "RO50768537"
-    },
     "offers": [
       {"@type": "Offer", "name": "Free", "price": "0", "priceCurrency": "EUR"},
       {"@type": "Offer", "name": "Basic", "price": "15", "priceCurrency": "EUR"},
@@ -229,6 +216,7 @@ const sec = { padding: "100px 24px", maxWidth: 1200, margin: "0 auto" };
 function BrandAlarmLanding() {
   const [lang, setLang] = useState("ro");
   const [scrolled, setScrolled] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
   const [sTab, setSTab] = useState("euipo");
 
   useEffect(() => {
@@ -247,27 +235,55 @@ function BrandAlarmLanding() {
 
   return (
     <div style={{ fontFamily: ff, background: P.bg, color: P.tx, minHeight: "100vh", overflowX: "hidden" }}>
+      <style>{`
+        .nav-links, .nav-actions { display: flex; }
+        .nav-burger { display: none; background: none; border: none; cursor: pointer; padding: 8px; }
+        .mobile-menu { display: none; }
+        @media (max-width: 768px) {
+          .nav-links, .nav-actions { display: none !important; }
+          .nav-burger { display: flex !important; align-items: center; justify-content: center; }
+          .mobile-menu { display: flex !important; }
+        }
+      `}</style>
       {/* FIXED: soft gradient background instead of grid lines — no visual artifacts */}
       <div style={{ position: "fixed", inset: 0, background: "radial-gradient(ellipse at 20% 50%, rgba(139,92,246,.04) 0%, transparent 50%), radial-gradient(ellipse at 80% 20%, rgba(124,58,237,.03) 0%, transparent 50%)", pointerEvents: "none", zIndex: 0 }} />
 
       {/* NAV */}
-      <nav style={{ position: "fixed", top: 0, left: 0, right: 0, zIndex: 100, padding: "0 28px", background: scrolled ? "rgba(6,7,13,.96)" : "transparent", backdropFilter: scrolled ? "blur(16px)" : "none", borderBottom: scrolled ? "1px solid rgba(139,92,246,.08)" : "none", transition: TR }}>
-        <div style={{ maxWidth: 1200, margin: "0 auto", display: "flex", alignItems: "center", justifyContent: "space-between", height: 72 }}>
-          <a href="#" onClick={e => { e.preventDefault(); window.scrollTo({ top: 0, behavior: "smooth" }); }} style={{ display: "flex", alignItems: "center", gap: 10, fontWeight: 700, fontSize: 20, textDecoration: "none", color: "inherit", cursor: "pointer" }}>
+      <nav style={{ position: "fixed", top: 0, left: 0, right: 0, zIndex: 100, padding: "0 20px", background: scrolled || menuOpen ? "rgba(6,7,13,.96)" : "transparent", backdropFilter: scrolled || menuOpen ? "blur(16px)" : "none", borderBottom: scrolled ? "1px solid rgba(139,92,246,.08)" : "none", transition: TR }}>
+        <div style={{ maxWidth: 1200, margin: "0 auto", display: "flex", alignItems: "center", justifyContent: "space-between", height: 68 }}>
+          <a href="#" onClick={e => { e.preventDefault(); window.scrollTo({ top: 0, behavior: "smooth" }); setMenuOpen(false); }} style={{ display: "flex", alignItems: "center", gap: 10, fontWeight: 700, fontSize: 20, textDecoration: "none", color: "inherit", cursor: "pointer" }}>
             <div style={{ width: 36, height: 36, borderRadius: 9, background: `linear-gradient(135deg,${P.ad},${P.ap})`, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 18, fontWeight: 700, color: P.wh }}>B</div>
             <span>Brand<span style={{ color: P.ac }}>Alarm</span></span>
           </a>
-          <div style={{ display: "flex", alignItems: "center", gap: 28 }}>
+          <div className="nav-links" style={{ alignItems: "center", gap: 28 }}>
             {d.nav.map(n => <a key={n.h} href={n.h} style={{ color: P.mu, fontSize: 15, fontWeight: 500, textDecoration: "none", transition: TR }}>{n.l}</a>)}
           </div>
-          <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
+          <div className="nav-actions" style={{ alignItems: "center", gap: 10 }}>
             {["ro", "en"].map(l => (
               <button key={l} onClick={() => switchLang(l)} style={{ background: lang === l ? "rgba(139,92,246,.15)" : "transparent", color: lang === l ? P.ac : P.dm, border: `1px solid ${lang === l ? P.ac : "rgba(100,116,139,.3)"}`, borderRadius: 6, padding: "5px 12px", fontSize: 13, fontWeight: 700, cursor: "pointer", fontFamily: fm, transition: TR }}>{l.toUpperCase()}</button>
             ))}
             <a href={APP} {...EXT} style={{ ...btnO, ...smB }}>{d.login}</a>
             <a href={REG} {...EXT} style={{ ...btnP, ...smB }}>{d.reg}</a>
           </div>
+          <button className="nav-burger" onClick={() => setMenuOpen(!menuOpen)} style={{ display: "none", color: P.br, fontSize: 28, lineHeight: 1 }} aria-label="Menu">
+            {menuOpen ? "\u2715" : "\u2630"}
+          </button>
         </div>
+        {/* MOBILE MENU */}
+        {menuOpen && (
+          <div className="mobile-menu" style={{ flexDirection: "column", padding: "12px 0 20px", borderTop: "1px solid rgba(139,92,246,.08)" }}>
+            {d.nav.map(n => <a key={n.h} href={n.h} onClick={() => setMenuOpen(false)} style={{ display: "block", color: P.mu, fontSize: 17, fontWeight: 500, textDecoration: "none", padding: "12px 8px", borderBottom: "1px solid rgba(139,92,246,.05)" }}>{n.l}</a>)}
+            <div style={{ display: "flex", gap: 8, marginTop: 16, alignItems: "center" }}>
+              {["ro", "en"].map(l => (
+                <button key={l} onClick={() => { switchLang(l); setMenuOpen(false); }} style={{ background: lang === l ? "rgba(139,92,246,.15)" : "transparent", color: lang === l ? P.ac : P.dm, border: `1px solid ${lang === l ? P.ac : "rgba(100,116,139,.3)"}`, borderRadius: 6, padding: "6px 14px", fontSize: 14, fontWeight: 700, cursor: "pointer", fontFamily: fm }}>{l.toUpperCase()}</button>
+              ))}
+            </div>
+            <div style={{ display: "flex", gap: 10, marginTop: 16 }}>
+              <a href={APP} {...EXT} style={{ ...btnO, padding: "12px 24px", fontSize: 15, flex: 1, textAlign: "center" }}>{d.login}</a>
+              <a href={REG} {...EXT} style={{ ...btnP, padding: "12px 24px", fontSize: 15, flex: 1, textAlign: "center" }}>{d.reg}</a>
+            </div>
+          </div>
+        )}
       </nav>
 
       {/* HERO — FIXED: minHeight prevents layout jump on lang switch */}
