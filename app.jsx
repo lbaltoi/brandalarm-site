@@ -249,11 +249,12 @@ function BrandAlarmLanding() {
 
       {/* HERO — FIXED: minHeight prevents layout jump on lang switch */}
       <section style={{ paddingTop: 140, paddingBottom: 40, position: "relative", minHeight: 620 }}>
-        <div style={{ position: "absolute", top: "50%", right: "-5%", transform: "translateY(-50%)", width: "45%", maxWidth: 440, pointerEvents: "none", opacity: .15 }}>
+        <div style={{ position: "absolute", top: "50%", left: "55%", transform: "translate(-50%,-50%)", width: "110%", maxWidth: 900, pointerEvents: "none", opacity: .12 }}>
           <svg viewBox="0 0 400 400" style={{ width: "100%" }} aria-hidden="true">
-            {[80, 130, 180, 230].map((r, i) => <circle key={r} cx={200} cy={200} r={r} fill="none" stroke={P.ac} strokeWidth={1} style={{ animation: `radarPulse 3s ease-out ${i * 0.5}s infinite` }} />)}
-            <circle cx={200} cy={200} r={6} fill={P.ac} />
-            <line x1={200} y1={200} x2={340} y2={120} stroke={P.ac} strokeWidth={1.5} style={{ animation: "radarSweep 4s linear infinite", transformOrigin: "200px 200px" }} />
+            {[60, 100, 140, 180, 220, 260, 300].map((r, i) => <circle key={r} cx={200} cy={200} r={r} fill="none" stroke={P.ac} strokeWidth={0.8} style={{ animation: `radarPulse 4s ease-out ${i * 0.4}s infinite` }} />)}
+            <circle cx={200} cy={200} r={4} fill={P.ac} />
+            <line x1={200} y1={200} x2={380} y2={100} stroke={P.ac} strokeWidth={1.5} style={{ animation: "radarSweep 5s linear infinite", transformOrigin: "200px 200px" }} />
+            <line x1={200} y1={200} x2={100} y2={360} stroke={P.ac} strokeWidth={0.5} opacity={0.4} style={{ animation: "radarSweep 8s linear reverse infinite", transformOrigin: "200px 200px" }} />
           </svg>
         </div>
         <div style={{ maxWidth: 1200, margin: "0 auto", padding: "0 28px", position: "relative", zIndex: 2 }}>
