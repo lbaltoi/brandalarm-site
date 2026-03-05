@@ -7,7 +7,7 @@ const EXT = { rel: "noopener noreferrer", target: "_blank" };
 const P = {
   bg: "#06070d", sf: "rgba(15,12,30,.65)", bd: "rgba(139,92,246,.07)",
   bdd: "rgba(239,68,68,.08)", ac: "#a78bfa", ad: "#8b5cf6", ap: "#7c3aed",
-  tx: "#e2e8f0", mu: "#94a3b8", dm: "#64748b", br: "#f1f5f9", dg: "#fca5a5", wh: "#fff"
+  tx: "#e2e8f0", mu: "#b0bfcc", dm: "#8896a8", br: "#f1f5f9", dg: "#fca5a5", wh: "#fff"
 };
 
 const ff = "'DM Sans',system-ui,-apple-system,'Segoe UI',sans-serif";
@@ -193,10 +193,10 @@ export default function BrandAlarmLanding() {
       {/* NAV */}
       <nav style={{ position: "fixed", top: 0, left: 0, right: 0, zIndex: 100, padding: "0 28px", background: scrolled ? "rgba(6,7,13,.96)" : "transparent", backdropFilter: scrolled ? "blur(16px)" : "none", borderBottom: scrolled ? "1px solid rgba(139,92,246,.08)" : "none", transition: TR }}>
         <div style={{ maxWidth: 1200, margin: "0 auto", display: "flex", alignItems: "center", justifyContent: "space-between", height: 72 }}>
-          <div style={{ display: "flex", alignItems: "center", gap: 10, fontWeight: 700, fontSize: 20 }}>
+          <a href="#" onClick={e => { e.preventDefault(); window.scrollTo({ top: 0, behavior: "smooth" }); }} style={{ display: "flex", alignItems: "center", gap: 10, fontWeight: 700, fontSize: 20, textDecoration: "none", color: "inherit", cursor: "pointer" }}>
             <div style={{ width: 36, height: 36, borderRadius: 9, background: `linear-gradient(135deg,${P.ad},${P.ap})`, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 18, fontWeight: 700, color: P.wh }}>B</div>
             <span>Brand<span style={{ color: P.ac }}>Alarm</span></span>
-          </div>
+          </a>
           <div style={{ display: "flex", alignItems: "center", gap: 28 }}>
             {d.nav.map(n => <a key={n.h} href={n.h} style={{ color: P.mu, fontSize: 15, fontWeight: 500, textDecoration: "none", transition: TR }}>{n.l}</a>)}
           </div>
@@ -397,7 +397,7 @@ export default function BrandAlarmLanding() {
           </div>
         </div>
         <div style={{ maxWidth: 1200, margin: "36px auto 0", paddingTop: 18, borderTop: "1px solid rgba(139,92,246,.06)", textAlign: "center", display: "flex", alignItems: "center", justifyContent: "center", gap: 16 }}>
-          <p style={{ fontSize: 13, color: "#475569" }}>{d.fC}</p>
+          <p style={{ fontSize: 13, color: "#7a8899" }}>{d.fC}</p>
         </div>
       </footer>
 
