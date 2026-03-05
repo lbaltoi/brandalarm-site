@@ -193,6 +193,10 @@ function BrandAlarmLanding() {
   return (
     <div style={{ fontFamily: ff, background: P.bg, color: P.tx, minHeight: "100vh", overflowX: "hidden" }}>
       <style>{`
+        @keyframes radarPulse { 0% { opacity: .5; transform: scale(1); } 100% { opacity: 0; transform: scale(1.5); } }
+        @keyframes radarSweep { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+        @keyframes shimmer { 0% { background-position: -200% 0; } 100% { background-position: 200% 0; } }
+        @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-6px); } }
         .nav-links, .nav-actions { display: flex; }
         .nav-burger { display: none; background: none; border: none; cursor: pointer; padding: 8px; }
         .mobile-menu { display: none; }
@@ -245,20 +249,21 @@ function BrandAlarmLanding() {
 
       {/* HERO — FIXED: minHeight prevents layout jump on lang switch */}
       <section style={{ paddingTop: 140, paddingBottom: 40, position: "relative", minHeight: 620 }}>
-        <div style={{ position: "absolute", top: "50%", right: "-5%", transform: "translateY(-50%)", width: "40%", maxWidth: 420, pointerEvents: "none", opacity: .1 }}>
-          <svg viewBox="0 0 400 400" style={{ width: "100%" }}>
-            {[80, 130, 180, 230].map((r, i) => <circle key={r} cx={200} cy={200} r={r} fill="none" stroke={P.ac} strokeWidth={1} opacity={0.5 - i * 0.1} />)}
+        <div style={{ position: "absolute", top: "50%", right: "-5%", transform: "translateY(-50%)", width: "45%", maxWidth: 440, pointerEvents: "none", opacity: .15 }}>
+          <svg viewBox="0 0 400 400" style={{ width: "100%" }} aria-hidden="true">
+            {[80, 130, 180, 230].map((r, i) => <circle key={r} cx={200} cy={200} r={r} fill="none" stroke={P.ac} strokeWidth={1} style={{ animation: `radarPulse 3s ease-out ${i * 0.5}s infinite` }} />)}
             <circle cx={200} cy={200} r={6} fill={P.ac} />
+            <line x1={200} y1={200} x2={340} y2={120} stroke={P.ac} strokeWidth={1.5} style={{ animation: "radarSweep 4s linear infinite", transformOrigin: "200px 200px" }} />
           </svg>
         </div>
         <div style={{ maxWidth: 1200, margin: "0 auto", padding: "0 28px", position: "relative", zIndex: 2 }}>
           <div style={{ display: "inline-flex", alignItems: "center", gap: 8, background: "rgba(139,92,246,.06)", border: "1px solid rgba(139,92,246,.15)", borderRadius: 50, padding: "7px 18px", marginBottom: 32 }}>
-            <span style={{ width: 8, height: 8, borderRadius: "50%", background: P.ac, display: "inline-block" }} />
+            <span style={{ width: 8, height: 8, borderRadius: "50%", background: P.ac, display: "inline-block", animation: "float 2s ease-in-out infinite" }} />
             <span style={{ fontSize: 15, color: P.ac, fontWeight: 500 }}>{d.badge}</span>
           </div>
           <h1 style={{ fontSize: "clamp(46px,7.5vw,78px)", fontWeight: 700, lineHeight: 1.05, letterSpacing: -2.5, maxWidth: 720, marginBottom: 26 }}>
             {d.h1}<br />
-            <span style={{ background: `linear-gradient(135deg,${P.ac},#c084fc 50%,#e879f9)`, WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", backgroundClip: "text" }}>{d.h2}</span><br />{d.h3}
+            <span style={{ background: `linear-gradient(135deg,${P.ac},#c084fc 50%,#e879f9)`, backgroundSize: "200% auto", animation: "shimmer 4s linear infinite", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent", backgroundClip: "text" }}>{d.h2}</span><br />{d.h3}
           </h1>
           <p style={{ fontSize: 20, color: P.mu, maxWidth: 580, lineHeight: 1.7, marginBottom: 20 }}>{d.sub}</p>
           <div style={{ fontSize: 15, color: P.dm, maxWidth: 520, lineHeight: 1.6, marginBottom: 36, display: "flex", gap: 10 }}>
