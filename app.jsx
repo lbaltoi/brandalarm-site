@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback } from "react";
+const { useState, useEffect, useCallback } = React;
 
 const APP = "https://app.brandalarm.ro/dashboard";
 const REG = "https://app.brandalarm.ro/register";
@@ -170,7 +170,7 @@ const sTitle = { fontSize: "clamp(34px,5.5vw,52px)", fontWeight: 700, letterSpac
 const sSub = { fontSize: 18, color: P.dm, maxWidth: 620, lineHeight: 1.7 };
 const sec = { padding: "100px 24px", maxWidth: 1200, margin: "0 auto" };
 
-export default function BrandAlarmLanding() {
+function BrandAlarmLanding() {
   const [lang, setLang] = useState("ro");
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
@@ -446,3 +446,6 @@ export default function BrandAlarmLanding() {
     </div>
   );
 }
+
+
+ReactDOM.createRoot(document.getElementById("root")).render(<BrandAlarmLanding />);
