@@ -370,7 +370,7 @@ function BrandAlarmLanding() {
           <p style={{ ...sSub, margin: "0 auto" }}>{d.pS}</p>
           <div style={{ display: "inline-block", marginTop: 16, background: "rgba(139,92,246,.06)", border: "1px solid rgba(139,92,246,.15)", borderRadius: 50, padding: "6px 18px", fontSize: 14, color: P.ac, fontWeight: 500 }}>{d.pD}</div>
         </div>
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: 18, maxWidth: 1100, margin: "0 auto" }}>
+        <div className="pricing-grid" style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))", gap: 18, maxWidth: 1100, margin: "0 auto" }}>
           {d.pl.map((p, i) => (
             <div key={i} style={{ background: p.pop ? "linear-gradient(180deg,rgba(139,92,246,.08),rgba(15,12,30,.9) 40%)" : P.sf, border: `1px solid ${p.pop ? "rgba(139,92,246,.4)" : P.bd}`, borderRadius: 20, padding: "32px 24px", position: "relative", transition: TR, display: "flex", flexDirection: "column", transform: p.pop ? "scale(1.03)" : "none" }}>
               {p.pop && <div style={{ position: "absolute", top: -13, left: "50%", transform: "translateX(-50%)", background: `linear-gradient(135deg,${P.ad},${P.ap})`, color: P.wh, padding: "4px 20px", borderRadius: 50, fontSize: 12, fontWeight: 700, letterSpacing: 0.5 }}>POPULAR</div>}
