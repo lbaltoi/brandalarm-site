@@ -240,7 +240,7 @@ const t = {
     ctT: "Protejeaza-ti marca astazi", ctS: "Incepe cu un plan Free si extinde pe masura ce afacerea creste.", ctB: "Creeaza cont gratuit",
     fD: "Platforma inteligenta de monitorizare a marcilor, conform legislatiei romanesti si europene.",
     flT: "Linkuri utile", fgT: "Legal",
-    fg: [{ h: "#", l: "Confidentialitate" }, { h: "#", l: "Termeni si conditii" }, { h: "#", l: "Cookies" }],
+    fg: [{ h: "/confidentialitate", l: "Confidentialitate" }, { h: "/termeni-si-conditii", l: "Termeni si conditii" }, { h: "/politica-cookies", l: "Cookies" }],
     fC: "© 2025 BrandAlarm. Toate drepturile rezervate.", dev: "Panou Deploy"
   },
   en: {
@@ -302,7 +302,7 @@ const t = {
     ctT: "Protect your brand today", ctS: "Start with a Free plan and scale as your business grows.", ctB: "Create free account",
     fD: "Intelligent trademark, brand, and domain monitoring platform, compliant with Romanian and European legislation.",
     flT: "Useful links", fgT: "Legal",
-    fg: [{ h: "#", l: "Privacy policy" }, { h: "#", l: "Terms & conditions" }, { h: "#", l: "Cookies" }],
+    fg: [{ h: "/confidentialitate", l: "Privacy policy" }, { h: "/termeni-si-conditii", l: "Terms & conditions" }, { h: "/politica-cookies", l: "Cookies" }],
     fC: "© 2025 BrandAlarm. All rights reserved.", dev: "Deploy Panel"
   }
 };
