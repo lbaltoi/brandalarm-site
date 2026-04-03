@@ -3,6 +3,7 @@ import BrandAlarmLanding from "./BrandAlarmLanding";
 import TermeniConditii from "./pages/TermeniConditii";
 import Confidentialitate from "./pages/Confidentialitate";
 import PoliticaCookies from "./pages/PoliticaCookies";
+import CookieBanner from "./components/CookieBanner";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/confidentialitate" element={<Confidentialitate />} />
         <Route path="/politica-cookies" element={<PoliticaCookies />} />
       </Routes>
+      <CookieBanner />
     </BrowserRouter>
   );
 }
