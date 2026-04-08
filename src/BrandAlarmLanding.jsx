@@ -1,4 +1,5 @@
 import { useState, useEffect, useCallback } from "react";
+import { Link } from "react-router-dom";
 
 const APP = "https://app.brandalarm.ro/dashboard";
 const REG = "https://app.brandalarm.ro/register";
@@ -587,7 +588,7 @@ export default function BrandAlarmLanding() {
           </div>
           <div style={{ minWidth: 150 }}>
             <h4 style={{ fontSize: 14, fontWeight: 600, color: P.br, marginBottom: 14 }}>{d.fgT}</h4>
-            {d.fg.map((l, i) => <a key={i} href={l.h} style={{ display: "block", color: P.mu, fontSize: 14, marginBottom: 10, textDecoration: "none" }}>{l.l}</a>)}
+            {d.fg.map((l, i) => <Link key={i} to={l.h} style={{ display: "block", color: P.mu, fontSize: 14, marginBottom: 10, textDecoration: "none" }}>{l.l}</Link>)}
           </div>
         </div>
         <div style={{ maxWidth: 1200, margin: "36px auto 0", paddingTop: 18, borderTop: "1px solid rgba(139,92,246,.06)", textAlign: "center", display: "flex", alignItems: "center", justifyContent: "center", gap: 16 }}>
