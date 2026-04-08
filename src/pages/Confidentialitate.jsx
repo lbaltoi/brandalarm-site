@@ -159,7 +159,7 @@ function EN() {
 export default function Confidentialitate({ lang = "ro" }) {
   useEffect(() => { window.scrollTo(0, 0); }, [lang]);
   return (
-    <PageLayout title={lang === "ro" ? "Politica de Confidentialitate" : "Privacy Policy"} lang={lang}>
+    <PageLayout title={lang === "ro" ? "Politica de Confidentialitate" : "Privacy Policy"} description={lang === "ro" ? "Politica de Confidentialitate BrandAlarm — cum colectam, procesam si protejam datele personale conform GDPR si Legea 190/2018." : "BrandAlarm Privacy Policy — how we collect, process and protect personal data in compliance with GDPR and Romanian Law 190/2018."} lang={lang}>
       {lang === "ro" ? <RO /> : <EN />}
     </PageLayout>
   );

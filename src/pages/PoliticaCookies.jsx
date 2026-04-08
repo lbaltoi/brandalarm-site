@@ -30,11 +30,11 @@ function RO() {
     <h2 style={S.h2}>2. Cookie-uri Utilizate</h2>
     <h3 style={S.h3}>2.1. Cookie-uri strict necesare</h3>
     <p style={S.p}>Esentiale pentru functionarea corecta a site-ului. Nu stocheaza date personale identificabile.</p>
-    <table style={tbl}><thead><tr><th style={th}>Cookie</th><th style={th}>Furnizor</th><th style={th}>Scop</th><th style={th}>Durata</th></tr></thead><tbody>
+    <div className="pl-table-wrap"><table style={tbl}><thead><tr><th style={th}>Cookie</th><th style={th}>Furnizor</th><th style={th}>Scop</th><th style={th}>Durata</th></tr></thead><tbody>
       {cookies.map(([name, provider, purpose, dur], i) => (
         <tr key={i}><td style={{ ...td, color: "#a78bfa", fontFamily: "'Space Mono',monospace", fontSize: 13 }}>{name}</td><td style={{ ...td, color: "#b0bfcc" }}>{provider}</td><td style={{ ...td, color: "#b0bfcc" }}>{purpose.ro}</td><td style={{ ...td, color: "#8896a8" }}>{typeof dur === "object" ? dur.ro : dur}</td></tr>
       ))}
-    </tbody></table>
+    </tbody></table></div>
 
     <h3 style={S.h3}>2.2. Cookie-uri analitice</h3>
     <p style={S.p}>In prezent, BrandAlarm <b style={S.b}>nu utilizeaza</b> cookie-uri analitice sau de tracking. Daca vom implementa astfel de cookie-uri, vom actualiza aceasta politica si vom solicita consimtamantul dvs.</p>
@@ -76,11 +76,11 @@ function EN() {
     <h2 style={S.h2}>2. Cookies Used</h2>
     <h3 style={S.h3}>2.1. Strictly necessary cookies</h3>
     <p style={S.p}>Essential for correct site operation. Do not store personally identifiable data.</p>
-    <table style={tbl}><thead><tr><th style={th}>Cookie</th><th style={th}>Provider</th><th style={th}>Purpose</th><th style={th}>Duration</th></tr></thead><tbody>
+    <div className="pl-table-wrap"><table style={tbl}><thead><tr><th style={th}>Cookie</th><th style={th}>Provider</th><th style={th}>Purpose</th><th style={th}>Duration</th></tr></thead><tbody>
       {cookies.map(([name, provider, purpose, dur], i) => (
         <tr key={i}><td style={{ ...td, color: "#a78bfa", fontFamily: "'Space Mono',monospace", fontSize: 13 }}>{name}</td><td style={{ ...td, color: "#b0bfcc" }}>{provider}</td><td style={{ ...td, color: "#b0bfcc" }}>{purpose.en}</td><td style={{ ...td, color: "#8896a8" }}>{typeof dur === "object" ? dur.en : dur}</td></tr>
       ))}
-    </tbody></table>
+    </tbody></table></div>
 
     <h3 style={S.h3}>2.2. Analytics cookies</h3>
     <p style={S.p}>Currently, BrandAlarm <b style={S.b}>does not use</b> analytics or tracking cookies. If we implement such cookies, we will update this policy and request your consent.</p>
@@ -114,7 +114,7 @@ function EN() {
 export default function PoliticaCookies({ lang = "ro" }) {
   useEffect(() => { window.scrollTo(0, 0); }, [lang]);
   return (
-    <PageLayout title={lang === "ro" ? "Politica de Cookies" : "Cookie Policy"} lang={lang}>
+    <PageLayout title={lang === "ro" ? "Politica de Cookies" : "Cookie Policy"} description={lang === "ro" ? "Politica de Cookies BrandAlarm — tipuri de cookies utilizate, scopuri si gestionare, conform Directivei ePrivacy si GDPR." : "BrandAlarm Cookie Policy — types of cookies used, purposes and management, compliant with ePrivacy Directive and GDPR."} lang={lang}>
       {lang === "ro" ? <RO /> : <EN />}
     </PageLayout>
   );

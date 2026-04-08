@@ -183,7 +183,7 @@ function EN() {
 export default function TermeniConditii({ lang = "ro" }) {
   useEffect(() => { window.scrollTo(0, 0); }, [lang]);
   return (
-    <PageLayout title={lang === "ro" ? "Termeni si Conditii" : "Terms and Conditions"} lang={lang}>
+    <PageLayout title={lang === "ro" ? "Termeni si Conditii" : "Terms and Conditions"} description={lang === "ro" ? "Termeni si conditii BrandAlarm — platforma de monitorizare marci si domenii, conform Legea 365/2002 si OUG 34/2014. Trademark Alliance SRL." : "BrandAlarm Terms and Conditions — trademark and domain monitoring platform, compliant with Romanian Law 365/2002 and GEO 34/2014."} lang={lang}>
       {lang === "ro" ? <RO /> : <EN />}
     </PageLayout>
   );
