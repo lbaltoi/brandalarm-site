@@ -82,7 +82,7 @@ function RO() {
 
     <h2 style={S.h2}>12. Legislatie si Litigii</h2>
     <p style={S.p}>Legislatia romana. Litigiile se solutioneaza amiabil sau prin instantele din Bucuresti.</p>
-    <p style={S.p}><b style={S.b}>ANPC:</b> <a href="https://anpc.ro" target="_blank" rel="noopener noreferrer" style={S.a}>anpc.ro</a> | <b style={S.b}>SAL:</b> <a href="https://sal.anpc.ro" target="_blank" rel="noopener noreferrer" style={S.a}>sal.anpc.ro</a> | <b style={S.b}>ODR:</b> <a href="https://ec.europa.eu/consumers/odr" target="_blank" rel="noopener noreferrer" style={S.a}>ec.europa.eu/consumers/odr</a></p>
+    <p style={S.p}><b style={S.b}>ANPC:</b> <a href="https://anpc.ro" target="_blank" rel="noopener noreferrer" style={S.a}>anpc.ro</a> | <b style={S.b}>Solutionare litigii UE:</b> <a href="https://consumer-redress.ec.europa.eu/" target="_blank" rel="noopener noreferrer" style={S.a}>consumer-redress.ec.europa.eu</a></p>
 
     <h2 style={S.h2}>13. Modificari T&amp;C</h2>
     <p style={S.p}>Modificarile se comunica cu 30 zile inainte. Continuarea utilizarii constituie acceptarea noilor T&amp;C.</p>
@@ -170,7 +170,7 @@ function EN() {
 
     <h2 style={S.h2}>12. Governing Law and Disputes</h2>
     <p style={S.p}>Romanian law. Disputes resolved amicably or through Bucharest courts.</p>
-    <p style={S.p}><b style={S.b}>ANPC:</b> <a href="https://anpc.ro" target="_blank" rel="noopener noreferrer" style={S.a}>anpc.ro</a> | <b style={S.b}>ADR:</b> <a href="https://sal.anpc.ro" target="_blank" rel="noopener noreferrer" style={S.a}>sal.anpc.ro</a> | <b style={S.b}>ODR:</b> <a href="https://ec.europa.eu/consumers/odr" target="_blank" rel="noopener noreferrer" style={S.a}>ec.europa.eu/consumers/odr</a></p>
+    <p style={S.p}><b style={S.b}>ANPC:</b> <a href="https://anpc.ro" target="_blank" rel="noopener noreferrer" style={S.a}>anpc.ro</a> | <b style={S.b}>EU Consumer Redress:</b> <a href="https://consumer-redress.ec.europa.eu/" target="_blank" rel="noopener noreferrer" style={S.a}>consumer-redress.ec.europa.eu</a></p>
 
     <h2 style={S.h2}>13. T&amp;C Modifications</h2>
     <p style={S.p}>Changes communicated 30 days in advance. Continued use constitutes acceptance of new T&amp;C.</p>

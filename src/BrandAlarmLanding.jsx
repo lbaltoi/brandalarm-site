@@ -76,6 +76,7 @@ const t = {
     flT: "Linkuri utile", fgT: "Legal",
     fg: [{ h: "/confidentialitate", l: "Confidentialitate" }, { h: "/termeni-si-conditii", l: "Termeni si conditii" }, { h: "/politica-cookies", l: "Cookies" }],
     fC: "© 2025 Trademark Alliance SRL. Toate drepturile rezervate.",
+    fpT: "Protectia consumatorului",
     pageTitle: "BrandAlarm — Monitorizare Marci, Branduri si Domenii",
     pageDesc: "Monitorizare inteligenta a marcilor comerciale la nivel national si european. Alerte automate, rapoarte AI, cautare similitudini WIPO, EUIPO, OSIM."
   },
@@ -140,6 +141,7 @@ const t = {
     flT: "Useful links", fgT: "Legal",
     fg: [{ h: "/en/privacy", l: "Privacy policy" }, { h: "/en/terms", l: "Terms & conditions" }, { h: "/en/cookie-policy", l: "Cookies" }],
     fC: "© 2025 Trademark Alliance SRL. All rights reserved.",
+    fpT: "Consumer protection",
     pageTitle: "BrandAlarm — Trademark, Brand and Domain Monitoring",
     pageDesc: "Intelligent trademark monitoring at national and European level. Automatic alerts, AI reports, similarity search WIPO, EUIPO, OSIM."
   }
@@ -525,10 +527,9 @@ export default function BrandAlarmLanding() {
             {d.fg.map((l, i) => <Link key={i} to={l.h} style={{ display: "block", color: P.mu, fontSize: 14, marginBottom: 10, textDecoration: "none" }}>{l.l}</Link>)}
           </div>
           <div style={{ minWidth: 150 }}>
-            <h4 style={{ fontSize: 14, fontWeight: 600, color: P.br, marginBottom: 14 }}>ANPC</h4>
+            <h4 style={{ fontSize: 14, fontWeight: 600, color: P.br, marginBottom: 14 }}>{d.fpT}</h4>
             <a href="https://anpc.ro" {...EXT} style={{ display: "block", color: P.mu, fontSize: 13, marginBottom: 10, textDecoration: "none" }}>ANPC</a>
-            <a href="https://sal.anpc.ro" {...EXT} style={{ display: "block", color: P.mu, fontSize: 13, marginBottom: 10, textDecoration: "none" }}>SAL</a>
-            <a href="https://ec.europa.eu/consumers/odr" {...EXT} style={{ display: "block", color: P.mu, fontSize: 13, marginBottom: 10, textDecoration: "none" }}>ODR (UE)</a>
+            <a href="https://consumer-redress.ec.europa.eu/" {...EXT} style={{ display: "block", color: P.mu, fontSize: 13, marginBottom: 10, textDecoration: "none" }}>{lang === "ro" ? "Solutionare litigii UE" : "EU Consumer Redress"}</a>
           </div>
         </div>
         <div style={{ maxWidth: 1200, margin: "36px auto 0", paddingTop: 18, borderTop: "1px solid rgba(139,92,246,.06)", textAlign: "center" }}>
