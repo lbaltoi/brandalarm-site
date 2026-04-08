@@ -302,7 +302,7 @@ const t = {
     ctT: "Protect your brand today", ctS: "Start with a Free plan and scale as your business grows.", ctB: "Create free account",
     fD: "Intelligent trademark, brand, and domain monitoring platform, compliant with Romanian and European legislation.",
     flT: "Useful links", fgT: "Legal",
-    fg: [{ h: "/confidentialitate", l: "Privacy policy" }, { h: "/termeni-si-conditii", l: "Terms & conditions" }, { h: "/politica-cookies", l: "Cookies" }],
+    fg: [{ h: "/en/privacy", l: "Privacy policy" }, { h: "/en/terms", l: "Terms & conditions" }, { h: "/en/cookie-policy", l: "Cookies" }],
     fC: "© 2025 BrandAlarm. All rights reserved.", dev: "Deploy Panel"
   }
 };
