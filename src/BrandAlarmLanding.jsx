@@ -77,8 +77,8 @@ const t = {
     fg: [{ h: "/confidentialitate", l: "Confidentialitate" }, { h: "/termeni-si-conditii", l: "Termeni si conditii" }, { h: "/politica-cookies", l: "Cookies" }],
     fC: "© 2025 Trademark Alliance SRL. Toate drepturile rezervate.",
     fpT: "Protectia consumatorului",
-    pageTitle: "BrandAlarm — Monitorizare Marci, Branduri si Domenii",
-    pageDesc: "Monitorizare inteligenta a marcilor comerciale la nivel national si european. Alerte automate, rapoarte AI, cautare similitudini WIPO, EUIPO, OSIM."
+    pageTitle: "BrandAlarm — Monitorizare Marci, Branduri si Domenii | Protectie 24/7",
+    pageDesc: "Monitorizeaza-ti marca non-stop in WIPO, EUIPO, OSIM si TMView. Alerte automate pentru conflicte, rapoarte AI si protectie impotriva typosquatting-ului. De la €15/luna."
   },
   en: {
     nav: [{ h: "#why", l: "Why monitor" }, { h: "#features", l: "Features" }, { h: "#pricing", l: "Pricing" }, { h: "#how", l: "How it works" }],
@@ -142,8 +142,8 @@ const t = {
     fg: [{ h: "/en/privacy", l: "Privacy policy" }, { h: "/en/terms", l: "Terms & conditions" }, { h: "/en/cookie-policy", l: "Cookies" }],
     fC: "© 2025 Trademark Alliance SRL. All rights reserved.",
     fpT: "Consumer protection",
-    pageTitle: "BrandAlarm — Trademark, Brand and Domain Monitoring",
-    pageDesc: "Intelligent trademark monitoring at national and European level. Automatic alerts, AI reports, similarity search WIPO, EUIPO, OSIM."
+    pageTitle: "BrandAlarm — Trademark, Brand & Domain Monitoring | 24/7 Protection",
+    pageDesc: "Monitor your brand 24/7 across WIPO, EUIPO, OSIM and TMView. Automatic conflict alerts, AI-powered reports and typosquatting protection. From €15/month."
   }
 };
 
@@ -215,6 +215,14 @@ export default function BrandAlarmLanding() {
     updateMeta("og:url", "https://brandalarm.ro/", true);
     updateMeta("og:type", "website", true);
     updateMeta("og:locale", lang === "ro" ? "ro_RO" : "en_US", true);
+    updateMeta("og:image", lang === "ro" ? "https://brandalarm.ro/og-image.png" : "https://brandalarm.ro/og-image-en.png", true);
+    updateMeta("og:image:width", "1200", true);
+    updateMeta("og:image:height", "630", true);
+    updateMeta("og:image:alt", lang === "ro" ? "BrandAlarm — Protejeaza-ti marca non-stop" : "BrandAlarm — Protect your brand 24/7", true);
+    updateMeta("twitter:card", "summary_large_image");
+    updateMeta("twitter:title", d.pageTitle);
+    updateMeta("twitter:description", d.pageDesc);
+    updateMeta("twitter:image", lang === "ro" ? "https://brandalarm.ro/og-image.png" : "https://brandalarm.ro/og-image-en.png");
     updateLink("canonical", "https://brandalarm.ro/");
     updateLink("alternate", "https://brandalarm.ro/", "ro");
     updateLink("alternate", "https://brandalarm.ro/en/", "en");

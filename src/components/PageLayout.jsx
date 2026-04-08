@@ -70,6 +70,13 @@ export default function PageLayout({ title, description, children, lang = "ro" }
     updateMeta("og:description", description, true);
     updateMeta("og:url", currentUrl, true);
     updateMeta("og:locale", lang === "ro" ? "ro_RO" : "en_US", true);
+    updateMeta("og:image", lang === "ro" ? "https://brandalarm.ro/og-image.png" : "https://brandalarm.ro/og-image-en.png", true);
+    updateMeta("og:image:width", "1200", true);
+    updateMeta("og:image:height", "630", true);
+    updateMeta("twitter:card", "summary_large_image");
+    updateMeta("twitter:title", fullTitle);
+    updateMeta("twitter:description", description);
+    updateMeta("twitter:image", lang === "ro" ? "https://brandalarm.ro/og-image.png" : "https://brandalarm.ro/og-image-en.png");
     updateLink("canonical", currentUrl);
     updateLink("alternate", lang === "ro" ? currentUrl : altUrl, "ro");
     updateLink("alternate", lang === "en" ? currentUrl : altUrl, "en");
