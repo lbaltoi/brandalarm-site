@@ -1,11 +1,12 @@
 import { useEffect, useState } from "react";
 import PageLayout from "../components/PageLayout";
+import Email from "../components/Email";
 
 const data = {
   ro: {
     title: "Intrebari frecvente",
     desc: "Raspunsuri la cele mai frecvente intrebari despre BrandAlarm — monitorizare marci comerciale, EUIPO, OSIM, opozitie, GDPR.",
-    intro: "Tot ce trebuie sa stii despre monitorizarea marcilor, sursele oficiale, termenele legale si platforma BrandAlarm. Daca nu gasesti raspunsul aici, contacteaza-ne la info@brandalarm.ro.",
+    intro: "Tot ce trebuie sa stii despre monitorizarea marcilor, sursele oficiale, termenele legale si platforma BrandAlarm. Daca nu gasesti raspunsul aici, contacteaza-ne folosind butonul de la final.",
     items: [
       { q: "Ce face BrandAlarm?", a: "BrandAlarm este o platforma de monitorizare a marcilor comerciale, brandurilor si domeniilor de internet. Scaneaza in mod automat principalele registre internationale (WIPO, EUIPO, TMView) si nationale (OSIM, BOPI), detecteaza conflicte cu marca ta si te alerteaza in timp real. In plus, monitorizam typosquatting-ul de domenii si generam rapoarte cu analiza juridica AI." },
       { q: "Cum incep si cat costa?", a: "Te poti inregistra gratuit si poti folosi planul Free pentru cautari de baza, fara card de credit. Planurile platite incep de la €15/luna (Basic) si €30/luna (Pro), facturate per marca monitorizata. Planul Enterprise este personalizabil si se discuta direct cu echipa. Anularea se poate face oricand, fara penalizari." },
@@ -24,7 +25,7 @@ const data = {
   en: {
     title: "Frequently Asked Questions",
     desc: "Answers to the most common questions about BrandAlarm — trademark monitoring, EUIPO, OSIM, opposition, GDPR.",
-    intro: "Everything you need to know about trademark monitoring, official sources, legal deadlines, and the BrandAlarm platform. If you don't find the answer here, contact us at info@brandalarm.ro.",
+    intro: "Everything you need to know about trademark monitoring, official sources, legal deadlines, and the BrandAlarm platform. If you don't find the answer here, contact us using the button at the end.",
     items: [
       { q: "What does BrandAlarm do?", a: "BrandAlarm is a trademark, brand, and domain monitoring platform. It automatically scans major international registries (WIPO, EUIPO, TMView) and national ones (OSIM, BOPI), detects conflicts with your mark, and alerts you in real-time. Additionally, we monitor domain typosquatting and generate AI-powered legal analysis reports." },
       { q: "How do I get started and how much does it cost?", a: "You can register for free and use the Free plan for basic searches, no credit card required. Paid plans start from €15/month (Basic) and €30/month (Pro), billed per monitored trademark. The Enterprise plan is custom and discussed directly with our team. You can cancel anytime, no penalties." },
@@ -164,8 +165,8 @@ export default function IntrebariFrecvente({ lang = "ro" }) {
       }}>
         <p style={{ fontSize: 15, color: P.mu, lineHeight: 1.7, margin: 0 }}>
           {lang === "ro"
-            ? <>Nu ai gasit raspunsul cautat? Scrie-ne la <a href="mailto:info@brandalarm.ro" style={{ color: P.ac }}>info@brandalarm.ro</a> si revenim in maximum 24 de ore.</>
-            : <>Didn't find what you were looking for? Email us at <a href="mailto:info@brandalarm.ro" style={{ color: P.ac }}>info@brandalarm.ro</a> and we'll get back to you within 24 hours.</>
+            ? <>Nu ai gasit raspunsul cautat? Scrie-ne la <Email style={{ color: P.ac, textDecoration: "underline" }} subject="Intrebare despre BrandAlarm" /> si revenim in maximum 24 de ore.</>
+            : <>Didn't find what you were looking for? Email us at <Email style={{ color: P.ac, textDecoration: "underline" }} subject="Question about BrandAlarm" /> and we'll get back to you within 24 hours.</>
           }
         </p>
       </div>

@@ -74,6 +74,15 @@ const t = {
     ctT: "Protejeaza-ti marca astazi", ctS: "Incepe cu un plan Free si extinde pe masura ce afacerea creste.", ctB: "Creeaza cont gratuit", ctcB: "Contacteaza-ne",
     fD: "Platforma inteligenta de monitorizare a marcilor, conform legislatiei romanesti si europene.",
     flT: "Linkuri utile", fgT: "Resurse",
+    fsT: "Servicii",
+    fs: [
+      { h: "/monitorizare-marci", l: "Monitorizare marci" },
+      { h: "/cautare-similitudini", l: "Cautare similitudini" },
+      { h: "/monitorizare-domenii", l: "Monitorizare domenii" },
+      { h: "/rapoarte-ai-marci", l: "Rapoarte AI" },
+      { h: "/opozitie-marca-euipo-osim", l: "Opozitie EUIPO/OSIM" },
+      { h: "/alerte-expirare-marci", l: "Alerte expirare" }
+    ],
     fg: [{ h: "/intrebari-frecvente", l: "Intrebari frecvente" }, { h: "/confidentialitate", l: "Confidentialitate" }, { h: "/termeni-si-conditii", l: "Termeni si conditii" }, { h: "/politica-cookies", l: "Cookies" }],
     fC: "© 2025 Trademark Alliance SRL. Toate drepturile rezervate.",
     diffT: "De ce BrandAlarm. De ce acum.",
@@ -158,6 +167,15 @@ const t = {
     ctT: "Protect your brand today", ctS: "Start with a Free plan and scale as your business grows.", ctB: "Create free account", ctcB: "Contact us",
     fD: "Intelligent trademark, brand, and domain monitoring platform, compliant with Romanian and European legislation.",
     flT: "Useful links", fgT: "Resources",
+    fsT: "Services",
+    fs: [
+      { h: "/en/trademark-monitoring", l: "Trademark monitoring" },
+      { h: "/en/similarity-search", l: "Similarity search" },
+      { h: "/en/domain-monitoring", l: "Domain monitoring" },
+      { h: "/en/ai-trademark-reports", l: "AI reports" },
+      { h: "/en/trademark-opposition", l: "EUIPO/OSIM opposition" },
+      { h: "/en/trademark-expiry-alerts", l: "Expiry alerts" }
+    ],
     fg: [{ h: "/en/faq", l: "FAQ" }, { h: "/en/privacy", l: "Privacy policy" }, { h: "/en/terms", l: "Terms & conditions" }, { h: "/en/cookie-policy", l: "Cookies" }],
     fC: "© 2025 Trademark Alliance SRL. All rights reserved.",
     diffT: "Why BrandAlarm. Why now.",
@@ -229,6 +247,12 @@ const updateLink = (rel, href, hreflang = null) => {
     document.head.appendChild(el);
   }
   el.setAttribute("href", href);
+};
+
+const contactEnterprise = (e) => {
+  e.preventDefault();
+  const at = String.fromCharCode(64);
+  window.location.href = `mailto:info${at}brandalarm.ro?subject=${encodeURIComponent("Enterprise plan inquiry")}`;
 };
 
 export default function BrandAlarmLanding() {
@@ -555,7 +579,7 @@ export default function BrandAlarmLanding() {
                   </div>
                 ))}
               </div>
-              <a href={p.p === "TBA" ? "mailto:info@brandalarm.ro" : REG} {...(p.p === "TBA" ? {} : EXT)} style={{ ...(p.pop ? btnP : btnO), width: "100%", textAlign: "center", display: "block", padding: "13px 20px", fontSize: 15, marginTop: 20, boxSizing: "border-box" }}>{p.p === "TBA" ? d.ctcB : d.cta}</a>
+              <a href={p.p === "TBA" ? "#" : REG} onClick={p.p === "TBA" ? contactEnterprise : undefined} {...(p.p === "TBA" ? {} : EXT)} style={{ ...(p.pop ? btnP : btnO), width: "100%", textAlign: "center", display: "block", padding: "13px 20px", fontSize: 15, marginTop: 20, boxSizing: "border-box" }}>{p.p === "TBA" ? d.ctcB : d.cta}</a>
             </div>
           ))}
         </div>
@@ -602,6 +626,10 @@ export default function BrandAlarmLanding() {
           <div style={{ minWidth: 150 }}>
             <h4 style={{ fontSize: 14, fontWeight: 600, color: P.br, marginBottom: 14 }}>{d.flT}</h4>
             {d.nav.map(n => <a key={n.h} href={n.h} style={{ display: "block", color: P.mu, fontSize: 14, marginBottom: 10, textDecoration: "none" }}>{n.l}</a>)}
+          </div>
+          <div style={{ minWidth: 170 }}>
+            <h4 style={{ fontSize: 14, fontWeight: 600, color: P.br, marginBottom: 14 }}>{d.fsT}</h4>
+            {d.fs.map((s, i) => <Link key={i} to={s.h} style={{ display: "block", color: P.mu, fontSize: 14, marginBottom: 10, textDecoration: "none" }}>{s.l}</Link>)}
           </div>
           <div style={{ minWidth: 150 }}>
             <h4 style={{ fontSize: 14, fontWeight: 600, color: P.br, marginBottom: 14 }}>{d.fgT}</h4>

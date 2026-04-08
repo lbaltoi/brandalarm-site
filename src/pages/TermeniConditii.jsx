@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import PageLayout from "../components/PageLayout";
 import { Link } from "react-router-dom";
+import Email from "../components/Email";
 
 const S = { h2: { fontSize: 22, fontWeight: 700, color: "#f1f5f9", marginTop: 40, marginBottom: 12 }, h3: { fontSize: 17, fontWeight: 600, color: "#e2e8f0", marginTop: 28, marginBottom: 8 }, p: { marginBottom: 16 }, ul: { marginBottom: 16, paddingLeft: 24 }, li: { marginBottom: 8 }, b: { color: "#e2e8f0" }, a: { color: "#a78bfa" } };
 
@@ -52,7 +53,7 @@ function RO() {
       <li style={S.li}><b style={S.b}>Free (€0/luna)</b> — cautare de baza, fara alerte sau monitorizare</li>
       <li style={S.li}><b style={S.b}>Basic (€15/luna/marca)</b> — 3 interogari/luna, rapoarte AI, alerte 1 teritoriu</li>
       <li style={S.li}><b style={S.b}>Pro (€30/luna/marca)</b> — 5 interogari/luna, notificari real-time, fara limitare teritoriala</li>
-      <li style={S.li}><b style={S.b}>Enterprise (pret la cerere)</b> — 31 interogari, rapoarte juridice, API, suport dedicat. Contacteaza-ne la info@brandalarm.ro</li>
+      <li style={S.li}><b style={S.b}>Enterprise (pret la cerere)</b> — 31 interogari, rapoarte juridice, API, suport dedicat. Contacteaza-ne la <Email style={S.a} /></li>
     </ul>
     <p style={S.p}>Facturare lunara sau anuala (10% discount). Plati prin Stripe. Nu stocam datele cardurilor. Preturile pot fi modificate cu preaviz de 30 zile.</p>
 
@@ -140,7 +141,7 @@ function EN() {
       <li style={S.li}><b style={S.b}>Free (€0/month)</b> — basic search, no alerts or monitoring</li>
       <li style={S.li}><b style={S.b}>Basic (€15/month/trademark)</b> — 3 queries/month, AI reports, 1 territory alerts</li>
       <li style={S.li}><b style={S.b}>Pro (€30/month/trademark)</b> — 5 queries/month, real-time notifications, no territorial limits</li>
-      <li style={S.li}><b style={S.b}>Enterprise (price on request)</b> — 31 queries, legal reports, API, dedicated support. Contact us at info@brandalarm.ro</li>
+      <li style={S.li}><b style={S.b}>Enterprise (price on request)</b> — 31 queries, legal reports, API, dedicated support. Contact us at <Email style={S.a} /></li>
     </ul>
     <p style={S.p}>Monthly or annual billing (10% discount). Payments via Stripe. We do not store card data. Prices may change with 30 days notice.</p>
 

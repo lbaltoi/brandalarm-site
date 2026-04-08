@@ -10,6 +10,7 @@ const ff = "'DM Sans',system-ui,-apple-system,'Segoe UI',sans-serif";
 const fm = "'Space Mono','Courier New',monospace";
 
 const routes = {
+  // Legal
   "/termeni-si-conditii": "/en/terms",
   "/en/terms": "/termeni-si-conditii",
   "/confidentialitate": "/en/privacy",
@@ -18,6 +19,19 @@ const routes = {
   "/en/cookie-policy": "/politica-cookies",
   "/intrebari-frecvente": "/en/faq",
   "/en/faq": "/intrebari-frecvente",
+  // Services
+  "/monitorizare-marci": "/en/trademark-monitoring",
+  "/en/trademark-monitoring": "/monitorizare-marci",
+  "/cautare-similitudini": "/en/similarity-search",
+  "/en/similarity-search": "/cautare-similitudini",
+  "/monitorizare-domenii": "/en/domain-monitoring",
+  "/en/domain-monitoring": "/monitorizare-domenii",
+  "/rapoarte-ai-marci": "/en/ai-trademark-reports",
+  "/en/ai-trademark-reports": "/rapoarte-ai-marci",
+  "/opozitie-marca-euipo-osim": "/en/trademark-opposition",
+  "/en/trademark-opposition": "/opozitie-marca-euipo-osim",
+  "/alerte-expirare-marci": "/en/trademark-expiry-alerts",
+  "/en/trademark-expiry-alerts": "/alerte-expirare-marci",
 };
 
 const footerLinks = {
