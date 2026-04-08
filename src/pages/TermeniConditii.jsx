@@ -51,8 +51,8 @@ function RO() {
     <ul style={S.ul}>
       <li style={S.li}><b style={S.b}>Free (€0/luna)</b> — cautare de baza, fara alerte sau monitorizare</li>
       <li style={S.li}><b style={S.b}>Basic (€15/luna/marca)</b> — 3 interogari/luna, rapoarte AI, alerte 1 teritoriu</li>
-      <li style={S.li}><b style={S.b}>Pro (€25/luna/marca)</b> — 5 interogari/luna, notificari real-time, fara limitare teritoriala</li>
-      <li style={S.li}><b style={S.b}>Enterprise (€45/luna)</b> — 31 interogari, rapoarte juridice, API, suport dedicat</li>
+      <li style={S.li}><b style={S.b}>Pro (€30/luna/marca)</b> — 5 interogari/luna, notificari real-time, fara limitare teritoriala</li>
+      <li style={S.li}><b style={S.b}>Enterprise (pret la cerere)</b> — 31 interogari, rapoarte juridice, API, suport dedicat. Contacteaza-ne la info@brandalarm.ro</li>
     </ul>
     <p style={S.p}>Facturare lunara sau anuala (10% discount). Plati prin Stripe. Nu stocam datele cardurilor. Preturile pot fi modificate cu preaviz de 30 zile.</p>
 
@@ -139,8 +139,8 @@ function EN() {
     <ul style={S.ul}>
       <li style={S.li}><b style={S.b}>Free (€0/month)</b> — basic search, no alerts or monitoring</li>
       <li style={S.li}><b style={S.b}>Basic (€15/month/trademark)</b> — 3 queries/month, AI reports, 1 territory alerts</li>
-      <li style={S.li}><b style={S.b}>Pro (€25/month/trademark)</b> — 5 queries/month, real-time notifications, no territorial limits</li>
-      <li style={S.li}><b style={S.b}>Enterprise (€45/month)</b> — 31 queries, legal reports, API, dedicated support</li>
+      <li style={S.li}><b style={S.b}>Pro (€30/month/trademark)</b> — 5 queries/month, real-time notifications, no territorial limits</li>
+      <li style={S.li}><b style={S.b}>Enterprise (price on request)</b> — 31 queries, legal reports, API, dedicated support. Contact us at info@brandalarm.ro</li>
     </ul>
     <p style={S.p}>Monthly or annual billing (10% discount). Payments via Stripe. We do not store card data. Prices may change with 30 days notice.</p>
 

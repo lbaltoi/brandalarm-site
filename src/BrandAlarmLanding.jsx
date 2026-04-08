@@ -61,8 +61,8 @@ const t = {
     pl: [
       { n: "Free", p: "0", tg: "Utilizatori individuali", f: ["Cautare in WIPO, EUIPO, TMView, OSIM", "Rezultate de baza", "Fara alerte sau monitorizare", "Fara rapoarte automate"] },
       { n: "Basic", p: "15", tg: "Afaceri mici", f: ["3 interogari/luna", "Rapoarte AI standard", "1 an date istorice", "Export PDF", "Alerte — 1 teritoriu (RO sau EU)", "Alerte expirare (3-6 luni)"] },
-      { n: "Pro", p: "25", tg: "Companii medii", pop: true, f: ["5 interogari/luna", "Rapoarte AI personalizate", "Benchmarking vs. concurenta", "Notificari real-time + BOPI/OSIM", "Raport lunar anti-copiere", "Fara limitare teritoriala"] },
-      { n: "Enterprise", p: "45", tg: "Corporatii & avocatura", f: ["31 interogari (1/zi)", "Raport cercetare sanse", "Rapoarte juridice + AI consulting", "Integrare API", "5 ani date istorice", "Suport + training dedicat", "Regex avansat EUIPO & WIPO"] }
+      { n: "Pro", p: "30", tg: "Companii medii", pop: true, f: ["5 interogari/luna", "Rapoarte AI personalizate", "Benchmarking vs. concurenta", "Notificari real-time + BOPI/OSIM", "Raport lunar anti-copiere", "Fara limitare teritoriala"] },
+      { n: "Enterprise", p: "TBA", tg: "Corporatii & avocatura", f: ["31 interogari (1/zi)", "Raport cercetare sanse", "Rapoarte juridice + AI consulting", "Integrare API", "5 ani date istorice", "Suport + training dedicat", "Regex avansat EUIPO & WIPO"] }
     ],
     hT: "Cum functioneaza",
     hw: [
@@ -71,7 +71,7 @@ const t = {
       { n: "03", t: "Monitorizare AI", d: "Algoritmii scaneaza WIPO, EUIPO, OSIM, TMView." },
       { n: "04", t: "Primesti rapoarte", d: "Rapoarte AI, alerte instant si recomandari." }
     ],
-    ctT: "Protejeaza-ti marca astazi", ctS: "Incepe cu un plan Free si extinde pe masura ce afacerea creste.", ctB: "Creeaza cont gratuit",
+    ctT: "Protejeaza-ti marca astazi", ctS: "Incepe cu un plan Free si extinde pe masura ce afacerea creste.", ctB: "Creeaza cont gratuit", ctcB: "Contacteaza-ne",
     fD: "Platforma inteligenta de monitorizare a marcilor, conform legislatiei romanesti si europene.",
     flT: "Linkuri utile", fgT: "Legal",
     fg: [{ h: "/confidentialitate", l: "Confidentialitate" }, { h: "/termeni-si-conditii", l: "Termeni si conditii" }, { h: "/politica-cookies", l: "Cookies" }],
@@ -126,8 +126,8 @@ const t = {
     pl: [
       { n: "Free", p: "0", tg: "Individual users", f: ["Search WIPO, EUIPO, TMView, OSIM", "Basic results", "No alerts or monitoring", "No automated reports"] },
       { n: "Basic", p: "15", tg: "Small businesses", f: ["3 queries/month", "AI standard reports", "1 year historical data", "PDF export", "Alerts — 1 territory (RO or EU)", "Expiry alerts (3-6 months)"] },
-      { n: "Pro", p: "25", tg: "Mid-size companies", pop: true, f: ["5 queries/month", "Custom AI reports", "Benchmarking vs. competitors", "Real-time + BOPI/OSIM", "Monthly anti-copying report", "No territorial limits"] },
-      { n: "Enterprise", p: "45", tg: "Corporations & law firms", f: ["31 queries (1/day)", "Research report", "Legal + AI consulting", "API integration", "5 years historical data", "Dedicated support + training", "Advanced regex EUIPO & WIPO"] }
+      { n: "Pro", p: "30", tg: "Mid-size companies", pop: true, f: ["5 queries/month", "Custom AI reports", "Benchmarking vs. competitors", "Real-time + BOPI/OSIM", "Monthly anti-copying report", "No territorial limits"] },
+      { n: "Enterprise", p: "TBA", tg: "Corporations & law firms", f: ["31 queries (1/day)", "Research report", "Legal + AI consulting", "API integration", "5 years historical data", "Dedicated support + training", "Advanced regex EUIPO & WIPO"] }
     ],
     hT: "How it works",
     hw: [
@@ -136,7 +136,7 @@ const t = {
       { n: "03", t: "AI Monitoring", d: "Algorithms scan WIPO, EUIPO, OSIM, TMView." },
       { n: "04", t: "Get reports", d: "AI reports, instant alerts, and recommendations." }
     ],
-    ctT: "Protect your brand today", ctS: "Start with a Free plan and scale as your business grows.", ctB: "Create free account",
+    ctT: "Protect your brand today", ctS: "Start with a Free plan and scale as your business grows.", ctB: "Create free account", ctcB: "Contact us",
     fD: "Intelligent trademark, brand, and domain monitoring platform, compliant with Romanian and European legislation.",
     flT: "Useful links", fgT: "Legal",
     fg: [{ h: "/en/privacy", l: "Privacy policy" }, { h: "/en/terms", l: "Terms & conditions" }, { h: "/en/cookie-policy", l: "Cookies" }],
@@ -255,8 +255,8 @@ export default function BrandAlarmLanding() {
     offers: [
       { "@type": "Offer", name: "Free", price: "0", priceCurrency: "EUR" },
       { "@type": "Offer", name: "Basic", price: "15", priceCurrency: "EUR" },
-      { "@type": "Offer", name: "Pro", price: "25", priceCurrency: "EUR" },
-      { "@type": "Offer", name: "Enterprise", price: "45", priceCurrency: "EUR" }
+      { "@type": "Offer", name: "Pro", price: "30", priceCurrency: "EUR" },
+      { "@type": "Offer", name: "Enterprise", priceCurrency: "EUR", availability: "https://schema.org/PreOrder" }
     ]
   };
 
@@ -464,8 +464,8 @@ export default function BrandAlarmLanding() {
               <div style={{ fontSize: 13, color: P.dm, fontWeight: 500, marginBottom: 4, textTransform: "uppercase", letterSpacing: 0.5 }}>{p.tg}</div>
               <div style={{ fontSize: 24, fontWeight: 700, color: P.br, marginBottom: 16 }}>{p.n}</div>
               <div style={{ display: "flex", alignItems: "baseline", gap: 4, marginBottom: 24 }}>
-                <span style={{ fontFamily: fm, fontSize: 42, fontWeight: 700, color: P.ac }}>€{p.p}</span>
-                {p.p !== "0" && <span style={{ fontSize: 14, color: P.dm }}>{d.pU}</span>}
+                <span style={{ fontFamily: fm, fontSize: 42, fontWeight: 700, color: P.ac }}>{p.p === "TBA" ? "TBA" : `€${p.p}`}</span>
+                {p.p !== "0" && p.p !== "TBA" && <span style={{ fontSize: 14, color: P.dm }}>{d.pU}</span>}
               </div>
               <div style={{ borderTop: `1px solid ${P.bd}`, paddingTop: 20, flex: 1 }}>
                 {p.f.map((f, j) => (
@@ -474,7 +474,7 @@ export default function BrandAlarmLanding() {
                   </div>
                 ))}
               </div>
-              <a href={REG} {...EXT} style={{ ...(p.pop ? btnP : btnO), width: "100%", textAlign: "center", display: "block", padding: "13px 20px", fontSize: 15, marginTop: 20, boxSizing: "border-box" }}>{d.cta}</a>
+              <a href={p.p === "TBA" ? "mailto:info@brandalarm.ro" : REG} {...(p.p === "TBA" ? {} : EXT)} style={{ ...(p.pop ? btnP : btnO), width: "100%", textAlign: "center", display: "block", padding: "13px 20px", fontSize: 15, marginTop: 20, boxSizing: "border-box" }}>{p.p === "TBA" ? d.ctcB : d.cta}</a>
             </div>
           ))}
         </div>
