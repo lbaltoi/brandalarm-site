@@ -76,6 +76,25 @@ const t = {
     flT: "Linkuri utile", fgT: "Legal",
     fg: [{ h: "/confidentialitate", l: "Confidentialitate" }, { h: "/termeni-si-conditii", l: "Termeni si conditii" }, { h: "/politica-cookies", l: "Cookies" }],
     fC: "© 2025 Trademark Alliance SRL. Toate drepturile rezervate.",
+    diffT: "De ce BrandAlarm. De ce acum.",
+    diffS: "Momentul potrivit. Solutia potrivita pentru piata europeana.",
+    diff: [
+      { i: "\u{1F30D}", t: "SMB & CEE first", d: "Singura platforma serioasa de monitorizare IP construita pentru Europa Centrala si de Est. Nimeni altcineva nu deserveste CEE sub \u20AC100/luna." },
+      { i: "\u{1F517}", t: "Multi-asset intr-un singur loc", d: "Marci, domenii, societati comerciale si incalcari online \u2014 toate monitorizate dintr-o singura platforma. Competitorii au asta separat sau deloc." },
+      { i: "\u{1F916}", t: "AI-native, nu doar liste", d: "Rapoarte cu reasoning LLM, scoring inteligent de similitudine, analize juridice automate. Nu primesti doar date \u2014 primesti context si recomandari." },
+      { i: "\u2696\uFE0F", t: "Marketplace de avocati IP integrat", d: "Conectare directa la o retea de avocati specializati in proprietate intelectuala. De la detectarea conflictului pana la actiune legala \u2014 fara sa cauti pe Google." },
+      { i: "\u{1F48E}", t: "Pret accesibil, real", d: "Plan Pro la \u20AC30/luna. Printre cele mai mici preturi din piata europeana, cu functionalitati comparabile cu solutiile enterprise de \u20AC500-2000/luna." }
+    ],
+    forceT: "Forte care impulsioneaza piata IP acum",
+    forceS: "Schimbari legislative si tehnologice care fac monitorizarea proactiva esentiala in 2026",
+    force: [
+      { i: "\u{1F6E1}\uFE0F", t: "EU Digital Services Act (DSA)", d: "Operational complet din 2024. Brand owners au noi drepturi de takedown pe platformele online \u2014 dar trebuie sa stie cand si unde sa actioneze." },
+      { i: "\u2699\uFE0F", t: "EU AI Act", d: "Se aplica 2025-2027. Genereaza disputa noua: marci AI-generated, copyright AI, marci pentru produse AI. Putini sunt pregatiti." },
+      { i: "\u{1F310}", t: "NFT & Web3 trademarks", d: "EUIPO accepta din 2023 marci pentru virtual goods. Piata noua, nereglementata, vulnerabila la abuz." },
+      { i: "\u{1F377}", t: "Geographic Indications extinse", d: "Regulamentul UE 2024 extinde protectia GI la mestesuguri si produse industriale. Oportunitate uriasa pentru produsele traditionale RO." },
+      { i: "\u{1F30E}", t: "Madrid Protocol pentru SMB", d: "Tot mai multe SMB-uri vor protectie internationala. Madrid Protocol o face accesibila \u2014 dar trebuie monitorizat in 130+ tari." },
+      { i: "\u{1F50C}", t: "Digitalizarea oficiilor IP", d: "EUIPO, WIPO, OSIM expun acum API-uri publice. Datele exista \u2014 dar e nevoie de o platforma care le agreghaza si interpreteaza." }
+    ],
     fpT: "Protectia consumatorului",
     pageTitle: "BrandAlarm — Monitorizare Marci, Branduri si Domenii | Protectie 24/7",
     pageDesc: "Monitorizeaza-ti marca non-stop in WIPO, EUIPO, OSIM si TMView. Alerte automate pentru conflicte, rapoarte AI si protectie impotriva typosquatting-ului. De la €15/luna."
@@ -141,6 +160,25 @@ const t = {
     flT: "Useful links", fgT: "Legal",
     fg: [{ h: "/en/privacy", l: "Privacy policy" }, { h: "/en/terms", l: "Terms & conditions" }, { h: "/en/cookie-policy", l: "Cookies" }],
     fC: "© 2025 Trademark Alliance SRL. All rights reserved.",
+    diffT: "Why BrandAlarm. Why now.",
+    diffS: "Right timing. Right solution for the European market.",
+    diff: [
+      { i: "\u{1F30D}", t: "SMB & CEE first", d: "The only serious IP monitoring platform built for Central & Eastern Europe. Nobody else serves CEE under \u20AC100/month." },
+      { i: "\u{1F517}", t: "Multi-asset in one place", d: "Trademarks, domains, companies, and online infringements \u2014 all monitored from a single platform. Competitors offer this separately or not at all." },
+      { i: "\u{1F916}", t: "AI-native, not just lists", d: "Reports with LLM reasoning, intelligent similarity scoring, automated legal analysis. You don't get raw data \u2014 you get context and recommendations." },
+      { i: "\u2696\uFE0F", t: "Integrated IP lawyer marketplace", d: "Direct access to a network of IP-specialized attorneys. From conflict detection to legal action \u2014 no need to Google." },
+      { i: "\u{1F48E}", t: "Genuinely affordable pricing", d: "Pro plan at \u20AC30/month. Among the lowest prices in the European market, with features comparable to enterprise solutions costing \u20AC500-2000/month." }
+    ],
+    forceT: "Forces driving the IP market now",
+    forceS: "Legislative and technological shifts that make proactive monitoring essential in 2026",
+    force: [
+      { i: "\u{1F6E1}\uFE0F", t: "EU Digital Services Act (DSA)", d: "Fully operational since 2024. Brand owners have new takedown rights on online platforms \u2014 but must know when and where to act." },
+      { i: "\u2699\uFE0F", t: "EU AI Act", d: "Applied 2025-2027. Generates new disputes: AI-generated brands, AI copyright, trademarks for AI products. Few are prepared." },
+      { i: "\u{1F310}", t: "NFT & Web3 trademarks", d: "EUIPO accepts trademarks for virtual goods since 2023. New, unregulated market, vulnerable to abuse." },
+      { i: "\u{1F377}", t: "Extended Geographic Indications", d: "EU Regulation 2024 extends GI protection to crafts and industrial products. Huge opportunity for traditional EU products." },
+      { i: "\u{1F30E}", t: "Madrid Protocol for SMBs", d: "More SMBs want international protection. Madrid Protocol makes it accessible \u2014 but it must be monitored across 130+ countries." },
+      { i: "\u{1F50C}", t: "IP offices going digital", d: "EUIPO, WIPO, OSIM now expose public APIs. The data exists \u2014 but you need a platform that aggregates and interprets it." }
+    ],
     fpT: "Consumer protection",
     pageTitle: "BrandAlarm — Trademark, Brand & Domain Monitoring | 24/7 Protection",
     pageDesc: "Monitor your brand 24/7 across WIPO, EUIPO, OSIM and TMView. Automatic conflict alerts, AI-powered reports and typosquatting protection. From €15/month."
@@ -434,7 +472,42 @@ export default function BrandAlarmLanding() {
         </div>
       </section>
 
-      {/* SEARCH */}
+      {/* DIFFERENTIATORS + MARKET FORCES */}
+      <section id="why-us" className="ba-sec">
+        <div style={{ textAlign: "center", marginBottom: 48 }}>
+          <h2 style={sTitle}>{d.diffT}</h2>
+          <p style={{ ...sSub, margin: "0 auto" }}>{d.diffS}</p>
+        </div>
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(290px,1fr))", gap: 18, marginBottom: 64 }}>
+          {d.diff.map((item, i) => (
+            <div key={i} className="ba-card" style={{ ...card, minHeight: 200, position: "relative" }}>
+              <div style={{ position: "absolute", top: 18, right: 22, fontFamily: fm, fontSize: 13, fontWeight: 700, color: P.ac, opacity: 0.45 }}>{`0${i+1}`}</div>
+              <div style={{ fontSize: 32, marginBottom: 14 }}>{item.i}</div>
+              <h3 style={{ fontSize: 18, fontWeight: 600, marginBottom: 10, color: P.br }}>{item.t}</h3>
+              <p style={{ fontSize: 14, color: P.mu, lineHeight: 1.7 }}>{item.d}</p>
+            </div>
+          ))}
+        </div>
+        <div style={{ borderTop: "1px solid rgba(139,92,246,.1)", paddingTop: 56 }}>
+          <div style={{ textAlign: "center", marginBottom: 40 }}>
+            <h3 style={{ fontSize: "clamp(22px,3.5vw,32px)", fontWeight: 700, color: P.br, marginBottom: 12, lineHeight: 1.2 }}>{d.forceT}</h3>
+            <p style={{ fontSize: 16, color: P.mu, maxWidth: 640, margin: "0 auto", lineHeight: 1.7 }}>{d.forceS}</p>
+          </div>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(290px,1fr))", gap: 14 }}>
+            {d.force.map((f, i) => (
+              <div key={i} className="ba-card" style={{ background: P.sf, border: `1px solid ${P.bd}`, borderRadius: 14, padding: 22, transition: TR, minHeight: 140 }}>
+                <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 8 }}>
+                  <span style={{ fontSize: 22 }}>{f.i}</span>
+                  <h4 style={{ fontSize: 14, fontWeight: 600, color: P.br, margin: 0 }}>{f.t}</h4>
+                </div>
+                <p style={{ fontSize: 13, color: P.dm, lineHeight: 1.6 }}>{f.d}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+            {/* SEARCH */}
       <section style={{ padding: "40px 24px 80px" }}>
         <div style={{ maxWidth: 1200, margin: "0 auto" }}>
           <div style={{ textAlign: "center", marginBottom: 40 }}>
