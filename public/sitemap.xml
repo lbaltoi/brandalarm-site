@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://brandalarm.ro/</loc>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://brandalarm.ro/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brandalarm.ro/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://brandalarm.ro/"/>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://brandalarm.ro/intrebari-frecvente</loc>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://brandalarm.ro/intrebari-frecvente"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brandalarm.ro/en/faq"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://brandalarm.ro/en/faq</loc>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://brandalarm.ro/intrebari-frecvente"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brandalarm.ro/en/faq"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://brandalarm.ro/termeni-si-conditii</loc>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://brandalarm.ro/termeni-si-conditii"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brandalarm.ro/en/terms"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://brandalarm.ro/en/terms</loc>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://brandalarm.ro/termeni-si-conditii"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brandalarm.ro/en/terms"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://brandalarm.ro/confidentialitate</loc>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://brandalarm.ro/confidentialitate"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brandalarm.ro/en/privacy"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://brandalarm.ro/en/privacy</loc>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://brandalarm.ro/confidentialitate"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brandalarm.ro/en/privacy"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://brandalarm.ro/politica-cookies</loc>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://brandalarm.ro/politica-cookies"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brandalarm.ro/en/cookie-policy"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://brandalarm.ro/en/cookie-policy</loc>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://brandalarm.ro/politica-cookies"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brandalarm.ro/en/cookie-policy"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+</urlset>

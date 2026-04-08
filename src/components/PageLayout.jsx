@@ -16,15 +16,19 @@ const routes = {
   "/en/privacy": "/confidentialitate",
   "/politica-cookies": "/en/cookie-policy",
   "/en/cookie-policy": "/politica-cookies",
+  "/intrebari-frecvente": "/en/faq",
+  "/en/faq": "/intrebari-frecvente",
 };
 
 const footerLinks = {
   ro: [
+    { to: "/intrebari-frecvente", label: "FAQ" },
     { to: "/termeni-si-conditii", label: "Termeni" },
     { to: "/confidentialitate", label: "Confidentialitate" },
     { to: "/politica-cookies", label: "Cookies" },
   ],
   en: [
+    { to: "/en/faq", label: "FAQ" },
     { to: "/en/terms", label: "Terms" },
     { to: "/en/privacy", label: "Privacy" },
     { to: "/en/cookie-policy", label: "Cookies" },
