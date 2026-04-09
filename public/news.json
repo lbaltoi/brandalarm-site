@@ -1,15 +1,416 @@
 {
-  "updatedAt": "2026-04-09T06:00:00.000Z",
-  "count": 0,
+  "updatedAt": "2026-04-09T12:05:11.267Z",
+  "count": 30,
   "sources": [
-    {"id": "euipo", "name": "EUIPO", "category": "official", "color": "#0068B4"},
-    {"id": "wipo", "name": "WIPO", "category": "official", "color": "#005DA4"},
-    {"id": "ipkat", "name": "The IPKat", "category": "blog", "color": "#E63946"},
-    {"id": "marques", "name": "MARQUES Class 46", "category": "blog", "color": "#C44536"},
-    {"id": "kluwer-tm", "name": "Kluwer Trademark Blog", "category": "blog", "color": "#2E4057"},
-    {"id": "wtr", "name": "World Trademark Review", "category": "news", "color": "#8B4513"},
-    {"id": "managing-ip", "name": "Managing IP", "category": "news", "color": "#004E89"},
-    {"id": "juve", "name": "JUVE Patent", "category": "news", "color": "#1D3557"}
+    {
+      "id": "euipo",
+      "name": "EUIPO",
+      "category": "official",
+      "color": "#0068B4"
+    },
+    {
+      "id": "wipo",
+      "name": "WIPO",
+      "category": "official",
+      "color": "#005DA4"
+    },
+    {
+      "id": "ipkat",
+      "name": "The IPKat",
+      "category": "blog",
+      "color": "#E63946"
+    },
+    {
+      "id": "marques",
+      "name": "MARQUES Class 46",
+      "category": "blog",
+      "color": "#C44536"
+    },
+    {
+      "id": "kluwer-tm",
+      "name": "Kluwer Trademark Blog",
+      "category": "blog",
+      "color": "#2E4057"
+    },
+    {
+      "id": "wtr",
+      "name": "World Trademark Review",
+      "category": "news",
+      "color": "#8B4513"
+    },
+    {
+      "id": "managing-ip",
+      "name": "Managing IP",
+      "category": "news",
+      "color": "#004E89"
+    },
+    {
+      "id": "juve",
+      "name": "JUVE Patent",
+      "category": "news",
+      "color": "#1D3557"
+    }
   ],
-  "items": []
+  "items": [
+    {
+      "id": "ipkat-aHR0cDovL2lwa2l0dGVuLmJs",
+      "title": "[GuestPost] Keeping enemies closer: C&J Clark v TBC and trade mark coexistence agreements",
+      "description": "The IPKat is grateful to Katfriend Thomas Hood (Gatehouse Chambers) for the following contribution on the recent UK decision in C & J Clark International ltd v Trek Bicycle Corporation & Anor [2026] EWHC 659 (Ch). Over to Tom:In the world of trade marks, businesses can often end...",
+      "url": "http://ipkitten.blogspot.com/2026/04/guestpost-keeping-enemies-closer-c.html",
+      "date": "2026-04-09T08:03:00.004Z",
+      "source": "The IPKat",
+      "sourceId": "ipkat",
+      "category": "blog",
+      "lang": "en",
+      "color": "#E63946"
+    },
+    {
+      "id": "wtr-aHR0cHM6Ly93d3cud29ybGR0",
+      "title": "US Supreme Court vacates $47 million verdict against internet service provider after consequential Cox ruling",
+      "description": "The impact of the US Supreme Court’s recent ruling in Cox is already being felt, as a major copyright liability verdict against another internet service provider has been sent back to the lower court.",
+      "url": "https://www.worldtrademarkreview.com/article/us-supreme-court-vacates-47-million-verdict-against-internet-service-provider-after-consequential-cox-ruling",
+      "date": "2026-04-08T15:32:16.000Z",
+      "source": "World Trademark Review",
+      "sourceId": "wtr",
+      "category": "news",
+      "lang": "en",
+      "color": "#8B4513"
+    },
+    {
+      "id": "juve-aHR0cHM6Ly93d3cuanV2ZS1w",
+      "title": "Dyson wins another PI in hair-styler fight against Dreame",
+      "description": "Once again, the Hamburg local division under presiding judge Sabine Klepsch has prohibited Chinese manufacturer Dreame from distributing certain hair styling devices in the UPC territory and Spain by means of a preliminary injunction. A PI issued in August last year covered...",
+      "url": "https://www.juve-patent.com/cases/dyson-wins-another-pi-in-hair-styler-fight-against-dreame/",
+      "date": "2026-04-08T14:44:31.000Z",
+      "source": "JUVE Patent",
+      "sourceId": "juve",
+      "category": "news",
+      "lang": "en",
+      "color": "#1D3557"
+    },
+    {
+      "id": "wtr-aHR0cHM6Ly93d3cud29ybGR0",
+      "title": "UAE and Bahrain grant temporary filing relief amid Middle East conflict – IP office updates",
+      "description": "Our latest round-up also covers the Korean Ministry of Intellectual Property publishing its updated Goods Guidebook and Nepal clarifying the standards for trademark rejection.",
+      "url": "https://www.worldtrademarkreview.com/article/uae-and-bahrain-grant-filing-relief-amid-middle-east-conflict-ip-office-updates",
+      "date": "2026-04-08T12:45:44.000Z",
+      "source": "World Trademark Review",
+      "sourceId": "wtr",
+      "category": "news",
+      "lang": "en",
+      "color": "#8B4513"
+    },
+    {
+      "id": "wtr-aHR0cHM6Ly93d3cud29ybGR0",
+      "title": "Lost no more: Australia finally unlocks the door for orphan works",
+      "description": "Australia’s first-ever orphan works scheme has officially commenced after the Copyright Amendment Bill received Royal Assent on 1 April 2026.",
+      "url": "https://www.worldtrademarkreview.com/article/lost-no-more-australia-finally-unlocks-the-door-orphan-works",
+      "date": "2026-04-08T10:09:34.000Z",
+      "source": "World Trademark Review",
+      "sourceId": "wtr",
+      "category": "news",
+      "lang": "en",
+      "color": "#8B4513"
+    },
+    {
+      "id": "wtr-aHR0cHM6Ly93d3cud29ybGR0",
+      "title": "How the Federation of the Swiss Watch Industry is strengthening its fight against counterfeiting",
+      "description": "The Federation of the Swiss Watch Industry explains its strategy for tackling counterfeits across key jurisdictions and disposing of illicit goods sustainably.",
+      "url": "https://www.worldtrademarkreview.com/article/how-the-federation-of-the-swiss-watch-industry-strengthening-its-fight-against-counterfeiting",
+      "date": "2026-04-08T09:00:00.000Z",
+      "source": "World Trademark Review",
+      "sourceId": "wtr",
+      "category": "news",
+      "lang": "en",
+      "color": "#8B4513"
+    },
+    {
+      "id": "ipkat-aHR0cDovL2lwa2l0dGVuLmJs",
+      "title": "Never Too Late: If you missed the IPKat last week!",
+      "description": "Combing through legal archives and chocolate eggs is learned, but exhausting. If you, much like the Kats, spent the past few days taking a well-deserved Easter nap to sleep off the chocolate, you will be pleased to know it was a relatively quiet week on the blog too. Here is a...",
+      "url": "http://ipkitten.blogspot.com/2026/04/never-too-late-if-you-missed-ipkat-last_8.html",
+      "date": "2026-04-08T07:27:00.001Z",
+      "source": "The IPKat",
+      "sourceId": "ipkat",
+      "category": "blog",
+      "lang": "en",
+      "color": "#E63946"
+    },
+    {
+      "id": "ipkat-aHR0cDovL2lwa2l0dGVuLmJs",
+      "title": "Trust is not enough: German Supreme Court tightens liability for Google Ads",
+      "description": "In a landmark ruling in Google-Ads (I ZR 28/25), the German Supreme Court dealt with the question whether a retailer is liable for unlawful advertisements placed by Google on third-party platforms. Background The claimant is a registered qualified trade association whose members...",
+      "url": "http://ipkitten.blogspot.com/2026/04/trust-is-not-enough-german-supreme.html",
+      "date": "2026-04-08T05:32:00.001Z",
+      "source": "The IPKat",
+      "sourceId": "ipkat",
+      "category": "blog",
+      "lang": "en",
+      "color": "#E63946"
+    },
+    {
+      "id": "wtr-aHR0cHM6Ly93d3cud29ybGR0",
+      "title": "China introduces new guidelines for cross-border e-commerce in response to EU crackdown on small parcels",
+      "description": "China has introduced new guidelines aimed at raising standards in cross-border e-commerce, as European authorities move to tighten controls on small parcels entering the EU.",
+      "url": "https://www.worldtrademarkreview.com/article/china-introduces-new-guidelines-cross-border-e-commerce-in-response-eu-crackdown-small-parcels",
+      "date": "2026-04-08T02:00:00.000Z",
+      "source": "World Trademark Review",
+      "sourceId": "wtr",
+      "category": "news",
+      "lang": "en",
+      "color": "#8B4513"
+    },
+    {
+      "id": "juve-aHR0cHM6Ly93d3cuanV2ZS1w",
+      "title": "Lundbeck and Biogaran fight in Milan and Paris over drug for alcohol dependence",
+      "description": "Nalmefene is an opioid antagonist used in the EU to reduce alcohol dependence. The active ingredient works by antagonising those receptors in the brain responsible for producing the body’s feel-good chemical, dopamine. This prevents the alcohol-induced release of this chemical,...",
+      "url": "https://www.juve-patent.com/cases/lundbeck-biogaran-fight-in-milan-paris-over-drug-for-alcohol-dependence/",
+      "date": "2026-04-07T12:31:02.000Z",
+      "source": "JUVE Patent",
+      "sourceId": "juve",
+      "category": "news",
+      "lang": "en",
+      "color": "#1D3557"
+    },
+    {
+      "id": "wtr-aHR0cHM6Ly93d3cud29ybGR0",
+      "title": "Revealed: 2026 WTR Industry Awards shortlist",
+      "description": "WTR unveils the hotly anticipated shortlist and Lifetime Achievement Award winner for the 2026 WTR Industry Awards.",
+      "url": "https://www.worldtrademarkreview.com/article/revealed-2026-wtr-industry-awards-shortlist",
+      "date": "2026-04-07T09:29:27.000Z",
+      "source": "World Trademark Review",
+      "sourceId": "wtr",
+      "category": "news",
+      "lang": "en",
+      "color": "#8B4513"
+    },
+    {
+      "id": "ipkat-aHR0cDovL2lwa2l0dGVuLmJs",
+      "title": "[Book Review] Stone on European Union Design Law: A Practitioners’ Guide",
+      "description": "This is a review of the third edition of Stone on European Union Design Law: A Practitioners’ Guide (Oxford University Press, 2025), authored by David Stone. More than twenty years after the European Community Design system came into force, one might have expected the dust to...",
+      "url": "http://ipkitten.blogspot.com/2026/04/book-review-stone-on-european-union.html",
+      "date": "2026-04-07T05:32:00.002Z",
+      "source": "The IPKat",
+      "sourceId": "ipkat",
+      "category": "blog",
+      "lang": "en",
+      "color": "#E63946"
+    },
+    {
+      "id": "wtr-aHR0cHM6Ly93d3cud29ybGR0",
+      "title": "Innovation at the Norwegian Industrial Property Office: spotlight on cutting-edge tools and services",
+      "description": "Representatives from the NIPO answer an exclusive Q&A about the innovative tools and services that the agency currently provides – and those that are under development.",
+      "url": "https://www.worldtrademarkreview.com/article/innovation-the-norway-ip-office-spotlight-cutting-edge-tools-and-services",
+      "date": "2026-04-06T10:00:00.000Z",
+      "source": "World Trademark Review",
+      "sourceId": "wtr",
+      "category": "news",
+      "lang": "en",
+      "color": "#8B4513"
+    },
+    {
+      "id": "ipkat-aHR0cDovL2lwa2l0dGVuLmJs",
+      "title": "[Guest post] The TRIPS non-violation moratorium has expired: What happened in Yaoundé, and what comes next",
+      "description": "The IPKat is happy to host the guest post below by Daniel J. Gervais (Vanderbilt University), detailing and reflecting on the recently concluded 14th Ministerial Conference of the World Trade Organization (WTO). Here’s what he writes:The TRIPS non-violation moratorium has...",
+      "url": "http://ipkitten.blogspot.com/2026/04/guest-post-trips-non-violation.html",
+      "date": "2026-04-05T22:34:00.001Z",
+      "source": "The IPKat",
+      "sourceId": "ipkat",
+      "category": "blog",
+      "lang": "en",
+      "color": "#E63946"
+    },
+    {
+      "id": "ipkat-aHR0cDovL2lwa2l0dGVuLmJs",
+      "title": "[Guest post] No cultural funding from a collecting society at its own discretion and not for unauthorised parties",
+      "description": "The IPKat has received and is pleased to host the following guest contribution by Norbert P. Flechsig (Faculty of Law, University of Tübingen, Germany) concerning the recent Opinion of Advocate General (AG) Szpunar in VG WORT, C-840/24. Here’s what he writes: No cultural funding...",
+      "url": "http://ipkitten.blogspot.com/2026/04/guest-post-no-cultural-funding-from.html",
+      "date": "2026-04-05T18:14:00.007Z",
+      "source": "The IPKat",
+      "sourceId": "ipkat",
+      "category": "blog",
+      "lang": "en",
+      "color": "#E63946"
+    },
+    {
+      "id": "wtr-aHR0cHM6Ly93d3cud29ybGR0",
+      "title": "K-brand anti-fake seal; James Pond v James Bond; EU parcel customs shake-up; and much more",
+      "description": "Your Sunday recap of the week’s biggest developments in trademark and brand protection.",
+      "url": "https://www.worldtrademarkreview.com/article/k-brand-anti-fake-seal-james-pond-v-james-bond-eu-parcel-customs-shake-and-much-more",
+      "date": "2026-04-05T09:00:00.000Z",
+      "source": "World Trademark Review",
+      "sourceId": "wtr",
+      "category": "news",
+      "lang": "en",
+      "color": "#8B4513"
+    },
+    {
+      "id": "wtr-aHR0cHM6Ly93d3cud29ybGR0",
+      "title": "The naming gap facing AI, Web3 and quantum ventures – and why brand owners should care",
+      "description": "A quiet but significant gap is opening up in the domain naming landscape, and it has real implications for those advising technology companies on digital identity and brand protection.",
+      "url": "https://www.worldtrademarkreview.com/article/the-naming-gap-facing-ai-web3-and-quantum-ventures-and-why-brand-owners-should-care",
+      "date": "2026-04-04T09:00:00.000Z",
+      "source": "World Trademark Review",
+      "sourceId": "wtr",
+      "category": "news",
+      "lang": "en",
+      "color": "#8B4513"
+    },
+    {
+      "id": "wtr-aHR0cHM6Ly93d3cud29ybGR0",
+      "title": "Pernod Ricard merger talks; Swift ‘Showgirl’ suit; EasyGroup loss – news digest",
+      "description": "Five bite-sized news updates from the week, also featuring a US challenge to LOST MARY vape brand’s legality and Vietnam’s intensified online crackdown on counterfeit goods.",
+      "url": "https://www.worldtrademarkreview.com/article/pernod-ricard-merger-talks-swift-showgirl-suit-easygroup-loss-news-digest",
+      "date": "2026-04-03T08:00:00.000Z",
+      "source": "World Trademark Review",
+      "sourceId": "wtr",
+      "category": "news",
+      "lang": "en",
+      "color": "#8B4513"
+    },
+    {
+      "id": "ipkat-aHR0cDovL2lwa2l0dGVuLmJs",
+      "title": "Friday Fantasies",
+      "description": "Enjoy the Easter break with the latest news from the IP world. Events 20 - 24 April 2026: IP Transactions: Law and Practice UCL’s Faculty of Laws in London hosts an in-person seminar on the intricacies of drafting, negotiating, interpreting and advising on IP agreements. If that...",
+      "url": "http://ipkitten.blogspot.com/2026/04/friday-fantasies.html",
+      "date": "2026-04-03T07:25:00.003Z",
+      "source": "The IPKat",
+      "sourceId": "ipkat",
+      "category": "blog",
+      "lang": "en",
+      "color": "#E63946"
+    },
+    {
+      "id": "juve-aHR0cHM6Ly93d3cuanV2ZS1w",
+      "title": "HGF boosts London chemistry and pharma practice with D Young partner",
+      "description": "Garreth Duncan officially joined HGF’s London office on 1 April 2026, bringing with him considerable expertise across a broad range of chemical technologies. His practice has a strong focus on the pharmaceutical sector, where he specialises in protecting new chemical entities,...",
+      "url": "https://www.juve-patent.com/people-and-business/hgf-boosts-london-chemistry-and-pharma-practice-with-d-young-partner/",
+      "date": "2026-04-02T14:49:57.000Z",
+      "source": "JUVE Patent",
+      "sourceId": "juve",
+      "category": "news",
+      "lang": "en",
+      "color": "#1D3557"
+    },
+    {
+      "id": "ipkat-aHR0cDovL2lwa2l0dGVuLmJs",
+      "title": "[Guest Post] The WTO's Tale of Two Dispute Systems",
+      "description": "The IPKat has received and is pleased to host the following guest contribution by Katfriend Seun Lari-Williams (PhD researcher at the University of Antwerp) on the outcomes from the recent meeting of the World Trade Organization (WTO) members. Here’s what Seun writes:Image...",
+      "url": "http://ipkitten.blogspot.com/2026/04/guest-post-wtos-tale-of-two-dispute.html",
+      "date": "2026-04-02T13:50:00.000Z",
+      "source": "The IPKat",
+      "sourceId": "ipkat",
+      "category": "blog",
+      "lang": "en",
+      "color": "#E63946"
+    },
+    {
+      "id": "juve-aHR0cHM6Ly93d3cuanV2ZS1w",
+      "title": "Next US firm enters London patent market after CMS hire",
+      "description": "It is not yet decided when Caitlin Heard will move to Perkins Coie as partner. Managing IP first reported the move. Heard currently serves as co-head of the international IP practice group at CMS Cameron McKenna Nabarro Olswang. She is qualified as a solicitor advocate and also...",
+      "url": "https://www.juve-patent.com/people-and-business/next-us-firm-enters-london-patent-market-after-cms-hire/",
+      "date": "2026-04-02T13:18:29.000Z",
+      "source": "JUVE Patent",
+      "sourceId": "juve",
+      "category": "news",
+      "lang": "en",
+      "color": "#1D3557"
+    },
+    {
+      "id": "juve-aHR0cHM6Ly93d3cuanV2ZS1w",
+      "title": "De Koffiejongens averts PI filed by Ox Barrier in the Netherlands",
+      "description": "The case is reminiscent of the patent dispute over coffee capsules between manufacturers Nespresso, Krups, De’Longhi and Ethical Coffee Company (ECC), which broke out between 2016 and 2018 in Germany and Switzerland, as well as the more recent dispute between Koninklijke Douwe...",
+      "url": "https://www.juve-patent.com/cases/de-koffiejongens-averts-pi-filed-by-ox-barrier-in-the-netherlands/",
+      "date": "2026-04-02T10:36:46.000Z",
+      "source": "JUVE Patent",
+      "sourceId": "juve",
+      "category": "news",
+      "lang": "en",
+      "color": "#1D3557"
+    },
+    {
+      "id": "ipkat-aHR0cDovL2lwa2l0dGVuLmJs",
+      "title": "Never too late: If you missed The IPKat last week!",
+      "description": "Curled between seasons Not sure where you are reading this from, but if you missed the first week of spring, the IPKat made sure not to. Here is what blossomed on the blog last week.Geographical IndicationsJocelyn Bosse reported that the EU and Australia finally reached a...",
+      "url": "http://ipkitten.blogspot.com/2026/04/never-too-late-if-you-missed-ipkat-last.html",
+      "date": "2026-04-01T13:13:00.000Z",
+      "source": "The IPKat",
+      "sourceId": "ipkat",
+      "category": "blog",
+      "lang": "en",
+      "color": "#E63946"
+    },
+    {
+      "id": "juve-aHR0cHM6Ly93d3cuanV2ZS1w",
+      "title": "Klaus Grabinski: “Economic logic suggests the UPC will continue to grow”",
+      "description": "JUVE Patent: Mr Grabinski, you have now been President of the Unified Patent Court for over three years – initially during the preparatory phase and, since 1 June 2023, of the operational court. How satisfied are you with the current developement? Klaus Grabinski: I’m very...",
+      "url": "https://www.juve-patent.com/legal-commentary/klaus-grabinski-economic-logic-suggests-the-upc-will-continue-to-grow/",
+      "date": "2026-04-01T08:13:45.000Z",
+      "source": "JUVE Patent",
+      "sourceId": "juve",
+      "category": "news",
+      "lang": "en",
+      "color": "#1D3557"
+    },
+    {
+      "id": "juve-aHR0cHM6Ly93d3cuanV2ZS1w",
+      "title": "Court of Appeal upholds PI against Sinocare and Menarini",
+      "description": "The local division The Hague has become attractive for PI applications — especially in the medical devices sector. In Abbott’s dispute with Chinese competitor Sinocare and the latter’s distribution partner Menarini, the court thus appears to have delivered what companies and...",
+      "url": "https://www.juve-patent.com/cases/court-of-appeal-upholds-pi-against-sinocare-and-menarini/",
+      "date": "2026-03-31T11:14:05.000Z",
+      "source": "JUVE Patent",
+      "sourceId": "juve",
+      "category": "news",
+      "lang": "en",
+      "color": "#1D3557"
+    },
+    {
+      "id": "juve-aHR0cHM6Ly93d3cuanV2ZS1w",
+      "title": "Chinese car makers take Avanci licence for connected cars",
+      "description": "Avanci today announced the conclusion of ten licence agreements to date across its 4G Vehicle and 5G Vehicle licensing programmes. While not naming the seven car manufacturers in its press release, the patent pool hinted at further licensing deals to come in the months ahead....",
+      "url": "https://www.juve-patent.com/people-and-business/chinese-car-makers-take-avanci-licence-for-connected-cars/",
+      "date": "2026-03-31T10:33:11.000Z",
+      "source": "JUVE Patent",
+      "sourceId": "juve",
+      "category": "news",
+      "lang": "en",
+      "color": "#1D3557"
+    },
+    {
+      "id": "juve-aHR0cHM6Ly93d3cuanV2ZS1w",
+      "title": "NUC and Preu Bohlig overturn slow juicer ruling on appeal",
+      "description": "In March last year the Mannheim local division ruled that NUC and its European distribution partner Warmcook infringed EP 2 028 981 relating to a juice extractor. Subsequently, they were barred from distributing the Auto 10 slow juicer in Germany, Denmark, France, Italy, and the...",
+      "url": "https://www.juve-patent.com/cases/nuc-and-preu-bohlig-overturn-slow-juicer-ruling-on-appeal/",
+      "date": "2026-03-30T15:55:53.000Z",
+      "source": "JUVE Patent",
+      "sourceId": "juve",
+      "category": "news",
+      "lang": "en",
+      "color": "#1D3557"
+    },
+    {
+      "id": "ipkat-aHR0cDovL2lwa2l0dGVuLmJs",
+      "title": "Sunday Surprises",
+      "description": "Dear Gentle Readers, here is your weekly summary of IP news, events, opportunities (and gossip) gathered by the Kats! Latest newsGema versus OpenAI paperEars pricked for the latest IP gossipA comparative paper on the Munich I Regional Court's November 2025 judgment regarding...",
+      "url": "http://ipkitten.blogspot.com/2026/03/sunday-surprises.html",
+      "date": "2026-03-29T14:20:00.002Z",
+      "source": "The IPKat",
+      "sourceId": "ipkat",
+      "category": "blog",
+      "lang": "en",
+      "color": "#E63946"
+    },
+    {
+      "id": "juve-aHR0cHM6Ly93d3cuanV2ZS1w",
+      "title": "Sandoz fends off PI over Eylea at Higher Regional Court Munich",
+      "description": "In early January, the Regional Court Munich granted a PI to Regeneron and Bayer. This prohibited Stada, Sandoz/Hexal, Celltrion and Advanz Pharma from marketing their biosimilar containing the active ingredient aflibercept. This forms the basis of Regeneron’s ophthalmic drug...",
+      "url": "https://www.juve-patent.com/cases/sandoz-fends-off-pi-over-eylea-at-higher-regional-court-munich/",
+      "date": "2026-03-27T11:15:42.000Z",
+      "source": "JUVE Patent",
+      "sourceId": "juve",
+      "category": "news",
+      "lang": "en",
+      "color": "#1D3557"
+    }
+  ]
 }
