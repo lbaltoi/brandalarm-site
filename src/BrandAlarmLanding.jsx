@@ -83,7 +83,7 @@ const t = {
       { h: "/opozitie-marca-euipo-osim", l: "Opozitie EUIPO/OSIM" },
       { h: "/alerte-expirare-marci", l: "Alerte expirare" }
     ],
-    fg: [{ h: "/intrebari-frecvente", l: "Intrebari frecvente" }, { h: "/confidentialitate", l: "Confidentialitate" }, { h: "/termeni-si-conditii", l: "Termeni si conditii" }, { h: "/politica-cookies", l: "Cookies" }],
+    fg: [{ h: "/blog", l: "Stiri IP" }, { h: "/intrebari-frecvente", l: "Intrebari frecvente" }, { h: "/confidentialitate", l: "Confidentialitate" }, { h: "/termeni-si-conditii", l: "Termeni si conditii" }, { h: "/politica-cookies", l: "Cookies" }],
     fC: "© 2025 Trademark Alliance SRL. Toate drepturile rezervate.",
     diffT: "De ce BrandAlarm. De ce acum.",
     diffS: "Momentul potrivit. Solutia potrivita pentru piata europeana.",
@@ -176,7 +176,7 @@ const t = {
       { h: "/en/trademark-opposition", l: "EUIPO/OSIM opposition" },
       { h: "/en/trademark-expiry-alerts", l: "Expiry alerts" }
     ],
-    fg: [{ h: "/en/faq", l: "FAQ" }, { h: "/en/privacy", l: "Privacy policy" }, { h: "/en/terms", l: "Terms & conditions" }, { h: "/en/cookie-policy", l: "Cookies" }],
+    fg: [{ h: "/en/blog", l: "IP News" }, { h: "/en/faq", l: "FAQ" }, { h: "/en/privacy", l: "Privacy policy" }, { h: "/en/terms", l: "Terms & conditions" }, { h: "/en/cookie-policy", l: "Cookies" }],
     fC: "© 2025 Trademark Alliance SRL. All rights reserved.",
     diffT: "Why BrandAlarm. Why now.",
     diffS: "Right timing. Right solution for the European market.",

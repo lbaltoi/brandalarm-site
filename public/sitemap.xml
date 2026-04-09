@@ -102,6 +102,22 @@
     <priority>0.85</priority>
   </url>
 
+  <!-- BLOG -->
+  <url>
+    <loc>https://brandalarm.ro/blog</loc>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://brandalarm.ro/blog"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brandalarm.ro/en/blog"/>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://brandalarm.ro/en/blog</loc>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://brandalarm.ro/blog"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://brandalarm.ro/en/blog"/>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+
   <!-- FAQ -->
   <url>
     <loc>https://brandalarm.ro/intrebari-frecvente</loc>

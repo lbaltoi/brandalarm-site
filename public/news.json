@@ -1,0 +1,15 @@
+{
+  "updatedAt": "2026-04-09T06:00:00.000Z",
+  "count": 0,
+  "sources": [
+    {"id": "euipo", "name": "EUIPO", "category": "official", "color": "#0068B4"},
+    {"id": "wipo", "name": "WIPO", "category": "official", "color": "#005DA4"},
+    {"id": "ipkat", "name": "The IPKat", "category": "blog", "color": "#E63946"},
+    {"id": "marques", "name": "MARQUES Class 46", "category": "blog", "color": "#C44536"},
+    {"id": "kluwer-tm", "name": "Kluwer Trademark Blog", "category": "blog", "color": "#2E4057"},
+    {"id": "wtr", "name": "World Trademark Review", "category": "news", "color": "#8B4513"},
+    {"id": "managing-ip", "name": "Managing IP", "category": "news", "color": "#004E89"},
+    {"id": "juve", "name": "JUVE Patent", "category": "news", "color": "#1D3557"}
+  ],
+  "items": []
+}

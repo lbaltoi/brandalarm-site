@@ -1,0 +1,44 @@
+name: Fetch IP News Feed
+
+on:
+  schedule:
+    # Daily at 06:00 UTC (09:00 Bucharest time)
+    - cron: '0 6 * * *'
+  workflow_dispatch: # Allow manual trigger from GitHub UI
+  push:
+    paths:
+      - 'scripts/fetch-news.js'
+      - '.github/workflows/fetch-news.yml'
+
+jobs:
+  fetch-news:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: |
+          npm install rss-parser@3.13.0 --no-save
+
+      - name: Fetch news from RSS sources
+        run: node scripts/fetch-news.js
+
+      - name: Commit updated news.json
+        run: |
+          git config user.name "BrandAlarm News Bot"
+          git config user.email "news-bot@brandalarm.ro"
+          git add public/news.json
+          if git diff --staged --quiet; then
+            echo "No news changes to commit."
+          else
+            git commit -m "chore: update IP news feed [automated]"
+            git push
+          fi

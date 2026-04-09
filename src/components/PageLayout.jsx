@@ -19,6 +19,8 @@ const routes = {
   "/en/cookie-policy": "/politica-cookies",
   "/intrebari-frecvente": "/en/faq",
   "/en/faq": "/intrebari-frecvente",
+  "/blog": "/en/blog",
+  "/en/blog": "/blog",
   // Services
   "/monitorizare-marci": "/en/trademark-monitoring",
   "/en/trademark-monitoring": "/monitorizare-marci",
@@ -36,12 +38,14 @@ const routes = {
 
 const footerLinks = {
   ro: [
+    { to: "/blog", label: "Stiri IP" },
     { to: "/intrebari-frecvente", label: "FAQ" },
     { to: "/termeni-si-conditii", label: "Termeni" },
     { to: "/confidentialitate", label: "Confidentialitate" },
     { to: "/politica-cookies", label: "Cookies" },
   ],
   en: [
+    { to: "/en/blog", label: "IP News" },
     { to: "/en/faq", label: "FAQ" },
     { to: "/en/terms", label: "Terms" },
     { to: "/en/privacy", label: "Privacy" },
