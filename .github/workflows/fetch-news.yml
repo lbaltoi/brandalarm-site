@@ -29,7 +29,7 @@ jobs:
           npm install rss-parser@3.13.0 --no-save
 
       - name: Fetch news from RSS sources
-        run: node scripts/fetch-news.js
+        run: node scripts/fetch-news.cjs
 
       - name: Commit updated news.json
         run: |
