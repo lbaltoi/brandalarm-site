@@ -11,7 +11,7 @@ const t = {
   ro: {
     title: "Stiri & Analize IP",
     desc: "Fluxul zilnic de stiri despre marci comerciale, proprietate intelectuala si legislatie europeana din principalele surse oficiale si bloguri de specialitate.",
-    intro: "Agregam automat stiri si analize din surse oficiale (EUIPO, WIPO) si bloguri de specialitate IP. Sursele originale sunt intotdeauna indicate si link-uite. Actualizare zilnica.",
+    intro: "Agregam automat stiri si analize din surse oficiale (OSIM, WIPO) si bloguri de specialitate IP. Sursele originale sunt intotdeauna indicate si link-uite. Actualizare zilnica.",
     search: "Cauta in stiri...",
     allSources: "Toate sursele",
     loading: "Se incarca stirile...",
@@ -20,13 +20,12 @@ const t = {
     readMore: "Citeste articolul",
     lastUpdate: "Ultima actualizare",
     categories: { official: "Oficial", blog: "Blog", news: "Stiri" },
-    sourcesLabel: "Surse monitorizate",
-    disclaimer: "Stirile sunt agregate automat din surse publice prin RSS. Pentru articolul complet, te rugam sa vizitezi sursa originala indicata in fiecare card. BrandAlarm nu isi asuma continutul surselor terte."
+    disclaimer: "Stirile sunt agregate automat din surse publice (RSS si pagini web publice). Pentru articolul complet, te rugam sa vizitezi sursa originala indicata in fiecare card. BrandAlarm nu isi asuma continutul surselor terte."
   },
   en: {
     title: "IP News & Insights",
     desc: "Daily feed of trademark, intellectual property and European legislation news from major official sources and specialized IP blogs.",
-    intro: "We automatically aggregate news and analysis from official sources (EUIPO, WIPO) and specialized IP blogs. Original sources are always indicated and linked. Updated daily.",
+    intro: "We automatically aggregate news and analysis from official sources (OSIM, WIPO) and specialized IP blogs. Original sources are always indicated and linked. Updated daily.",
     search: "Search news...",
     allSources: "All sources",
     loading: "Loading news...",
@@ -35,8 +34,7 @@ const t = {
     readMore: "Read article",
     lastUpdate: "Last updated",
     categories: { official: "Official", blog: "Blog", news: "News" },
-    sourcesLabel: "Monitored sources",
-    disclaimer: "News items are automatically aggregated from public RSS sources. For the full article, please visit the original source indicated on each card. BrandAlarm does not endorse third-party source content."
+    disclaimer: "News items are automatically aggregated from public sources (RSS feeds and public web pages). For the full article, please visit the original source indicated on each card. BrandAlarm does not endorse third-party source content."
   }
 };
 
@@ -88,21 +86,37 @@ export default function Blog({ lang = "ro" }) {
       });
   }, []);
 
+  // Reset activeSource if it becomes invalid after data load
+  useEffect(() => {
+    if (data && data.sources && activeSource !== "all") {
+      const exists = data.sources.some((s) => s.id === activeSource);
+      if (!exists) setActiveSource("all");
+    }
+  }, [data, activeSource]);
+
   const filtered = useMemo(() => {
     if (!data || !data.items) return [];
-    let items = data.items;
+    let items = [...data.items];
+
+    // Source filter (always applies, independent of language)
     if (activeSource !== "all") {
       items = items.filter((i) => i.sourceId === activeSource);
     }
+
+    // Search filter
     if (query.trim()) {
       const q = query.toLowerCase();
       items = items.filter(
         (i) =>
-          i.title.toLowerCase().includes(q) ||
-          i.description.toLowerCase().includes(q) ||
-          i.source.toLowerCase().includes(q)
+          (i.title || "").toLowerCase().includes(q) ||
+          (i.description || "").toLowerCase().includes(q) ||
+          (i.source || "").toLowerCase().includes(q)
       );
     }
+
+    // Sort by date descending
+    items.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+
     return items;
   }, [data, activeSource, query]);
 
@@ -120,9 +134,16 @@ export default function Blog({ lang = "ro" }) {
           font-family: inherit;
           outline: none;
           transition: border-color .2s;
+          box-sizing: border-box;
         }
         .bl-input:focus { border-color: ${P.ac}; }
         .bl-input::placeholder { color: ${P.dm}; }
+        .bl-chips {
+          display: flex;
+          gap: 8px;
+          flex-wrap: wrap;
+          margin-bottom: 28px;
+        }
         .bl-chip {
           background: ${P.sf};
           border: 1px solid ${P.bd};
@@ -163,6 +184,11 @@ export default function Blog({ lang = "ro" }) {
           font-weight: 600;
           letter-spacing: 0.3px;
         }
+        .bl-count {
+          font-size: 12px;
+          color: ${P.dm};
+          margin-bottom: 16px;
+        }
         @media (max-width: 640px) {
           .bl-card { padding: 18px; }
         }
@@ -183,22 +209,28 @@ export default function Blog({ lang = "ro" }) {
 
       {/* Source filter chips */}
       {data && data.sources && data.sources.length > 0 && (
-        <div style={{ display: "flex", gap: 8, flexWrap: "wrap", marginBottom: 28, overflowX: "auto" }}>
+        <div className="bl-chips">
           <button
+            type="button"
             className={`bl-chip ${activeSource === "all" ? "active" : ""}`}
             onClick={() => setActiveSource("all")}
           >
-            {d.allSources}
+            {d.allSources} ({data.items.length})
           </button>
-          {data.sources.map((s) => (
-            <button
-              key={s.id}
-              className={`bl-chip ${activeSource === s.id ? "active" : ""}`}
-              onClick={() => setActiveSource(s.id)}
-            >
-              {s.name}
-            </button>
-          ))}
+          {data.sources.map((s) => {
+            const count = data.items.filter((i) => i.sourceId === s.id).length;
+            if (count === 0) return null;
+            return (
+              <button
+                key={s.id}
+                type="button"
+                className={`bl-chip ${activeSource === s.id ? "active" : ""}`}
+                onClick={() => setActiveSource(s.id)}
+              >
+                {s.name} ({count})
+              </button>
+            );
+          })}
         </div>
       )}
 
@@ -232,6 +264,13 @@ export default function Blog({ lang = "ro" }) {
       {!loading && !error && data && data.items.length > 0 && filtered.length === 0 && (
         <div style={{ textAlign: "center", padding: "40px 0", color: P.mu, fontSize: 15 }}>
           {d.noResults}
+        </div>
+      )}
+
+      {/* Result count */}
+      {!loading && filtered.length > 0 && (query.trim() || activeSource !== "all") && (
+        <div className="bl-count">
+          {filtered.length} {lang === "ro" ? "rezultate" : "results"}
         </div>
       )}
 
