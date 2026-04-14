@@ -219,16 +219,13 @@ async function fetchRssSource(source) {
       "User-Agent": "Mozilla/5.0 (compatible; BrandAlarmNewsBot/1.0; +https://brandalarm.ro)",
       Accept: "application/rss+xml, application/xml, text/xml, application/atom+xml, */*",
     },
-    xml2js: {
-      strict: false,
-      normalize: true,
-      normalizeTags: true,
-    },
   });
 
   try {
     console.log(`[RSS] Fetching ${source.name}...`);
-    const feed = await parser.parseURL(source.url);
+    // Fetch manually to control headers and encoding, then pass to parseString
+    const xml = await httpGet(source.url);
+    const feed = await parser.parseString(xml);
     const items = (feed.items || [])
       .slice(0, MAX_ITEMS_PER_SOURCE)
       .map((item) => {
