@@ -4,10 +4,10 @@ on:
   schedule:
     # Daily at 06:00 UTC (09:00 Bucharest time)
     - cron: '0 6 * * *'
-  workflow_dispatch: # Allow manual trigger from GitHub UI
+  workflow_dispatch:
   push:
     paths:
-      - 'scripts/fetch-news.js'
+      - 'scripts/fetch-news.cjs'
       - '.github/workflows/fetch-news.yml'
 
 jobs:
@@ -26,9 +26,9 @@ jobs:
 
       - name: Install dependencies
         run: |
-          npm install rss-parser@3.13.0 --no-save
+          npm install rss-parser@3.13.0 cheerio@1.0.0 --no-save
 
-      - name: Fetch news from RSS sources
+      - name: Fetch news from all sources
         run: node scripts/fetch-news.cjs
 
       - name: Commit updated news.json
