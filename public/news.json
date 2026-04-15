@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-04-14T15:27:47.045Z",
-  "count": 66,
+  "updatedAt": "2026-04-15T07:52:19.443Z",
+  "count": 56,
   "sources": [
     {
       "id": "wipo",
@@ -25,12 +25,6 @@
       "name": "JUVE Patent",
       "category": "news",
       "color": "#1D3557"
-    },
-    {
-      "id": "ipwatchdog",
-      "name": "IPWatchdog",
-      "category": "blog",
-      "color": "#B8860B"
     },
     {
       "id": "spicyip",
@@ -65,6 +59,66 @@
       "color": "#004B87"
     },
     {
+      "id": "ipkat-aHR0cDovL2lwa2l0dGVuLmJs",
+      "title": "CJEU delivers pastiche-style judgment on … pastiche",
+      "description": "Moses PelhamToday, the Grand Chamber of the Court of Justice of the European Union (CJEU) issued its judgment in Pelham II, C-590/23, concerning the notion of pastiche in Article 5(3)(k) of the InfoSoc Directive.To understand the genesis of the referral, reference must be made...",
+      "url": "http://ipkitten.blogspot.com/2026/04/cjeu-delivers-pastiche-style-judgment.html",
+      "date": "2026-04-14T19:58:00.000Z",
+      "source": "The IPKat",
+      "sourceId": "ipkat",
+      "category": "blog",
+      "lang": "en",
+      "color": "#E63946"
+    },
+    {
+      "id": "ipkat-aHR0cDovL2lwa2l0dGVuLmJs",
+      "title": "Fordham 33 (Report 5): Trade secrets",
+      "description": "The Fordham trade secrets panel discussingthe rise of trade secrets protection The IPKat is back in Fordham, with the Spring skies and the chirping birds gracing the streets of the Upper West Side. As a proud and long-standing partner with the Fordham IP Conference, now in its...",
+      "url": "http://ipkitten.blogspot.com/2026/04/fordham-33-report-5-trade-secrets.html",
+      "date": "2026-04-14T18:53:00.006Z",
+      "source": "The IPKat",
+      "sourceId": "ipkat",
+      "category": "blog",
+      "lang": "en",
+      "color": "#E63946"
+    },
+    {
+      "id": "ipkat-aHR0cDovL2lwa2l0dGVuLmJs",
+      "title": "Fordham 33 (Report 4): Life sciences and healthcare innovation",
+      "description": "An invigorating sprint through globallife sciences issuesThe IPKat is back in Fordham, with the Spring skies and the chirping birds gracing the streets of the Upper West Side. As a proud and long-standing partner with the Fordham IP Conference, now in its 33rd year, the IPKat is...",
+      "url": "http://ipkitten.blogspot.com/2026/04/fordham-33-report-2-life-sciences-and.html",
+      "date": "2026-04-14T17:59:00.021Z",
+      "source": "The IPKat",
+      "sourceId": "ipkat",
+      "category": "blog",
+      "lang": "en",
+      "color": "#E63946"
+    },
+    {
+      "id": "patently-o-aHR0cHM6Ly9wYXRlbnRseW8u",
+      "title": "Mind the Gap: The Middle Layer of Obviousness Doctrine",
+      "description": "Graham's four factors organize the evidence but don't resolve obviousness. The doctrines built atop them do the real analytical work. Continue reading this post on Patently-O.",
+      "url": "https://patentlyo.com/patent/2026/04/mind-the-gap-the-middle-layer-of-obviousness-doctrine.html",
+      "date": "2026-04-14T17:34:27.000Z",
+      "source": "Patently-O",
+      "sourceId": "patently-o",
+      "category": "blog",
+      "lang": "en",
+      "color": "#006B3C"
+    },
+    {
+      "id": "wtr-aHR0cHM6Ly93d3cud29ybGR0",
+      "title": "CJEU clarifies scope of ‘pastiche’ exception in Pelham II",
+      "description": "Pastiche can take various forms, including stylistic imitation, tributes, or humorous and critical engagement, the CJEU has clarified, in a long-running music sampling dispute.",
+      "url": "https://www.worldtrademarkreview.com/article/cjeu-clarifies-scope-of-pastiche-exception-in-pelham-ii",
+      "date": "2026-04-14T15:10:54.000Z",
+      "source": "World Trademark Review",
+      "sourceId": "wtr",
+      "category": "news",
+      "lang": "en",
+      "color": "#8B4513"
+    },
+    {
       "id": "juve-aHR0cHM6Ly93d3cuanV2ZS1w",
       "title": "Fisher & Paykel and WBH successful in revoking Flexicare’s patent in Milan",
       "description": "At the centre of the revocation claim filed by Fisher & Paykel is Flexicare’s EP 4 185 356 relating to a nasal cannula designed to improve patient comfort and usability during high-flow oxygen therapy. The nasal cannula comprises a manifold, non-sealing nasal prongs and a...",
@@ -87,18 +141,6 @@
       "category": "news",
       "lang": "en",
       "color": "#8B4513"
-    },
-    {
-      "id": "ipwatchdog-aHR0cHM6Ly9pcHdhdGNoZG9n",
-      "title": "Studebaker Brackett PLLC is Seeking a Patent Attorney (Electrical Engineering / Physics Background)",
-      "description": "Studebaker Brackett PLLC (SB) is looking for a motivated, experienced, and highly skilled patent attorney or agent to join its team on a full-time or part-time exclusive basis. SB offers a positive, collaborative team environment; a client-centered, relationship-focused...",
-      "url": "https://ipwatchdog.com/2026/04/14/studebaker-brackett-pllc-is-seeking-a-patent-attorney-electrical-engineering-physics-background/",
-      "date": "2026-04-14T09:15:21.000Z",
-      "source": "IPWatchdog",
-      "sourceId": "ipwatchdog",
-      "category": "blog",
-      "lang": "en",
-      "color": "#B8860B"
     },
     {
       "id": "juve-aHR0cHM6Ly93d3cuanV2ZS1w",
@@ -137,18 +179,6 @@
       "color": "#8B4513"
     },
     {
-      "id": "ipwatchdog-aHR0cHM6Ly9pcHdhdGNoZG9n",
-      "title": "EUIPO Report on IP-Backed Finance Makes Policy Recommendations to Unlock Up To €580 Billion in Innovation Financing",
-      "description": "Today, the European Union Intellectual Property Office (EUIPO) published a study exploring challenges faced by EU small- and medium-sized enterprises (SMEs) in obtaining financing by offering intellectual property (IP) as collateral. Set against the backdrop of the EU’s recently...",
-      "url": "https://ipwatchdog.com/2026/04/13/euipo-report-on-ip-backed-finance-makes-policy-recommendations-to-unlock-up-to-e580-billion-in-innovation-financing/",
-      "date": "2026-04-13T22:45:32.000Z",
-      "source": "IPWatchdog",
-      "sourceId": "ipwatchdog",
-      "category": "blog",
-      "lang": "en",
-      "color": "#B8860B"
-    },
-    {
       "id": "ipkat-aHR0cDovL2lwa2l0dGVuLmJs",
       "title": "[Guest post] Oh my influencer! Italian rules on influencer marketing",
       "description": "The IPKat has received and is pleased to host the following guest contribution by Katfriend Maria Cristina Michelini (Baglioni Hotels & Resorts) detailing developments in the Italian regulatory system for influencers. Here’s what she writes:Oh my influencer! Italian rules on...",
@@ -159,18 +189,6 @@
       "category": "blog",
       "lang": "en",
       "color": "#E63946"
-    },
-    {
-      "id": "ipwatchdog-aHR0cHM6Ly9pcHdhdGNoZG9n",
-      "title": "Stop Telling Yourself China’s Patent Boom Doesn’t Matter",
-      "description": "I have been to China several times over the past decade. Each time, I came back with the same reaction: too many people in the United States are still badly underestimating what is happening there. I do not say that as a political statement. I say it as a practical one. There is...",
-      "url": "https://ipwatchdog.com/2026/04/13/stop-telling-yourself-chinas-patent-boom-doesnt-matter/",
-      "date": "2026-04-13T16:15:41.000Z",
-      "source": "IPWatchdog",
-      "sourceId": "ipwatchdog",
-      "category": "blog",
-      "lang": "en",
-      "color": "#B8860B"
     },
     {
       "id": "spicyip-aHR0cHM6Ly9zcGljeWlwLmNv",
@@ -197,18 +215,6 @@
       "color": "#8B4513"
     },
     {
-      "id": "ipwatchdog-aHR0cHM6Ly9pcHdhdGNoZG9n",
-      "title": "IPWatchdog Announces Leadership Promotions to Support Continued Growth and Strategic Expansion",
-      "description": "IPWatchdog is happy to announce several leadership promotions to support its continued growth and strategic expansion. Renée C. Quinn has been named President, Katarzyna Kryca has been promoted to Senior Vice President, and Morgan Connell has been promoted to Director of...",
-      "url": "https://ipwatchdog.com/2026/04/13/ipwatchdog-announces-leadership-promotions-to-support-continued-growth-and-strategic-expansion/",
-      "date": "2026-04-13T14:15:01.000Z",
-      "source": "IPWatchdog",
-      "sourceId": "ipwatchdog",
-      "category": "blog",
-      "lang": "en",
-      "color": "#B8860B"
-    },
-    {
       "id": "ipkat-aHR0cDovL2lwa2l0dGVuLmJs",
       "title": "Important update on Australia's flip-flopping \"best method\" requirement for divisional patent applications",
       "description": "Not only does Australia retain an archaic \"best method\" requirement for patents (IPKat), but the Full Court has confirmed that for divisional applications the best method is to be assessed at the time of filing the divisional application (not the parent application). The ongoing...",
@@ -231,18 +237,6 @@
       "category": "news",
       "lang": "en",
       "color": "#8B4513"
-    },
-    {
-      "id": "ipwatchdog-aHR0cHM6Ly9pcHdhdGNoZG9n",
-      "title": "AI is Raising the Stakes on Intellectual Capital and IP Rights",
-      "description": "For decades, management scholars and practitioners have grappled with what I call the \"knowledge problem\" in organizations—the stubborn difficulty of codifying and transferring expertise that resides in individual employees' heads and habits. The most valuable organizational...",
-      "url": "https://ipwatchdog.com/2026/04/13/ai-raising-stakes-intellectual-capital-ip-rights/",
-      "date": "2026-04-13T11:15:58.000Z",
-      "source": "IPWatchdog",
-      "sourceId": "ipwatchdog",
-      "category": "blog",
-      "lang": "en",
-      "color": "#B8860B"
     },
     {
       "id": "juve-aHR0cHM6Ly93d3cuanV2ZS1w",
@@ -317,18 +311,6 @@
       "color": "#DC143C"
     },
     {
-      "id": "ipwatchdog-aHR0cHM6Ly9pcHdhdGNoZG9n",
-      "title": "The Reexamination End-Run: When Second Bites at the Apple Become Strategy",
-      "description": "A March 27, 2026, petition filed by Security First Innovations (SFI) does more than challenge a single reexamination proceeding—it shines a spotlight on a structural vulnerability in how post-grant review is functioning in practice. At its core, the filing argues that the U.S....",
-      "url": "https://ipwatchdog.com/2026/04/12/reexamination-end-run-when-second-bites-apple-become-strategy/",
-      "date": "2026-04-12T16:15:44.000Z",
-      "source": "IPWatchdog",
-      "sourceId": "ipwatchdog",
-      "category": "blog",
-      "lang": "en",
-      "color": "#B8860B"
-    },
-    {
       "id": "wtr-aHR0cHM6Ly93d3cud29ybGR0",
       "title": "Mumumelon dupe activism; QVC Group's scalable IP; 2026 WTR Awards shortlist; and much more",
       "description": "Your Sunday recap of the week’s biggest developments in trademark and brand protection.",
@@ -377,18 +359,6 @@
       "color": "#E63946"
     },
     {
-      "id": "ipwatchdog-aHR0cHM6Ly9pcHdhdGNoZG9n",
-      "title": "Other Barks & Bites for Friday, April 10: USPTO Touts Reduced Backlog; Fifth Circuit Awards Google Transfer on Mandamus; and Third Circuit Says Online Publication of Copyrighted Building Codes is Transformative",
-      "description": "This week in Other Barks and Bites: the EU’s GPAI Signatory Taskforce convenes a second meeting to focus on copyright issues like mitigating infringing AI outputs; Meta and CoreWeave extend their AI cloud partnership through 2032 with a new deal worth $21 billion; and more. The...",
-      "url": "https://ipwatchdog.com/2026/04/10/bites-barks-fifth-circuit-awards-google-transfer-on-mandamus-and-third-circuit-says-online-publication-of-copy/",
-      "date": "2026-04-10T17:15:40.000Z",
-      "source": "IPWatchdog",
-      "sourceId": "ipwatchdog",
-      "category": "blog",
-      "lang": "en",
-      "color": "#B8860B"
-    },
-    {
       "id": "ipkat-aHR0cDovL2lwa2l0dGVuLmJs",
       "title": "Fordham 33 (Report 1): Government Leader's Perspective on IP",
       "description": "Kick off at Fordham 2026The IPKat is back at Fordham, with the Spring skies and the chirping birds gracing the streets of the Upper West Side. As a proud and long-standing partner with the Fordham IP Conference, now in its 33rd year, the IPKat is thrilled to partner with the...",
@@ -425,18 +395,6 @@
       "color": "#1D3557"
     },
     {
-      "id": "ipkat-aHR0cDovL2lwa2l0dGVuLmJs",
-      "title": "Friday Fantasies",
-      "description": "While many have enjoyed a shorter work week, the IPKat has been busy keeping an eye out for events and opportunities that might interest our dear readers. Here's the latest updates.Forthcoming EventsImage by Gundula Vogel via PixabayThe next edition of the People, Plants and the...",
-      "url": "http://ipkitten.blogspot.com/2026/04/friday-fantasies_10.html",
-      "date": "2026-04-10T11:09:00.000Z",
-      "source": "The IPKat",
-      "sourceId": "ipkat",
-      "category": "blog",
-      "lang": "en",
-      "color": "#E63946"
-    },
-    {
       "id": "patently-o-aHR0cHM6Ly9wYXRlbnRseW8u",
       "title": "Marked for Trouble: Settlement Licenses and the § 287 Trap for NPEs",
       "description": "Federal Circuit panel hammers NPE counsel on whether settlement licenses trigger the § 287 marking requirement for pre-suit patent damages. Continue reading this post on Patently-O.",
@@ -461,42 +419,6 @@
       "color": "#8B4513"
     },
     {
-      "id": "wtr-aHR0cHM6Ly93d3cud29ybGR0",
-      "title": "Trump signals brand strategy shift with first TTAB cancellation actions",
-      "description": "The principal trademark holding company for President Donald Trump is seeking cancellation of third-party registrations before the TTAB for what appears to be the first time.",
-      "url": "https://www.worldtrademarkreview.com/article/trump-signals-brand-strategy-shift-first-ttab-cancellation-actions",
-      "date": "2026-04-10T10:00:00.000Z",
-      "source": "World Trademark Review",
-      "sourceId": "wtr",
-      "category": "news",
-      "lang": "en",
-      "color": "#8B4513"
-    },
-    {
-      "id": "ipwatchdog-aHR0cHM6Ly9pcHdhdGNoZG9n",
-      "title": "WIPO is Seeking a Patent Cooperation Treaty (PCT) External Consultant",
-      "description": "WIPO is seeking a Patent Cooperation Treaty (PCT) External Consultant. WIPO aims to significantly expand the use of the PCT system compared to the Paris Convention in the United States of America. To achieve this, WIPO will engage an external contractor for a time-bound...",
-      "url": "https://ipwatchdog.com/2026/04/10/wipo-is-seeking-a-patent-cooperation-treaty-pct-external-consultant/",
-      "date": "2026-04-10T09:15:16.000Z",
-      "source": "IPWatchdog",
-      "sourceId": "ipwatchdog",
-      "category": "blog",
-      "lang": "en",
-      "color": "#B8860B"
-    },
-    {
-      "id": "ipwatchdog-aHR0cHM6Ly9pcHdhdGNoZG9n",
-      "title": "Professors Push Back in Review of PTAB Rehearing Decision on ODP",
-      "description": "Amicus briefs have now been posted to the U.S. Patent and Trademark Office (USPTO) site in Ex Parte Baurin, a 2025 rehearing decision of the Patent Trial and Appeal Board (PTAB) with respect to obviousness-type double patenting (ODP) that is being reviewed by an Appeals Review...",
-      "url": "https://ipwatchdog.com/2026/04/09/professors-push-back-review-ptab-rehearing-decision-odp/",
-      "date": "2026-04-09T19:09:53.000Z",
-      "source": "IPWatchdog",
-      "sourceId": "ipwatchdog",
-      "category": "blog",
-      "lang": "en",
-      "color": "#B8860B"
-    },
-    {
       "id": "patently-o-aHR0cHM6Ly9wYXRlbnRseW8u",
       "title": "The Dark Matter of Patent Law: Nearly 25% of Office Actions Now Cite Secret Prior Art",
       "description": "Empirical study of 233M citations shows secret prior art is growing, but the legal measure overstates the practical problem by about a quarter. Continue reading this post on Patently-O.",
@@ -507,18 +429,6 @@
       "category": "blog",
       "lang": "en",
       "color": "#006B3C"
-    },
-    {
-      "id": "ipwatchdog-aHR0cHM6Ly9pcHdhdGNoZG9n",
-      "title": "Your AI Is Saving You Time: So What?",
-      "description": "I have spent most of my professional career talking to patent practitioners about AI. For years, the conversation was about whether AI could be trusted, whether it was ready, and whether it would actually change how patent work gets done. I have watched the profession move from...",
-      "url": "https://ipwatchdog.com/2026/04/09/your-ai-is-saving-you-time-so-what/",
-      "date": "2026-04-09T16:19:32.000Z",
-      "source": "IPWatchdog",
-      "sourceId": "ipwatchdog",
-      "category": "blog",
-      "lang": "en",
-      "color": "#B8860B"
     },
     {
       "id": "juve-aHR0cHM6Ly93d3cuanV2ZS1w",
@@ -543,18 +453,6 @@
       "category": "blog",
       "lang": "en",
       "color": "#006B3C"
-    },
-    {
-      "id": "ipkat-aHR0cDovL2lwa2l0dGVuLmJs",
-      "title": "[GuestPost] Keeping enemies closer: C&J Clark v TBC and trade mark coexistence agreements",
-      "description": "The IPKat is grateful to Katfriend Thomas Hood (Gatehouse Chambers) for the following contribution on the recent UK decision in C & J Clark International ltd v Trek Bicycle Corporation & Anor [2026] EWHC 659 (Ch). Over to Tom:In the world of trade marks, businesses can often end...",
-      "url": "http://ipkitten.blogspot.com/2026/04/guestpost-keeping-enemies-closer-c.html",
-      "date": "2026-04-09T08:03:00.004Z",
-      "source": "The IPKat",
-      "sourceId": "ipkat",
-      "category": "blog",
-      "lang": "en",
-      "color": "#E63946"
     },
     {
       "id": "patently-o-aHR0cHM6Ly9wYXRlbnRseW8u",
@@ -603,18 +501,6 @@
       "category": "blog",
       "lang": "en",
       "color": "#DC143C"
-    },
-    {
-      "id": "ipkat-aHR0cDovL2lwa2l0dGVuLmJs",
-      "title": "Never Too Late: If you missed the IPKat last week!",
-      "description": "Combing through legal archives and chocolate eggs is learned, but exhausting. If you, much like the Kats, spent the past few days taking a well-deserved Easter nap to sleep off the chocolate, you will be pleased to know it was a relatively quiet week on the blog too. Here is a...",
-      "url": "http://ipkitten.blogspot.com/2026/04/never-too-late-if-you-missed-ipkat-last_8.html",
-      "date": "2026-04-08T07:27:00.001Z",
-      "source": "The IPKat",
-      "sourceId": "ipkat",
-      "category": "blog",
-      "lang": "en",
-      "color": "#E63946"
     },
     {
       "id": "patently-o-aHR0cHM6Ly9wYXRlbnRseW8u",
@@ -747,18 +633,6 @@
       "category": "blog",
       "lang": "en",
       "color": "#DC143C"
-    },
-    {
-      "id": "patently-o-aHR0cHM6Ly9wYXRlbnRseW8u",
-      "title": "Words That Stick: Prosecution Disclaimer Survives the Examiner’s Rejection",
-      "description": "Federal Circuit holds in Puradigm v. DBG that a prosecution disclaimer stands even when the examiner rejected the disclaiming argument, extending the disclaimer to logical variants of disclaimed prior art. Continue reading this post on Patently-O.",
-      "url": "https://patentlyo.com/patent/2026/04/words-that-stick-prosecution-disclaimer-survives-the-examiners-rejection.html",
-      "date": "2026-04-02T10:40:25.000Z",
-      "source": "Patently-O",
-      "sourceId": "patently-o",
-      "category": "blog",
-      "lang": "en",
-      "color": "#006B3C"
     },
     {
       "id": "juve-aHR0cHM6Ly93d3cuanV2ZS1w",
