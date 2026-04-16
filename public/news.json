@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-04-15T07:52:19.443Z",
-  "count": 56,
+  "updatedAt": "2026-04-16T07:52:11.033Z",
+  "count": 66,
   "sources": [
     {
       "id": "wipo",
@@ -25,6 +25,12 @@
       "name": "JUVE Patent",
       "category": "news",
       "color": "#1D3557"
+    },
+    {
+      "id": "ipwatchdog",
+      "name": "IPWatchdog",
+      "category": "blog",
+      "color": "#B8860B"
     },
     {
       "id": "spicyip",
@@ -59,6 +65,150 @@
       "color": "#004B87"
     },
     {
+      "id": "ipwatchdog-aHR0cHM6Ly9pcHdhdGNoZG9n",
+      "title": "Consumer, Patient Groups Push for Fast Markup of ETHIC Act",
+      "description": "A number of groups and individuals self-described as “representing consumers, patients, health care providers, and academic experts in pharmaceutical policy and patent law” have submitted a letter to the U.S. House Judiciary Committee urging members to quickly advance the...",
+      "url": "https://ipwatchdog.com/2026/04/15/consumer-patient-groups-push-for-fast-markup-of-ethic-act/",
+      "date": "2026-04-15T21:47:16.000Z",
+      "source": "IPWatchdog",
+      "sourceId": "ipwatchdog",
+      "category": "blog",
+      "lang": "en",
+      "color": "#B8860B"
+    },
+    {
+      "id": "patently-o-aHR0cHM6Ly9wYXRlbnRseW8u",
+      "title": "Extraordinary by Design: How the USPTO Is Bypassing Its Own Reexamination Rules",
+      "description": "USPTO's new pre-order procedure lets patent owners oppose ex parte reexamination before the SNQ determination, but the legal basis is shaky. Continue reading this post on Patently-O.",
+      "url": "https://patentlyo.com/patent/2026/04/extraordinary-by-design-how-the-uspto-is-bypassing-its-own-reexamination-rules.html",
+      "date": "2026-04-15T18:32:40.000Z",
+      "source": "Patently-O",
+      "sourceId": "patently-o",
+      "category": "blog",
+      "lang": "en",
+      "color": "#006B3C"
+    },
+    {
+      "id": "juve-aHR0cHM6Ly93d3cuanV2ZS1w",
+      "title": "Regional Court Munich puts decision in ZTE vs Samsung on hold",
+      "description": "The current case is one of eight actions — four at the UPC and four at the Regional Court Munich — in which ZTE and Samsung are going head to head over SEPs for 4G and 5G technology. Each party has sued the other over four of their own patents. Today’s case concerns ZTE’s EP […]...",
+      "url": "https://www.juve-patent.com/cases/regional-court-munich-puts-decision-in-zte-vs-samsung-on-hold/",
+      "date": "2026-04-15T14:36:58.000Z",
+      "source": "JUVE Patent",
+      "sourceId": "juve",
+      "category": "news",
+      "lang": "en",
+      "color": "#1D3557"
+    },
+    {
+      "id": "wtr-aHR0cHM6Ly93d3cud29ybGR0",
+      "title": "Qatar adds Class 33 for alcoholic beverages; CNIPA ups scrutiny of overseas IP transfer – IP office updates",
+      "description": "Our latest round-up also covers a fraudulent email warning from the Polish Patent Office and the first engagement activities of Korea’s new IP mascots.",
+      "url": "https://www.worldtrademarkreview.com/article/qatar-adds-class-33-alcoholic-beverages-cnipa-ups-scrutiny-of-overseas-ip-transfer-ip-office-updates",
+      "date": "2026-04-15T14:19:35.000Z",
+      "source": "World Trademark Review",
+      "sourceId": "wtr",
+      "category": "news",
+      "lang": "en",
+      "color": "#8B4513"
+    },
+    {
+      "id": "ipwatchdog-aHR0cHM6Ly9pcHdhdGNoZG9n",
+      "title": "CAFC Affirms District Court Invalidation of Controller Patent",
+      "description": "The U.S. Court of Appeals for the Federal Circuit (CAFC) issued a precedential decision Tuesday in Definitive Holdings, LLC v. Powerteq LLC, affirming the United States District Court for the District of Utah’s grant of summary judgment of invalidity of Definitive Holdings'...",
+      "url": "https://ipwatchdog.com/2026/04/15/cafc-affirms-district-court-invalidation-controller-patent/",
+      "date": "2026-04-15T14:15:51.000Z",
+      "source": "IPWatchdog",
+      "sourceId": "ipwatchdog",
+      "category": "blog",
+      "lang": "en",
+      "color": "#B8860B"
+    },
+    {
+      "id": "wtr-aHR0cHM6Ly93d3cud29ybGR0",
+      "title": "Navigating trademark risk in the wake of Nice Classification 13",
+      "description": "As the 13th Edition of the WIPO Nice Classification reshapes where goods and services sit, IP professionals must adapt their searching, auditing and watching strategies to avoid missed conflicts and weakened protection.",
+      "url": "https://www.worldtrademarkreview.com/article/navigating-trademark-risk-in-the-wake-of-nice-classification-13",
+      "date": "2026-04-15T13:00:00.000Z",
+      "source": "World Trademark Review",
+      "sourceId": "wtr",
+      "category": "news",
+      "lang": "en",
+      "color": "#8B4513"
+    },
+    {
+      "id": "spicyip-aHR0cHM6Ly9zcGljeWlwLmNv",
+      "title": "ANI v OpenAI: Not Everything an LLM Does is Copyright Infringement",
+      "description": "With judgment now reserved in ANI v OpenAI, India stands at the cusp of what might be its first major judicial reckoning with the copyright implications of generative AI. The case raises foundational questions on whether AI systems merely process information in new ways or...",
+      "url": "https://spicyip.com/2026/04/ani-v-openai-not-everything-an-llm-does-is-copyright-infringement.html",
+      "date": "2026-04-15T12:46:35.000Z",
+      "source": "SpicyIP",
+      "sourceId": "spicyip",
+      "category": "blog",
+      "lang": "en",
+      "color": "#DC143C"
+    },
+    {
+      "id": "ipwatchdog-aHR0cHM6Ly9pcHdhdGNoZG9n",
+      "title": "Navigating the Global SEP Toll Road: From Judicial Arbitrage to the Willingness Test",
+      "description": "Standard essential patents (SEPs) don't generate controversy because people disagree on whether innovation deserves compensation. The controversy runs deeper: everyone agrees it does, but nobody agrees on how much, when, or through which court. That tension was the animating...",
+      "url": "https://ipwatchdog.com/2026/04/15/navigating-global-sep-toll-road-judicial-arbitrage-willingness-test/",
+      "date": "2026-04-15T12:15:46.000Z",
+      "source": "IPWatchdog",
+      "sourceId": "ipwatchdog",
+      "category": "blog",
+      "lang": "en",
+      "color": "#B8860B"
+    },
+    {
+      "id": "spicyip-aHR0cHM6Ly9zcGljeWlwLmNv",
+      "title": "DHC Stunts the Growth of Dynamic Injunctions, Demands the Legislature to Step In",
+      "description": "On 16 March 2026, a single bench (SB) of the Delhi High Court (DHC), in Mahindra and Mahindra Limited v. Diksha Sharma, provided a decisive inflection point in the evolution of dynamic injunction jurisprudence in India. The case started from a fairly typical trademark dispute...",
+      "url": "https://spicyip.com/2026/04/dhc-stunts-the-growth-of-dynamic-injunctions-demands-the-legislature-to-step-in.html",
+      "date": "2026-04-15T11:46:19.000Z",
+      "source": "SpicyIP",
+      "sourceId": "spicyip",
+      "category": "blog",
+      "lang": "en",
+      "color": "#DC143C"
+    },
+    {
+      "id": "wtr-aHR0cHM6Ly93d3cud29ybGR0",
+      "title": "Anthropic source code leak exposes hard truths about copyright, secrecy limitations",
+      "description": "The accidental release of Claude’s code shows how quickly legal protections can unravel when AI‑generated work escapes into the public domain.",
+      "url": "https://www.worldtrademarkreview.com/article/anthropic-source-code-leak-exposes-hard-truths-about-copyright-secrecy-limitations",
+      "date": "2026-04-15T09:26:44.000Z",
+      "source": "World Trademark Review",
+      "sourceId": "wtr",
+      "category": "news",
+      "lang": "en",
+      "color": "#8B4513"
+    },
+    {
+      "id": "ipkat-aHR0cDovL2lwa2l0dGVuLmJs",
+      "title": "AI in the patent industry: Don't believe the hype. Believe the data.",
+      "description": "Many in the IP profession remain considerably sceptical of AI. AI may be useful for checking for typos and simple calculations of deadlines, but it cannot replace in-depth human reasoning about complex scientific and legal issues. However, the data suggests something different....",
+      "url": "http://ipkitten.blogspot.com/2026/04/ai-in-patent-industry-dont-believe-hype.html",
+      "date": "2026-04-15T07:30:00.007Z",
+      "source": "The IPKat",
+      "sourceId": "ipkat",
+      "category": "blog",
+      "lang": "en",
+      "color": "#E63946"
+    },
+    {
+      "id": "ipwatchdog-aHR0cHM6Ly9pcHdhdGNoZG9n",
+      "title": "High Performance, Hidden Struggles: Law Firm Culture and the Human Side of IP Law / IPWatchdog Unleashed",
+      "description": "This week on IPWatchdog Unleashed, I have a candid conversation with Melissa Silverstein about both IP strategy and the human side of IP, including a discussion of the struggles that some attorneys have with substance abuse. The first half of the conversation centers on a clear...",
+      "url": "https://ipwatchdog.com/2026/04/14/ipwatchdog-unleashed-high-performance-hidden-struggles-law-firm-culture-human-side-ip-law/",
+      "date": "2026-04-14T22:15:52.000Z",
+      "source": "IPWatchdog",
+      "sourceId": "ipwatchdog",
+      "category": "blog",
+      "lang": "en",
+      "color": "#B8860B"
+    },
+    {
       "id": "ipkat-aHR0cDovL2lwa2l0dGVuLmJs",
       "title": "CJEU delivers pastiche-style judgment on … pastiche",
       "description": "Moses PelhamToday, the Grand Chamber of the Court of Justice of the European Union (CJEU) issued its judgment in Pelham II, C-590/23, concerning the notion of pastiche in Article 5(3)(k) of the InfoSoc Directive.To understand the genesis of the referral, reference must be made...",
@@ -69,6 +219,18 @@
       "category": "blog",
       "lang": "en",
       "color": "#E63946"
+    },
+    {
+      "id": "ipwatchdog-aHR0cHM6Ly9pcHdhdGNoZG9n",
+      "title": "VLSI Scores Reversal of Noninfringement Rulings Against Intel at CAFC",
+      "description": "The U.S. Court of Appeals for the Federal Circuit (CAFC) today issued a precedential decision authored by Chief Judge Moore delivering a partial win for patent owner VLSI Technology against Intel Corporation. The U.S. District Court for the Northern District of California...",
+      "url": "https://ipwatchdog.com/2026/04/14/vlsi-scores-reversal-noninfringement-rulings-intel-cafc/",
+      "date": "2026-04-14T19:15:21.000Z",
+      "source": "IPWatchdog",
+      "sourceId": "ipwatchdog",
+      "category": "blog",
+      "lang": "en",
+      "color": "#B8860B"
     },
     {
       "id": "ipkat-aHR0cDovL2lwa2l0dGVuLmJs",
@@ -107,6 +269,18 @@
       "color": "#006B3C"
     },
     {
+      "id": "ipwatchdog-aHR0cHM6Ly9pcHdhdGNoZG9n",
+      "title": "Optis’ Post-Trial Motions in Apple Case Demand Serious Attention",
+      "description": "In high-stakes patent litigation, post-trial motions are often dismissed as routine clean-up—procedural volleys after the real battle has been fought. That framing does not hold in the battle between Optis Wireless and Apple in the Eastern District of Texas. The filings...",
+      "url": "https://ipwatchdog.com/2026/04/14/optis-post-trial-motions-apple-case-demand-serious-attention/",
+      "date": "2026-04-14T17:15:35.000Z",
+      "source": "IPWatchdog",
+      "sourceId": "ipwatchdog",
+      "category": "blog",
+      "lang": "en",
+      "color": "#B8860B"
+    },
+    {
       "id": "wtr-aHR0cHM6Ly93d3cud29ybGR0",
       "title": "CJEU clarifies scope of ‘pastiche’ exception in Pelham II",
       "description": "Pastiche can take various forms, including stylistic imitation, tributes, or humorous and critical engagement, the CJEU has clarified, in a long-running music sampling dispute.",
@@ -131,6 +305,18 @@
       "color": "#1D3557"
     },
     {
+      "id": "ipwatchdog-aHR0cHM6Ly9pcHdhdGNoZG9n",
+      "title": "Enhancing Transparency in SEPs: The Sisvel–WIPO PATENTSCOPE Initiative",
+      "description": "On February 3, 2026, Sisvel took a significant step forward in advancing transparency through its collaboration with the World Intellectual Property Organization (WIPO). This initiative integrates verified SEP data into WIPO’s PATENTSCOPE platform, making it easier for users to...",
+      "url": "https://ipwatchdog.com/2026/04/14/transparency-seps-sisvel-wipo-patentscope-initiative/",
+      "date": "2026-04-14T14:15:32.000Z",
+      "source": "IPWatchdog",
+      "sourceId": "ipwatchdog",
+      "category": "blog",
+      "lang": "en",
+      "color": "#B8860B"
+    },
+    {
       "id": "wtr-aHR0cHM6Ly93d3cud29ybGR0",
       "title": "What to know when naming medicines in Brazil",
       "description": "Dual scrutiny by the Brazilian Patent and Trademark Office and Health Regulatory Agency demands careful coordination to avoid rejected brands or delayed products.",
@@ -141,6 +327,18 @@
       "category": "news",
       "lang": "en",
       "color": "#8B4513"
+    },
+    {
+      "id": "ipwatchdog-aHR0cHM6Ly9pcHdhdGNoZG9n",
+      "title": "Studebaker Brackett PLLC is Seeking a Patent Attorney (Electrical Engineering / Physics Background)",
+      "description": "Studebaker Brackett PLLC (SB) is looking for a motivated, experienced, and highly skilled patent attorney or agent to join its team on a full-time or part-time exclusive basis. SB offers a positive, collaborative team environment; a client-centered, relationship-focused...",
+      "url": "https://ipwatchdog.com/2026/04/14/studebaker-brackett-pllc-is-seeking-a-patent-attorney-electrical-engineering-physics-background/",
+      "date": "2026-04-14T09:15:21.000Z",
+      "source": "IPWatchdog",
+      "sourceId": "ipwatchdog",
+      "category": "blog",
+      "lang": "en",
+      "color": "#B8860B"
     },
     {
       "id": "juve-aHR0cHM6Ly93d3cuanV2ZS1w",
@@ -179,6 +377,18 @@
       "color": "#8B4513"
     },
     {
+      "id": "ipwatchdog-aHR0cHM6Ly9pcHdhdGNoZG9n",
+      "title": "EUIPO Report on IP-Backed Finance Makes Policy Recommendations to Unlock Up To €580 Billion in Innovation Financing",
+      "description": "Today, the European Union Intellectual Property Office (EUIPO) published a study exploring challenges faced by EU small- and medium-sized enterprises (SMEs) in obtaining financing by offering intellectual property (IP) as collateral. Set against the backdrop of the EU’s recently...",
+      "url": "https://ipwatchdog.com/2026/04/13/euipo-report-on-ip-backed-finance-makes-policy-recommendations-to-unlock-up-to-e580-billion-in-innovation-financing/",
+      "date": "2026-04-13T22:45:32.000Z",
+      "source": "IPWatchdog",
+      "sourceId": "ipwatchdog",
+      "category": "blog",
+      "lang": "en",
+      "color": "#B8860B"
+    },
+    {
       "id": "ipkat-aHR0cDovL2lwa2l0dGVuLmJs",
       "title": "[Guest post] Oh my influencer! Italian rules on influencer marketing",
       "description": "The IPKat has received and is pleased to host the following guest contribution by Katfriend Maria Cristina Michelini (Baglioni Hotels & Resorts) detailing developments in the Italian regulatory system for influencers. Here’s what she writes:Oh my influencer! Italian rules on...",
@@ -189,6 +399,18 @@
       "category": "blog",
       "lang": "en",
       "color": "#E63946"
+    },
+    {
+      "id": "ipwatchdog-aHR0cHM6Ly9pcHdhdGNoZG9n",
+      "title": "Stop Telling Yourself China’s Patent Boom Doesn’t Matter",
+      "description": "I have been to China several times over the past decade. Each time, I came back with the same reaction: too many people in the United States are still badly underestimating what is happening there. I do not say that as a political statement. I say it as a practical one. There is...",
+      "url": "https://ipwatchdog.com/2026/04/13/stop-telling-yourself-chinas-patent-boom-doesnt-matter/",
+      "date": "2026-04-13T16:15:41.000Z",
+      "source": "IPWatchdog",
+      "sourceId": "ipwatchdog",
+      "category": "blog",
+      "lang": "en",
+      "color": "#B8860B"
     },
     {
       "id": "spicyip-aHR0cHM6Ly9zcGljeWlwLmNv",
@@ -323,18 +545,6 @@
       "color": "#8B4513"
     },
     {
-      "id": "wtr-aHR0cHM6Ly93d3cud29ybGR0",
-      "title": "Five years, one question: what does our community stand for?",
-      "description": "Brand Action's London fundraiser arrives at a milestone moment – and there are still tickets available.",
-      "url": "https://www.worldtrademarkreview.com/article/five-years-one-question-what-does-our-community-stand",
-      "date": "2026-04-11T07:00:00.000Z",
-      "source": "World Trademark Review",
-      "sourceId": "wtr",
-      "category": "news",
-      "lang": "en",
-      "color": "#8B4513"
-    },
-    {
       "id": "ipkat-aHR0cDovL2lwa2l0dGVuLmJs",
       "title": "Fordham 33 (Report 3): Top 5 Takeaways: The Global Divide in Design Protection",
       "description": "A perfectly designed panel on design protectionThe IPKat is back in Fordham, with the Spring skies and the chirping birds gracing the streets of the Upper West Side. As a proud and long-standing partner with the Fordham IP Conference, now in its 33rd year, the IPKat is thrilled...",
@@ -359,30 +569,6 @@
       "color": "#E63946"
     },
     {
-      "id": "ipkat-aHR0cDovL2lwa2l0dGVuLmJs",
-      "title": "Fordham 33 (Report 1): Government Leader's Perspective on IP",
-      "description": "Kick off at Fordham 2026The IPKat is back at Fordham, with the Spring skies and the chirping birds gracing the streets of the Upper West Side. As a proud and long-standing partner with the Fordham IP Conference, now in its 33rd year, the IPKat is thrilled to partner with the...",
-      "url": "http://ipkitten.blogspot.com/2026/04/fordham-23-report-1-government-leaders.html",
-      "date": "2026-04-10T15:20:45.693Z",
-      "source": "The IPKat",
-      "sourceId": "ipkat",
-      "category": "blog",
-      "lang": "en",
-      "color": "#E63946"
-    },
-    {
-      "id": "wtr-aHR0cHM6Ly93d3cud29ybGR0",
-      "title": "Mumumelon: the campaign using dupes as a “vehicle” for climate activism",
-      "description": "Climate activist group Action Speaks Louder argues Mumumelon campaign does not “directly copy” Lululemon clothing.",
-      "url": "https://www.worldtrademarkreview.com/article/mumumelon-the-campaign-using-dupes-vehicle-climate-activism",
-      "date": "2026-04-10T14:18:32.000Z",
-      "source": "World Trademark Review",
-      "sourceId": "wtr",
-      "category": "news",
-      "lang": "en",
-      "color": "#8B4513"
-    },
-    {
       "id": "juve-aHR0cHM6Ly93d3cuanV2ZS1w",
       "title": "Win without gain: Microsoft prevails in cost dispute with Suinno",
       "description": "Finnish company Suinno is the owner of EP 2 671 173 covering a “method and means for browsing by walking”. It relates to people browsing the internet by walking to discover search results as they come into close proximity. The Helsinki-based company accuses Microsoft of...",
@@ -405,18 +591,6 @@
       "category": "blog",
       "lang": "en",
       "color": "#006B3C"
-    },
-    {
-      "id": "wtr-aHR0cHM6Ly93d3cud29ybGR0",
-      "title": "LEGO Minifigure win; Yuga Labs settlement; Ozempic copycat ruling – news digest",
-      "description": "Six bite-sized IP updates from the week, also featuring Apollonia's settlement with the Prince estate, Jo Malone’s response to her name dispute with Estée Lauder, and Amazon's Counterfeit Crimes Unit launch in India.",
-      "url": "https://www.worldtrademarkreview.com/article/lego-minifigure-win-yuga-labs-settlement-ozempic-copycat-ruling-news-digest",
-      "date": "2026-04-10T10:44:08.000Z",
-      "source": "World Trademark Review",
-      "sourceId": "wtr",
-      "category": "news",
-      "lang": "en",
-      "color": "#8B4513"
     },
     {
       "id": "patently-o-aHR0cHM6Ly9wYXRlbnRseW8u",
@@ -587,18 +761,6 @@
       "color": "#006B3C"
     },
     {
-      "id": "patently-o-aHR0cHM6Ly9wYXRlbnRseW8u",
-      "title": "Most Common First Names of inventors on US Patents",
-      "description": "Gif showing most common US patent inventor names 1910-2026. We know that in the US women have a lower rate of patenting. In addition though, parents are much more conservative in terms of male names. Continue reading this post on Patently-O.",
-      "url": "https://patentlyo.com/patent/2026/04/most-common-first-names-of-inventors-on-us-patents.html",
-      "date": "2026-04-03T16:59:07.000Z",
-      "source": "Patently-O",
-      "sourceId": "patently-o",
-      "category": "blog",
-      "lang": "en",
-      "color": "#006B3C"
-    },
-    {
       "id": "juve-aHR0cHM6Ly93d3cuanV2ZS1w",
       "title": "HGF boosts London chemistry and pharma practice with D Young partner",
       "description": "Garreth Duncan officially joined HGF’s London office on 1 April 2026, bringing with him considerable expertise across a broad range of chemical technologies. His practice has a strong focus on the pharmaceutical sector, where he specialises in protecting new chemical entities,...",
@@ -621,42 +783,6 @@
       "category": "news",
       "lang": "en",
       "color": "#1D3557"
-    },
-    {
-      "id": "spicyip-aHR0cHM6Ly9zcGljeWlwLmNv",
-      "title": "Diagnosing the Diagnostic Exclusion: Have Geron and Hirotsu Resolved the Delhi High Court’s Troubles?",
-      "description": "Section 3(i) of the Patents Act has long left the boundaries of diagnostic method exclusions uncertain, despite repeated judicial engagement. Two recent Delhi High Court decisions now offer the clearest articulation yet, bringing much-needed coherence to this evolving area of...",
-      "url": "https://spicyip.com/2026/04/diagnosing-the-diagnostic-exclusion-have-geron-and-hirotsu-resolved-the-delhi-high-courts-troubles.html",
-      "date": "2026-04-02T11:32:36.000Z",
-      "source": "SpicyIP",
-      "sourceId": "spicyip",
-      "category": "blog",
-      "lang": "en",
-      "color": "#DC143C"
-    },
-    {
-      "id": "juve-aHR0cHM6Ly93d3cuanV2ZS1w",
-      "title": "De Koffiejongens averts PI filed by Ox Barrier in the Netherlands",
-      "description": "The case is reminiscent of the patent dispute over coffee capsules between manufacturers Nespresso, Krups, De’Longhi and Ethical Coffee Company (ECC), which broke out between 2016 and 2018 in Germany and Switzerland, as well as the more recent dispute between Koninklijke Douwe...",
-      "url": "https://www.juve-patent.com/cases/de-koffiejongens-averts-pi-filed-by-ox-barrier-in-the-netherlands/",
-      "date": "2026-04-02T10:36:46.000Z",
-      "source": "JUVE Patent",
-      "sourceId": "juve",
-      "category": "news",
-      "lang": "en",
-      "color": "#1D3557"
-    },
-    {
-      "id": "spicyip-aHR0cHM6Ly9zcGljeWlwLmNv",
-      "title": "The UKSC’s “Any Hardware” Shortcut: Why Emotional Perception AI Raises More Questions Than It Answers — And Why India’s Framework Does Better",
-      "description": "The UK Supreme Court’s decision in Emotional Perception AI Limited v Comptroller General of Patents marks a doctrinal shift in how subject-matter eligibility questions regarding computer programmes are evaluated. Irrespective of its impact, Pragati argues that the judgment is...",
-      "url": "https://spicyip.com/2026/04/the-ukscs-any-hardware-shortcut-why-emotional-perception-ai-raises-more-questions-than-it-answers-and-why-indias-framework-does-better.html",
-      "date": "2026-04-01T12:41:25.000Z",
-      "source": "SpicyIP",
-      "sourceId": "spicyip",
-      "category": "blog",
-      "lang": "en",
-      "color": "#DC143C"
     },
     {
       "id": "wipo-aHR0cHM6Ly93d3cud2lwby5p",
