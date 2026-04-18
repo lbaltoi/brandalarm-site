@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-17T07:52:31.923Z",
+  "updatedAt": "2026-04-18T07:13:12.736Z",
   "count": 66,
   "sources": [
     {
@@ -66,6 +66,90 @@
     },
     {
       "id": "patently-o-aHR0cHM6Ly9wYXRlbnRseW8u",
+      "title": "Same Problem, Same Solution: Reading Trade Secrets Across Fields",
+      "description": "Federal Circuit reverses $17M Penuma judgment, tightening California's 'generally known' trade secret rule and tying it to patent inventorship. Continue reading this post on Patently-O.",
+      "url": "https://patentlyo.com/patent/2026/04/same-problem-same-solution-reading-trade-secrets-across-fields.html",
+      "date": "2026-04-17T19:36:09.000Z",
+      "source": "Patently-O",
+      "sourceId": "patently-o",
+      "category": "blog",
+      "lang": "en",
+      "color": "#006B3C"
+    },
+    {
+      "id": "ipwatchdog-aHR0cHM6Ly9pcHdhdGNoZG9n",
+      "title": "Other Barks & Bites for Friday, April 17: CAFC Reverses District Court Rulings in Penile Implant Patent Case; CJEU Clarifies Scope of ‘Pastiche’ Copyright Exception; Stanford AI Index Shows Tech Gap Between U.S. And China Nearly Gone",
+      "description": "This week in Other Barks & Bites: the Federal Circuit reverses a California district court’s denial of JMOL on trade secret and patent inventorship claims related to a cosmetic penile implant; the Senate Commerce Committee unanimously advances a bill to reauthorize the National...",
+      "url": "https://ipwatchdog.com/2026/04/17/bites-barks-cjeu-clarifies-scope-pastiche-copyright-exception-stanford-ai-index/",
+      "date": "2026-04-17T17:30:18.000Z",
+      "source": "IPWatchdog",
+      "sourceId": "ipwatchdog",
+      "category": "blog",
+      "lang": "en",
+      "color": "#B8860B"
+    },
+    {
+      "id": "ipkat-aHR0cDovL2lwa2l0dGVuLmJs",
+      "title": "Champagne problems? Punk solutions Amyl and the Sniffers-style",
+      "description": "Champagne Problem Series Image‘Hey! When you get down, oh you’re a lit one,Never been a dull one, Always been a big star’(Amyl and the Sniffers, Big Dreams)Big star indeed, Amy Louise Taylor. Musician, activist and all-round punk extraordinaire, best known as the songwriter and...",
+      "url": "http://ipkitten.blogspot.com/2026/04/champagne-problems-punk-solutions-amyl.html",
+      "date": "2026-04-17T13:40:00.002Z",
+      "source": "The IPKat",
+      "sourceId": "ipkat",
+      "category": "blog",
+      "lang": "en",
+      "color": "#E63946"
+    },
+    {
+      "id": "juve-aHR0cHM6Ly93d3cuanV2ZS1w",
+      "title": "Former litigators of August Debouzy and Aramis join forces for new French IP boutique",
+      "description": "Anaïs Pallut and Annabelle Divoy’s new firm Pairs Law will cover the full range of IP matters, including patents, trademarks, copyright, designs and software, but with a clear focus on patent litigation. Both lawyers have several years of experience in well-established patent...",
+      "url": "https://www.juve-patent.com/people-and-business/former-august-debouzy-aramis-litigators-join-forces-for-new-french-boutique/",
+      "date": "2026-04-17T11:39:25.000Z",
+      "source": "JUVE Patent",
+      "sourceId": "juve",
+      "category": "news",
+      "lang": "en",
+      "color": "#1D3557"
+    },
+    {
+      "id": "wtr-aHR0cHM6Ly93d3cud29ybGR0",
+      "title": "Clipper Tea’s UKIPO proceedings a reminder that prior rights beat “notions of heritage”",
+      "description": "Clipper Tea successfully proved indirect confusion against The 1872 Clipper Tea Co but could have secured an easier win with a solid word mark for any stylisation of CLIPPER, says a local expert.",
+      "url": "https://www.worldtrademarkreview.com/article/clipper-teas-ukipo-proceedings-reminder-prior-rights-beat-notions-of-heritage",
+      "date": "2026-04-17T11:30:58.000Z",
+      "source": "World Trademark Review",
+      "sourceId": "wtr",
+      "category": "news",
+      "lang": "en",
+      "color": "#8B4513"
+    },
+    {
+      "id": "wtr-aHR0cHM6Ly93d3cud29ybGR0",
+      "title": "Twenty One Pilots v Temu moves forward; Alt Legal acquires WebTMS – news digest",
+      "description": "Five bite-sized IP updates from the week, also featuring rising auto industry concern over IP theft and Temu joining the IACC.",
+      "url": "https://www.worldtrademarkreview.com/article/twenty-one-pilots-v-temu-moves-forward-alt-legal-acquires-webtms-news-digest",
+      "date": "2026-04-17T09:11:46.000Z",
+      "source": "World Trademark Review",
+      "sourceId": "wtr",
+      "category": "news",
+      "lang": "en",
+      "color": "#8B4513"
+    },
+    {
+      "id": "wtr-aHR0cHM6Ly93d3cud29ybGR0",
+      "title": "Understanding GI filing trends in India",
+      "description": "An analysis of registry data reveals a rise in domestic GI filings in recent years, alongside persistently high pendency levels and limited, declining international participation.",
+      "url": "https://www.worldtrademarkreview.com/article/understanding-gi-filing-trends-in-india",
+      "date": "2026-04-17T08:00:00.000Z",
+      "source": "World Trademark Review",
+      "sourceId": "wtr",
+      "category": "news",
+      "lang": "en",
+      "color": "#8B4513"
+    },
+    {
+      "id": "patently-o-aHR0cHM6Ly9wYXRlbnRseW8u",
       "title": "Extra Credit Not Required: Teva v. Lilly and the Limits of Amgen’s Reach",
       "description": "Federal Circuit reverses JMOL in Teva v. Lilly, holding that method-of-use claims face a lower Section 112 bar when the genus is well known and not itself the invention. Continue reading this post on Patently-O.",
       "url": "https://patentlyo.com/patent/2026/04/extra-credit-not-required-teva-v-lilly-and-the-limits-of-amgens-reach.html",
@@ -78,10 +162,10 @@
     },
     {
       "id": "ipwatchdog-aHR0cHM6Ly9pcHdhdGNoZG9n",
-      "title": "Federal Circuit Distinguishes Amgen in Reversal of Invalidation of Teva Headache Treatment Patents",
-      "description": "The U.S. Court of Appeals for the Federal Circuit (CAFC) issued a precedential decision today in Teva Pharmaceuticals International GmbH v. Eli Lilly and Company, reversing the United States District Court for the District of Massachusetts’s grant of judgment as a matter of law...",
-      "url": "https://ipwatchdog.com/2026/04/16/federal-circuit-distinguishes-amgen-reversal-invalidation-teva-headache-treatment-patents/",
-      "date": "2026-04-16T20:39:54.000Z",
+      "title": "USPTO Pushes for More ASAP! Search Pilot Participants with Extended Deadline",
+      "description": "The U.S. Patent and Trademark Office (UPSTO) announced today that it will be extending the Artificial Intelligence Search Automated Pilot Program (ASAP!) until June 1, 2026, to gather additional information and continue evaluating the program's effectiveness. The Pilot was first...",
+      "url": "https://ipwatchdog.com/2026/04/16/uspto-further-incentivizes-asap-search-pilot-petitions-extended-deadline/",
+      "date": "2026-04-16T21:15:11.000Z",
       "source": "IPWatchdog",
       "sourceId": "ipwatchdog",
       "category": "blog",
@@ -90,10 +174,10 @@
     },
     {
       "id": "ipwatchdog-aHR0cHM6Ly9pcHdhdGNoZG9n",
-      "title": "USPTO Pushes for More ASAP! Search Pilot Participants with Extended Deadline",
-      "description": "The U.S. Patent and Trademark Office (UPSTO) announced today that it will be extending the Artificial Intelligence Search Automated Pilot Program (ASAP!) until June 1, 2026, to gather additional information and continue evaluating the program's effectiveness. The Pilot was first...",
-      "url": "https://ipwatchdog.com/2026/04/16/uspto-further-incentivizes-asap-search-pilot-petitions-extended-deadline/",
-      "date": "2026-04-16T16:15:11.000Z",
+      "title": "Federal Circuit Distinguishes Amgen in Reversal of Invalidation of Teva Headache Treatment Patents",
+      "description": "The U.S. Court of Appeals for the Federal Circuit (CAFC) issued a precedential decision today in Teva Pharmaceuticals International GmbH v. Eli Lilly and Company, reversing the United States District Court for the District of Massachusetts’s grant of judgment as a matter of law...",
+      "url": "https://ipwatchdog.com/2026/04/16/federal-circuit-distinguishes-amgen-reversal-invalidation-teva-headache-treatment-patents/",
+      "date": "2026-04-16T20:39:54.000Z",
       "source": "IPWatchdog",
       "sourceId": "ipwatchdog",
       "category": "blog",
@@ -305,18 +389,6 @@
       "color": "#DC143C"
     },
     {
-      "id": "wtr-aHR0cHM6Ly93d3cud29ybGR0",
-      "title": "Anthropic source code leak exposes hard truths about copyright, secrecy limitations",
-      "description": "The accidental release of Claude’s code shows how quickly legal protections can unravel when AI‑generated work escapes into the public domain.",
-      "url": "https://www.worldtrademarkreview.com/article/anthropic-source-code-leak-exposes-hard-truths-about-copyright-secrecy-limitations",
-      "date": "2026-04-15T09:26:44.000Z",
-      "source": "World Trademark Review",
-      "sourceId": "wtr",
-      "category": "news",
-      "lang": "en",
-      "color": "#8B4513"
-    },
-    {
       "id": "ipkat-aHR0cDovL2lwa2l0dGVuLmJs",
       "title": "AI in the patent industry: Don't believe the hype. Believe the data.",
       "description": "Many in the IP profession remain considerably sceptical of AI. AI may be useful for checking for typos and simple calculations of deadlines, but it cannot replace in-depth human reasoning about complex scientific and legal issues. However, the data suggests something different....",
@@ -413,18 +485,6 @@
       "color": "#B8860B"
     },
     {
-      "id": "wtr-aHR0cHM6Ly93d3cud29ybGR0",
-      "title": "CJEU clarifies scope of ‘pastiche’ exception in Pelham II",
-      "description": "Pastiche can take various forms, including stylistic imitation, tributes, or humorous and critical engagement, the CJEU has clarified, in a long-running music sampling dispute.",
-      "url": "https://www.worldtrademarkreview.com/article/cjeu-clarifies-scope-of-pastiche-exception-in-pelham-ii",
-      "date": "2026-04-14T15:10:54.000Z",
-      "source": "World Trademark Review",
-      "sourceId": "wtr",
-      "category": "news",
-      "lang": "en",
-      "color": "#8B4513"
-    },
-    {
       "id": "juve-aHR0cHM6Ly93d3cuanV2ZS1w",
       "title": "Fisher & Paykel and WBH successful in revoking Flexicare’s patent in Milan",
       "description": "At the centre of the revocation claim filed by Fisher & Paykel is Flexicare’s EP 4 185 356 relating to a nasal cannula designed to improve patient comfort and usability during high-flow oxygen therapy. The nasal cannula comprises a manifold, non-sealing nasal prongs and a...",
@@ -435,30 +495,6 @@
       "category": "news",
       "lang": "en",
       "color": "#1D3557"
-    },
-    {
-      "id": "ipwatchdog-aHR0cHM6Ly9pcHdhdGNoZG9n",
-      "title": "Enhancing Transparency in SEPs: The Sisvel–WIPO PATENTSCOPE Initiative",
-      "description": "On February 3, 2026, Sisvel took a significant step forward in advancing transparency through its collaboration with the World Intellectual Property Organization (WIPO). This initiative integrates verified SEP data into WIPO’s PATENTSCOPE platform, making it easier for users to...",
-      "url": "https://ipwatchdog.com/2026/04/14/transparency-seps-sisvel-wipo-patentscope-initiative/",
-      "date": "2026-04-14T14:15:32.000Z",
-      "source": "IPWatchdog",
-      "sourceId": "ipwatchdog",
-      "category": "blog",
-      "lang": "en",
-      "color": "#B8860B"
-    },
-    {
-      "id": "wtr-aHR0cHM6Ly93d3cud29ybGR0",
-      "title": "What to know when naming medicines in Brazil",
-      "description": "Dual scrutiny by the Brazilian Patent and Trademark Office and Health Regulatory Agency demands careful coordination to avoid rejected brands or delayed products.",
-      "url": "https://www.worldtrademarkreview.com/article/what-know-when-naming-medicines-in-brazil",
-      "date": "2026-04-14T14:00:00.000Z",
-      "source": "World Trademark Review",
-      "sourceId": "wtr",
-      "category": "news",
-      "lang": "en",
-      "color": "#8B4513"
     },
     {
       "id": "juve-aHR0cHM6Ly93d3cuanV2ZS1w",
@@ -579,18 +615,6 @@
       "category": "blog",
       "lang": "en",
       "color": "#DC143C"
-    },
-    {
-      "id": "ipkat-aHR0cDovL2lwa2l0dGVuLmJs",
-      "title": "Fordham 33 (Report 3): Top 5 Takeaways: The Global Divide in Design Protection",
-      "description": "A perfectly designed panel on design protectionThe IPKat is back in Fordham, with the Spring skies and the chirping birds gracing the streets of the Upper West Side. As a proud and long-standing partner with the Fordham IP Conference, now in its 33rd year, the IPKat is thrilled...",
-      "url": "http://ipkitten.blogspot.com/2026/04/fordham-33-report-3-top-5-takeaways_10.html",
-      "date": "2026-04-10T20:23:00.002Z",
-      "source": "The IPKat",
-      "sourceId": "ipkat",
-      "category": "blog",
-      "lang": "en",
-      "color": "#E63946"
     },
     {
       "id": "juve-aHR0cHM6Ly93d3cuanV2ZS1w",
@@ -737,18 +761,6 @@
       "color": "#DC143C"
     },
     {
-      "id": "patently-o-aHR0cHM6Ly9wYXRlbnRseW8u",
-      "title": "How the Federal Circuit Is Rebuilding Inventorship Law After the AIA",
-      "description": "The AIA repealed § 102(f) but inventorship invalidity endures. Tracing the defense from 1790 through Fortress Iron and AI. Continue reading this post on Patently-O.",
-      "url": "https://patentlyo.com/patent/2026/04/how-the-federal-circuit-is-rebuilding-inventorship-law-after-the-aia.html",
-      "date": "2026-04-06T15:15:48.000Z",
-      "source": "Patently-O",
-      "sourceId": "patently-o",
-      "category": "blog",
-      "lang": "en",
-      "color": "#006B3C"
-    },
-    {
       "id": "spicyip-aHR0cHM6Ly9zcGljeWlwLmNv",
       "title": "SpicyIP Weekly Review (March 30 – April 5)",
       "description": "Beginning April with a rundown of the major IP developments in 2025 on SpicyIP TV! Post on two recent Delhi High Court decisions in Geron and Hirotsu clarifying the boundaries of diagnostic methods exclusion. And another post on the UK Supreme Court’s decision in Emotional...",
@@ -771,18 +783,6 @@
       "category": "blog",
       "lang": "en",
       "color": "#DC143C"
-    },
-    {
-      "id": "juve-aHR0cHM6Ly93d3cuanV2ZS1w",
-      "title": "HGF boosts London chemistry and pharma practice with D Young partner",
-      "description": "Garreth Duncan officially joined HGF’s London office on 1 April 2026, bringing with him considerable expertise across a broad range of chemical technologies. His practice has a strong focus on the pharmaceutical sector, where he specialises in protecting new chemical entities,...",
-      "url": "https://www.juve-patent.com/people-and-business/hgf-boosts-london-chemistry-and-pharma-practice-with-d-young-partner/",
-      "date": "2026-04-02T14:49:57.000Z",
-      "source": "JUVE Patent",
-      "sourceId": "juve",
-      "category": "news",
-      "lang": "en",
-      "color": "#1D3557"
     },
     {
       "id": "wipo-aHR0cHM6Ly93d3cud2lwby5p",
