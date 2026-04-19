@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-04-18T07:13:12.736Z",
-  "count": 66,
+  "updatedAt": "2026-04-19T07:24:16.426Z",
+  "count": 65,
   "sources": [
     {
       "id": "wipo",
@@ -63,6 +63,18 @@
       "category": "official",
       "lang": "ro",
       "color": "#004B87"
+    },
+    {
+      "id": "wtr-aHR0cHM6Ly93d3cud29ybGR0",
+      "title": "The EU’s Voss Report: ‘A Wrong Step in the Right Direction?’",
+      "description": "While grounded in legitimate concerns, the AI copyright recommendations recently adopted by the European Parliament are unlikely to create the desired result, argues a new opinion paper of the Innovation Law and Ethics Observatory.",
+      "url": "https://www.worldtrademarkreview.com/article/the-eus-voss-report-wrong-step-in-the-right-direction",
+      "date": "2026-04-18T10:30:00.000Z",
+      "source": "World Trademark Review",
+      "sourceId": "wtr",
+      "category": "news",
+      "lang": "en",
+      "color": "#8B4513"
     },
     {
       "id": "patently-o-aHR0cHM6Ly9wYXRlbnRseW8u",
@@ -339,18 +351,6 @@
       "category": "blog",
       "lang": "en",
       "color": "#B8860B"
-    },
-    {
-      "id": "wtr-aHR0cHM6Ly93d3cud29ybGR0",
-      "title": "Navigating trademark risk in the wake of Nice Classification 13",
-      "description": "As the 13th Edition of the WIPO Nice Classification reshapes where goods and services sit, IP professionals must adapt their searching, auditing and watching strategies to avoid missed conflicts and weakened protection.",
-      "url": "https://www.worldtrademarkreview.com/article/navigating-trademark-risk-in-the-wake-of-nice-classification-13",
-      "date": "2026-04-15T13:00:00.000Z",
-      "source": "World Trademark Review",
-      "sourceId": "wtr",
-      "category": "news",
-      "lang": "en",
-      "color": "#8B4513"
     },
     {
       "id": "spicyip-aHR0cHM6Ly9zcGljeWlwLmNv",
@@ -826,18 +826,6 @@
       "description": "International patent applications filed through WIPO's Patent Cooperation Treaty (PCT) rose 0.7% in 2025 to reach 275,900 filings worldwide, marking a second consecutive year of growth. The increase was partly due to robust activity in ICT related fields, with digital...",
       "url": "https://www.wipo.int/pressroom/en/articles/2026/article_0003.html",
       "date": "2026-03-06T08:30:00.000Z",
-      "source": "WIPO",
-      "sourceId": "wipo",
-      "category": "official",
-      "lang": "en",
-      "color": "#005DA4"
-    },
-    {
-      "id": "wipo-aHR0cHM6Ly93d3cud2lwby5p",
-      "title": "World Intellectual Property Report: Pace of Innovation Diffusion Reaches Historical Heights, But Access, Usage and Capability Gaps Remain",
-      "description": "New technologies are spreading across borders at unprecedented pace and gaps are narrowing in how intensively countries are using the innovations, the latest World Intellectual Property Report (WIPR) 2026, Technology on the Move finds.",
-      "url": "https://www.wipo.int/pressroom/en/articles/2026/article_0002.html",
-      "date": "2026-02-17T08:00:00.000Z",
       "source": "WIPO",
       "sourceId": "wipo",
       "category": "official",
