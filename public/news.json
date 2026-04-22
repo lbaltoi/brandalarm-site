@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-04-21T07:57:18.225Z",
-  "count": 65,
+  "updatedAt": "2026-04-22T07:53:50.708Z",
+  "count": 56,
   "sources": [
     {
       "id": "wipo",
@@ -25,12 +25,6 @@
       "name": "JUVE Patent",
       "category": "news",
       "color": "#1D3557"
-    },
-    {
-      "id": "ipwatchdog",
-      "name": "IPWatchdog",
-      "category": "blog",
-      "color": "#B8860B"
     },
     {
       "id": "spicyip",
@@ -65,6 +59,114 @@
       "color": "#004B87"
     },
     {
+      "id": "patently-o-aHR0cHM6Ly9wYXRlbnRseW8u",
+      "title": "Still Climbing: PTA Hits 318 Days, Back to 2015 Levels",
+      "description": "Patent Term Adjustment hits 318-day peak in April 2026, back to 2015 levels. Director Squires' oldest-cases-first push is part of the story. Continue reading this post on Patently-O.",
+      "url": "https://patentlyo.com/patent/2026/04/still-climbing-pta-hits-318-days-back-to-2015-levels.html",
+      "date": "2026-04-21T14:58:01.000Z",
+      "source": "Patently-O",
+      "sourceId": "patently-o",
+      "category": "blog",
+      "lang": "en",
+      "color": "#006B3C"
+    },
+    {
+      "id": "juve-aHR0cHM6Ly93d3cuanV2ZS1w",
+      "title": "CMS strengthens London IP practice with McCarthy Denning partner",
+      "description": "Tom Carver officially joined CMS Cameron McKenna’s London practice on 20 April as partner. He brings experience in patents, trademarks, and design rights. In addition to law, Carver also holds a degree in genetics from the University of Nottingham. He has been involved in...",
+      "url": "https://www.juve-patent.com/people-and-business/cms-strengthens-london-ip-practice-with-mccarthy-denning-partner/",
+      "date": "2026-04-21T14:25:38.000Z",
+      "source": "JUVE Patent",
+      "sourceId": "juve",
+      "category": "news",
+      "lang": "en",
+      "color": "#1D3557"
+    },
+    {
+      "id": "wtr-aHR0cHM6Ly93d3cud29ybGR0",
+      "title": "Beyond the pitch: the power of IP in the Beautiful Game",
+      "description": "From patented pitch‑side technologies to global sponsorship opportunities, Vorys attorney Jabari Shaw explores how IP quietly underpins innovation, fairness, and commercial and cultural power in football.",
+      "url": "https://www.worldtrademarkreview.com/article/beyond-the-pitch-the-power-of-ip-in-the-beautiful-game",
+      "date": "2026-04-21T14:00:00.000Z",
+      "source": "World Trademark Review",
+      "sourceId": "wtr",
+      "category": "news",
+      "lang": "en",
+      "color": "#8B4513"
+    },
+    {
+      "id": "juve-aHR0cHM6Ly93d3cuanV2ZS1w",
+      "title": "Brita prevails again in filter cartridge dispute",
+      "description": "Water filters are popular in households to remove certain substances, such as limescale, from tap water prior to consumption. The filters in water carafes are typically replaced at regular intervals to achieve the desired purity. Manufacturer Brita is currently taking action...",
+      "url": "https://www.juve-patent.com/cases/brita-prevails-again-in-filter-cartridge-dispute/",
+      "date": "2026-04-21T12:31:17.000Z",
+      "source": "JUVE Patent",
+      "sourceId": "juve",
+      "category": "news",
+      "lang": "en",
+      "color": "#1D3557"
+    },
+    {
+      "id": "wtr-aHR0cHM6Ly93d3cud29ybGR0",
+      "title": "China’s top court reports rise in IP cases and tightens punitive damages regime",
+      "description": "Chinese courts saw a 34% increase in foreign-related IP cases in 2025, according to the Supreme People's Court.",
+      "url": "https://www.worldtrademarkreview.com/article/chinas-top-court-reports-rise-in-ip-cases-and-tightens-punitive-damages-regime",
+      "date": "2026-04-21T12:00:00.000Z",
+      "source": "World Trademark Review",
+      "sourceId": "wtr",
+      "category": "news",
+      "lang": "en",
+      "color": "#8B4513"
+    },
+    {
+      "id": "patently-o-aHR0cHM6Ly9wYXRlbnRseW8u",
+      "title": "The DTSA’s Missing Preemption: Does § 1835(b) Bind State Courts?",
+      "description": "A new cert petition asks whether the DTSA's trade secret confidentiality protections in 18 U.S.C. § 1835(b) bind state courts. The answer is far from clear. Continue reading this post on Patently-O.",
+      "url": "https://patentlyo.com/patent/2026/04/the-dtsas-missing-preemption-does-%c2%a7-1835b-bind-state-courts.html",
+      "date": "2026-04-21T11:56:19.000Z",
+      "source": "Patently-O",
+      "sourceId": "patently-o",
+      "category": "blog",
+      "lang": "en",
+      "color": "#006B3C"
+    },
+    {
+      "id": "spicyip-aHR0cHM6Ly9zcGljeWlwLmNv",
+      "title": "SpicyIP Bells & Whistles: IP Events and Opportunities (21.04.2026)",
+      "description": "Welcome back to another week of Bells & Whistles. Before we get into this week’s Bell — we’ve just started a SpicyIP WhatsApp group to share updates and opportunities. Would be great to have you there (click the link to join the channel)! And as always, we’ve rounded up a mix of...",
+      "url": "https://spicyip.com/2026/04/spicyip-bells-whistles-ip-events-and-opportunities-21-04-2026.html",
+      "date": "2026-04-21T10:32:25.000Z",
+      "source": "SpicyIP",
+      "sourceId": "spicyip",
+      "category": "blog",
+      "lang": "en",
+      "color": "#DC143C"
+    },
+    {
+      "id": "wtr-aHR0cHM6Ly93d3cud29ybGR0",
+      "title": "Experts split as CJEU rules offline streaming downloads are not private copies",
+      "description": "The CJEU ruling will have significant implications for streaming platforms like Spotify and Netflix, and has divided expert opinion.",
+      "url": "https://www.worldtrademarkreview.com/article/experts-split-cjeu-rules-offline-streaming-downloads-are-not-private-copies",
+      "date": "2026-04-21T08:00:00.000Z",
+      "source": "World Trademark Review",
+      "sourceId": "wtr",
+      "category": "news",
+      "lang": "en",
+      "color": "#8B4513"
+    },
+    {
+      "id": "wipo-aHR0cHM6Ly93d3cud2lwby5p",
+      "title": "Daren Tang Appointed for Second Term as WIPO Director General",
+      "description": "The Member States of the World Intellectual Property Organization (WIPO) today appointed Daren Tang to a second six-year term of office as Director General of the Organization.",
+      "url": "https://www.wipo.int/pressroom/en/articles/2026/article_0007.html",
+      "date": "2026-04-21T05:59:00.000Z",
+      "source": "WIPO",
+      "sourceId": "wipo",
+      "category": "official",
+      "lang": "en",
+      "color": "#005DA4"
+    },
+    {
       "id": "spicyip-aHR0cHM6Ly9zcGljeWlwLmNv",
       "title": "The Inventor is still Human: Indian Patent Office’s DABUS Refusal",
       "description": "In keeping with a broad global trend, the Indian Patent Office has refused Dr. Stephen Thaler’s patent application which sought to recognise Dr. Thaler’s AI system DABUS as the inventor of a ‘food container and devices and methods for attracting enhanced attention’. The Indian...",
@@ -87,42 +189,6 @@
       "category": "blog",
       "lang": "en",
       "color": "#006B3C"
-    },
-    {
-      "id": "ipwatchdog-aHR0cHM6Ly9pcHdhdGNoZG9n",
-      "title": "Strike Two for CPC at High Court in Rule 36 Challenge",
-      "description": "The U.S. Supreme Court today denied a petition for certiorari challenging the U.S. Court of Appeals for the Federal Circuit’s (CAFC’s) use of Rule 36 summary affirmances in appeals from the Patent Trial and Appeal Board (PTAB). CPC Patent Technologies petitioned the Court in...",
-      "url": "https://ipwatchdog.com/2026/04/20/strike-two-cpc-high-court-rule-36-challenge/",
-      "date": "2026-04-20T18:47:34.000Z",
-      "source": "IPWatchdog",
-      "sourceId": "ipwatchdog",
-      "category": "blog",
-      "lang": "en",
-      "color": "#B8860B"
-    },
-    {
-      "id": "ipwatchdog-aHR0cHM6Ly9pcHdhdGNoZG9n",
-      "title": "Supreme Court Denies Cert in Rapunzel Trademark Case",
-      "description": "The U.S. Supreme Court on Monday denied a petition for a writ of certiorari filed by Rebecca Curtin, leaving in place a decision by the U.S. Court of Appeals for the Federal Circuit (CAFC) that barred her from opposing the trademark registration for “RAPUNZEL” for dolls and toy...",
-      "url": "https://ipwatchdog.com/2026/04/20/supreme-court-denies-cert-rapunzel-trademark-case/",
-      "date": "2026-04-20T18:15:09.000Z",
-      "source": "IPWatchdog",
-      "sourceId": "ipwatchdog",
-      "category": "blog",
-      "lang": "en",
-      "color": "#B8860B"
-    },
-    {
-      "id": "ipwatchdog-aHR0cHM6Ly9pcHdhdGNoZG9n",
-      "title": "The Supreme Court Picks the Wrong Patent Fight in Hikma v. Amarin",
-      "description": "The Supreme Court’s decision to hear Hikma Pharmaceuticals USA Inc. v. Amarin Pharma, Inc. is puzzling—and revealing. On its face, the case presents a narrow question: whether a generic drug manufacturer can be held liable for inducing patent infringement based on how it markets...",
-      "url": "https://ipwatchdog.com/2026/04/20/supreme-court-picks-wrong-patent-fight-hikma-amarin/",
-      "date": "2026-04-20T17:15:52.000Z",
-      "source": "IPWatchdog",
-      "sourceId": "ipwatchdog",
-      "category": "blog",
-      "lang": "en",
-      "color": "#B8860B"
     },
     {
       "id": "juve-aHR0cHM6Ly93d3cuanV2ZS1w",
@@ -233,18 +299,6 @@
       "color": "#E63946"
     },
     {
-      "id": "ipwatchdog-aHR0cHM6Ly9pcHdhdGNoZG9n",
-      "title": "Federal Circuit Reverses Trade Secret and Patent Invalidity Rulings in Penile Implant Dispute",
-      "description": "The U.S. Court of Appeals for the Federal Circuit (CAFC) issued a precedential decision Friday in International Medical Devices, Inc. v. Cornell, reversing the United States District Court for the Central District of California's denial of judgment as a matter of law (JMOL) on...",
-      "url": "https://ipwatchdog.com/2026/04/19/federal-circuit-reverses-trade-secret-patent-invalidity-rulings-penile-implant-dispute/",
-      "date": "2026-04-19T16:15:09.000Z",
-      "source": "IPWatchdog",
-      "sourceId": "ipwatchdog",
-      "category": "blog",
-      "lang": "en",
-      "color": "#B8860B"
-    },
-    {
       "id": "spicyip-aHR0cHM6Ly9zcGljeWlwLmNv",
       "title": "Repair, Remove, Replace: DHC saves the Repair Industry",
       "description": "The question of whether a refurbisher, after repairing a product, can remove the affixed mark and replace it with his own has generated a lot of discussion on this blog. Last year, in a post, I had showed how the Delhi HC went from initially injuncting further sale of repaired...",
@@ -291,18 +345,6 @@
       "category": "blog",
       "lang": "en",
       "color": "#006B3C"
-    },
-    {
-      "id": "ipwatchdog-aHR0cHM6Ly9pcHdhdGNoZG9n",
-      "title": "Other Barks & Bites for Friday, April 17: CAFC Reverses District Court Rulings in Penile Implant Patent Case; CJEU Clarifies Scope of ‘Pastiche’ Copyright Exception; Stanford AI Index Shows Tech Gap Between U.S. And China Nearly Gone",
-      "description": "This week in Other Barks & Bites: the Federal Circuit reverses a California district court’s denial of JMOL on trade secret and patent inventorship claims related to a cosmetic penile implant; the Senate Commerce Committee unanimously advances a bill to reauthorize the National...",
-      "url": "https://ipwatchdog.com/2026/04/17/bites-barks-cjeu-clarifies-scope-pastiche-copyright-exception-stanford-ai-index/",
-      "date": "2026-04-17T17:30:18.000Z",
-      "source": "IPWatchdog",
-      "sourceId": "ipwatchdog",
-      "category": "blog",
-      "lang": "en",
-      "color": "#B8860B"
     },
     {
       "id": "ipkat-aHR0cDovL2lwa2l0dGVuLmJs",
@@ -353,18 +395,6 @@
       "color": "#8B4513"
     },
     {
-      "id": "wtr-aHR0cHM6Ly93d3cud29ybGR0",
-      "title": "Understanding GI filing trends in India",
-      "description": "An analysis of registry data reveals a rise in domestic GI filings in recent years, alongside persistently high pendency levels and limited, declining international participation.",
-      "url": "https://www.worldtrademarkreview.com/article/understanding-gi-filing-trends-in-india",
-      "date": "2026-04-17T08:00:00.000Z",
-      "source": "World Trademark Review",
-      "sourceId": "wtr",
-      "category": "news",
-      "lang": "en",
-      "color": "#8B4513"
-    },
-    {
       "id": "patently-o-aHR0cHM6Ly9wYXRlbnRseW8u",
       "title": "Extra Credit Not Required: Teva v. Lilly and the Limits of Amgen’s Reach",
       "description": "Federal Circuit reverses JMOL in Teva v. Lilly, holding that method-of-use claims face a lower Section 112 bar when the genus is well known and not itself the invention. Continue reading this post on Patently-O.",
@@ -375,30 +405,6 @@
       "category": "blog",
       "lang": "en",
       "color": "#006B3C"
-    },
-    {
-      "id": "ipwatchdog-aHR0cHM6Ly9pcHdhdGNoZG9n",
-      "title": "USPTO Pushes for More ASAP! Search Pilot Participants with Extended Deadline",
-      "description": "The U.S. Patent and Trademark Office (UPSTO) announced today that it will be extending the Artificial Intelligence Search Automated Pilot Program (ASAP!) until June 1, 2026, to gather additional information and continue evaluating the program's effectiveness. The Pilot was first...",
-      "url": "https://ipwatchdog.com/2026/04/16/uspto-further-incentivizes-asap-search-pilot-petitions-extended-deadline/",
-      "date": "2026-04-16T21:15:11.000Z",
-      "source": "IPWatchdog",
-      "sourceId": "ipwatchdog",
-      "category": "blog",
-      "lang": "en",
-      "color": "#B8860B"
-    },
-    {
-      "id": "ipwatchdog-aHR0cHM6Ly9pcHdhdGNoZG9n",
-      "title": "Federal Circuit Distinguishes Amgen in Reversal of Invalidation of Teva Headache Treatment Patents",
-      "description": "The U.S. Court of Appeals for the Federal Circuit (CAFC) issued a precedential decision today in Teva Pharmaceuticals International GmbH v. Eli Lilly and Company, reversing the United States District Court for the District of Massachusetts’s grant of judgment as a matter of law...",
-      "url": "https://ipwatchdog.com/2026/04/16/federal-circuit-distinguishes-amgen-reversal-invalidation-teva-headache-treatment-patents/",
-      "date": "2026-04-16T20:39:54.000Z",
-      "source": "IPWatchdog",
-      "sourceId": "ipwatchdog",
-      "category": "blog",
-      "lang": "en",
-      "color": "#B8860B"
     },
     {
       "id": "juve-aHR0cHM6Ly93d3cuanV2ZS1w",
@@ -413,42 +419,6 @@
       "color": "#1D3557"
     },
     {
-      "id": "wtr-aHR0cHM6Ly93d3cud29ybGR0",
-      "title": "WIPO warning signals dangerous new phase in email fraud targeting trademark users",
-      "description": "According to updates from WIPO and the EUIPO, scams targeting IP applicants are becoming more sophisticated, more convincing and more financially ambitious.",
-      "url": "https://www.worldtrademarkreview.com/article/wipo-warning-signals-dangerous-new-phase-in-email-fraud-targeting-trademark-users",
-      "date": "2026-04-16T13:11:54.000Z",
-      "source": "World Trademark Review",
-      "sourceId": "wtr",
-      "category": "news",
-      "lang": "en",
-      "color": "#8B4513"
-    },
-    {
-      "id": "ipwatchdog-aHR0cHM6Ly9pcHdhdGNoZG9n",
-      "title": "Schedule A Litigation: Strategies and Best Practices for Online Enforcement",
-      "description": "In 2025, trademark cases filed in United States District Courts increased 25% from 2024 (up 848 cases to 4,211). Many of those cases were “Schedule A” lawsuits, a niche form of intellectual property litigation that joins multiple foreign-based ecommerce stores selling...",
-      "url": "https://ipwatchdog.com/2026/04/16/schedule-litigation-strategies-best-practices-online-enforcement/",
-      "date": "2026-04-16T12:15:43.000Z",
-      "source": "IPWatchdog",
-      "sourceId": "ipwatchdog",
-      "category": "blog",
-      "lang": "en",
-      "color": "#B8860B"
-    },
-    {
-      "id": "wtr-aHR0cHM6Ly93d3cud29ybGR0",
-      "title": "How to put trademarks at the heart of B2B trust building",
-      "description": "Trademark counsel at food preservative company Corbion explains how embedding IP early, upstream and visibly into business decisions turns trademarks from reactive legal assets into a core tool for risk management and trust building.",
-      "url": "https://www.worldtrademarkreview.com/article/how-put-trademarks-the-heart-of-b2b-trust-building",
-      "date": "2026-04-16T09:40:26.000Z",
-      "source": "World Trademark Review",
-      "sourceId": "wtr",
-      "category": "news",
-      "lang": "en",
-      "color": "#8B4513"
-    },
-    {
       "id": "ipkat-aHR0cDovL2lwa2l0dGVuLmJs",
       "title": "Never Too Late: If you missed the IPKat last week!",
       "description": "It was a lively week on the IPKat, with a set of posts full of insights worth your attention. In case you didn’t catch everything, here’s your round-up: Fordham IP Conference Kat taking a short nap between conference sessionsKatfriends Sarah Bui and Seth B. Pearson took us to...",
@@ -459,18 +429,6 @@
       "category": "blog",
       "lang": "en",
       "color": "#E63946"
-    },
-    {
-      "id": "ipwatchdog-aHR0cHM6Ly9pcHdhdGNoZG9n",
-      "title": "Consumer, Patient Groups Push for Fast Markup of ETHIC Act",
-      "description": "A number of groups and individuals self-described as “representing consumers, patients, health care providers, and academic experts in pharmaceutical policy and patent law” have submitted a letter to the U.S. House Judiciary Committee urging members to quickly advance the...",
-      "url": "https://ipwatchdog.com/2026/04/15/consumer-patient-groups-push-for-fast-markup-of-ethic-act/",
-      "date": "2026-04-15T21:47:16.000Z",
-      "source": "IPWatchdog",
-      "sourceId": "ipwatchdog",
-      "category": "blog",
-      "lang": "en",
-      "color": "#B8860B"
     },
     {
       "id": "patently-o-aHR0cHM6Ly9wYXRlbnRseW8u",
@@ -495,18 +453,6 @@
       "category": "news",
       "lang": "en",
       "color": "#1D3557"
-    },
-    {
-      "id": "ipwatchdog-aHR0cHM6Ly9pcHdhdGNoZG9n",
-      "title": "CAFC Affirms District Court Invalidation of Controller Patent",
-      "description": "The U.S. Court of Appeals for the Federal Circuit (CAFC) issued a precedential decision Tuesday in Definitive Holdings, LLC v. Powerteq LLC, affirming the United States District Court for the District of Utah’s grant of summary judgment of invalidity of Definitive Holdings'...",
-      "url": "https://ipwatchdog.com/2026/04/15/cafc-affirms-district-court-invalidation-controller-patent/",
-      "date": "2026-04-15T14:15:51.000Z",
-      "source": "IPWatchdog",
-      "sourceId": "ipwatchdog",
-      "category": "blog",
-      "lang": "en",
-      "color": "#B8860B"
     },
     {
       "id": "spicyip-aHR0cHM6Ly9zcGljeWlwLmNv",
@@ -701,18 +647,6 @@
       "color": "#DC143C"
     },
     {
-      "id": "juve-aHR0cHM6Ly93d3cuanV2ZS1w",
-      "title": "Win without gain: Microsoft prevails in cost dispute with Suinno",
-      "description": "Finnish company Suinno is the owner of EP 2 671 173 covering a “method and means for browsing by walking”. It relates to people browsing the internet by walking to discover search results as they come into close proximity. The Helsinki-based company accuses Microsoft of...",
-      "url": "https://www.juve-patent.com/cases/win-without-gain-microsoft-prevails-in-cost-dispute-with-suinno/",
-      "date": "2026-04-10T11:14:36.000Z",
-      "source": "JUVE Patent",
-      "sourceId": "juve",
-      "category": "news",
-      "lang": "en",
-      "color": "#1D3557"
-    },
-    {
       "id": "patently-o-aHR0cHM6Ly9wYXRlbnRseW8u",
       "title": "Marked for Trouble: Settlement Licenses and the § 287 Trap for NPEs",
       "description": "Federal Circuit panel hammers NPE counsel on whether settlement licenses trigger the § 287 marking requirement for pre-suit patent damages. Continue reading this post on Patently-O.",
@@ -735,54 +669,6 @@
       "category": "blog",
       "lang": "en",
       "color": "#006B3C"
-    },
-    {
-      "id": "juve-aHR0cHM6Ly93d3cuanV2ZS1w",
-      "title": "New patent owner Silimed lands PI against Polytech at Munich court",
-      "description": "Silimed has achieved its first success in the infringement dispute over breast implant technology. After the Brazilian manufacturer secured the rights to a patent for the manufacture of breast implants in a complex entitlement action, Silimed is now taking measures against its...",
-      "url": "https://www.juve-patent.com/cases/new-patent-owner-silimed-lands-pi-against-polytech-at-munich-court/",
-      "date": "2026-04-09T14:26:57.000Z",
-      "source": "JUVE Patent",
-      "sourceId": "juve",
-      "category": "news",
-      "lang": "en",
-      "color": "#1D3557"
-    },
-    {
-      "id": "patently-o-aHR0cHM6Ly9wYXRlbnRseW8u",
-      "title": "The Symmetry Problem: Printed Matter, Nexus, and the Federal Circuit’s One-Way Ratchet",
-      "description": "Federal Circuit hears EagleView v. Nearmap on whether printed matter doctrine can be used to defeat secondary considerations nexus showing. Continue reading this post on Patently-O.",
-      "url": "https://patentlyo.com/patent/2026/04/the-symmetry-problem-printed-matter-nexus-and-the-federal-circuits-one-way-ratchet.html",
-      "date": "2026-04-09T10:45:08.000Z",
-      "source": "Patently-O",
-      "sourceId": "patently-o",
-      "category": "blog",
-      "lang": "en",
-      "color": "#006B3C"
-    },
-    {
-      "id": "patently-o-aHR0cHM6Ly9wYXRlbnRseW8u",
-      "title": "X Marks the … Stick Figure? Federal Circuit Says One DuPont Factor Can Outweigh All Others",
-      "description": "Federal Circuit affirms no likelihood of confusion between cigar maker's X marks and vape company's stick figure design, holding mark dissimilarity alone can be dispositive. Continue reading this post on Patently-O.",
-      "url": "https://patentlyo.com/patent/2026/04/x-marks-the-stick-figure-federal-circuit-says-one-dupont-factor-can-outweigh-all-others.html",
-      "date": "2026-04-08T19:46:20.000Z",
-      "source": "Patently-O",
-      "sourceId": "patently-o",
-      "category": "blog",
-      "lang": "en",
-      "color": "#006B3C"
-    },
-    {
-      "id": "spicyip-aHR0cHM6Ly9zcGljeWlwLmNv",
-      "title": "(Part II) Right Without Duty: Academic Copyright, the Publisher’s Juridical Fiction, and the Case for an Ex Ante Reading of Section 52",
-      "description": "Continuing the discussion on the Scihub litigation, in Part II of their post, Rishabh Upadhyay and Pragati Upadhyay turn to the August 2025 order as a vantage point to examine what the litigation has, so far, failed to do. They argue that the procedural exclusion of intervenors...",
-      "url": "https://spicyip.com/2026/04/part-ii-right-without-duty-academic-copyright-the-publishers-juridical-fiction-and-the-case-for-an-ex-ante-reading-of-section-52.html",
-      "date": "2026-04-08T11:43:49.000Z",
-      "source": "SpicyIP",
-      "sourceId": "spicyip",
-      "category": "blog",
-      "lang": "en",
-      "color": "#DC143C"
     },
     {
       "id": "wipo-aHR0cHM6Ly93d3cud2lwby5p",
