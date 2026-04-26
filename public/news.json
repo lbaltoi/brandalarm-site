@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-04-25T07:22:22.890Z",
-  "count": 66,
+  "updatedAt": "2026-04-26T07:44:44.948Z",
+  "count": 67,
   "sources": [
     {
       "id": "wipo",
@@ -63,6 +63,78 @@
       "category": "official",
       "lang": "ro",
       "color": "#004B87"
+    },
+    {
+      "id": "patently-o-aHR0cHM6Ly9wYXRlbnRseW8u",
+      "title": "The Cox Shadow Over Hikma: Three Questions for Wednesday’s Argument",
+      "description": "Argument preview in Hikma v. Amarin: how Cox v. Sony reshapes the four key questions on skinny-label inducement under section 271(b). Continue reading this post on Patently-O.",
+      "url": "https://patentlyo.com/patent/2026/04/the-cox-shadow-over-hikma-four-questions-for-wednesdays-argument.html",
+      "date": "2026-04-26T02:38:42.000Z",
+      "source": "Patently-O",
+      "sourceId": "patently-o",
+      "category": "blog",
+      "lang": "en",
+      "color": "#006B3C"
+    },
+    {
+      "id": "ipkat-aHR0cDovL2lwa2l0dGVuLmJs",
+      "title": "Never too late: If you missed the IPKat last week!",
+      "description": "Kat napIn case last week was more naps than notes, the IPKat kept track. Here’s what you might have missed.CopyrightSöğüt Atilla-Aydın explored the Supreme Court’s take in Cox v Sony, stepping into the long-running tension between copyright enforcement and ISP responsibility,...",
+      "url": "http://ipkitten.blogspot.com/2026/04/never-too-late-if-you-missed-ipkat-last_25.html",
+      "date": "2026-04-25T21:07:00.000Z",
+      "source": "The IPKat",
+      "sourceId": "ipkat",
+      "category": "blog",
+      "lang": "en",
+      "color": "#E63946"
+    },
+    {
+      "id": "ipkat-aHR0cDovL2lwa2l0dGVuLmJs",
+      "title": "Saturday Sundries",
+      "description": "While some readers may have started already counting down the days until summer, the IPKat is here to ensure you do not miss the latest news and forthcoming events in the meantime! Here are the highlights of the week: A Kat ready to read the weekly IP news,provided by her...",
+      "url": "http://ipkitten.blogspot.com/2026/04/saturday-sundries.html",
+      "date": "2026-04-25T11:47:00.001Z",
+      "source": "The IPKat",
+      "sourceId": "ipkat",
+      "category": "blog",
+      "lang": "en",
+      "color": "#E63946"
+    },
+    {
+      "id": "wtr-aHR0cHM6Ly93d3cud29ybGR0",
+      "title": "Why platforms must take greater responsibility to protect the future of sports broadcasting",
+      "description": "This week’s Opinion Column examines the evolution and challenges of protecting sports broadcast rights.",
+      "url": "https://www.worldtrademarkreview.com/article/why-platforms-must-take-greater-responsibility-protect-the-future-of-sports-broadcasting",
+      "date": "2026-04-25T08:00:00.000Z",
+      "source": "World Trademark Review",
+      "sourceId": "wtr",
+      "category": "news",
+      "lang": "en",
+      "color": "#8B4513"
+    },
+    {
+      "id": "ipkat-aHR0cDovL2lwa2l0dGVuLmJs",
+      "title": "Help us UK Supreme Court, you’re our only hope (for digital replicas)",
+      "description": "Frames from Star Wars: A New Hope and Rogue One: A Star Wars Story - LucasfilmWho would have thought that Princess Leia’s ‘holographic’ plea in Star Wars: Episode IV – A New Hope would set the scene for an epic legal argument. Very quietly, over the last three years, a storm has...",
+      "url": "http://ipkitten.blogspot.com/2026/04/help-us-uk-supreme-court-youre-our-only.html",
+      "date": "2026-04-25T07:48:00.003Z",
+      "source": "The IPKat",
+      "sourceId": "ipkat",
+      "category": "blog",
+      "lang": "en",
+      "color": "#E63946"
+    },
+    {
+      "id": "wipo-aHR0cHM6Ly93d3cud2lwby5p",
+      "title": "World Intellectual Property Day 2026: New WIPO Data Show IP Use Booming in Sports Industry",
+      "description": "Golf, swimming and racket sports are the most patent-intensive areas of the sports industry, where use of intellectual property (IP) is rising at above-average rates, according to a new World Intellectual Property Organization report released to mark World IP Day.",
+      "url": "https://www.wipo.int/pressroom/en/articles/2026/article_0008.html",
+      "date": "2026-04-25T06:10:00.000Z",
+      "source": "WIPO",
+      "sourceId": "wipo",
+      "category": "official",
+      "lang": "en",
+      "color": "#005DA4"
     },
     {
       "id": "ipwatchdog-aHR0cHM6Ly9pcHdhdGNoZG9n",
@@ -425,18 +497,6 @@
       "color": "#B8860B"
     },
     {
-      "id": "wtr-aHR0cHM6Ly93d3cud29ybGR0",
-      "title": "10 years celebrating corporate trademark excellence with the WTR 300",
-      "description": "The 10th edition of the WTR 300 is out today, once again shining a spotlight on the in-house individuals delivering world‑class expertise to protect brands across the globe.",
-      "url": "https://www.worldtrademarkreview.com/article/10-years-celebrating-corporate-trademark-excellence-the-wtr-300",
-      "date": "2026-04-22T11:00:00.000Z",
-      "source": "World Trademark Review",
-      "sourceId": "wtr",
-      "category": "news",
-      "lang": "en",
-      "color": "#8B4513"
-    },
-    {
       "id": "ipwatchdog-aHR0cHM6Ly9pcHdhdGNoZG9n",
       "title": "Retired Judges Tell SCOTUS Justices to Take Newman Case, Citing ‘Grave Threat’",
       "description": "Seven retired federal judges have filed an amicus brief supporting U.S. Court of Appeals for the Federal Circuit (CAFC) Judge Pauline Newman’s Supreme Court petition seeking review of her case against CAFC Chief Judge Kimberly Moore for what she has dubbed Moore’s “unlawful”...",
@@ -737,59 +797,11 @@
       "color": "#DC143C"
     },
     {
-      "id": "ipkat-aHR0cDovL2lwa2l0dGVuLmJs",
-      "title": "AI in the patent industry: Don't believe the hype. Believe the data.",
-      "description": "Many in the IP profession remain considerably sceptical of AI. AI may be useful for checking for typos and simple calculations of deadlines, but it cannot replace in-depth human reasoning about complex scientific and legal issues. However, the data suggests something different....",
-      "url": "http://ipkitten.blogspot.com/2026/04/ai-in-patent-industry-dont-believe-hype.html",
-      "date": "2026-04-15T07:30:00.007Z",
-      "source": "The IPKat",
-      "sourceId": "ipkat",
-      "category": "blog",
-      "lang": "en",
-      "color": "#E63946"
-    },
-    {
-      "id": "ipkat-aHR0cDovL2lwa2l0dGVuLmJs",
-      "title": "CJEU delivers pastiche-style judgment on … pastiche",
-      "description": "Moses PelhamToday, the Grand Chamber of the Court of Justice of the European Union (CJEU) issued its judgment in Pelham II, C-590/23, concerning the notion of pastiche in Article 5(3)(k) of the InfoSoc Directive.To understand the genesis of the referral, reference must be made...",
-      "url": "http://ipkitten.blogspot.com/2026/04/cjeu-delivers-pastiche-style-judgment.html",
-      "date": "2026-04-14T19:58:00.000Z",
-      "source": "The IPKat",
-      "sourceId": "ipkat",
-      "category": "blog",
-      "lang": "en",
-      "color": "#E63946"
-    },
-    {
-      "id": "ipkat-aHR0cDovL2lwa2l0dGVuLmJs",
-      "title": "Fordham 33 (Report 5): Trade secrets",
-      "description": "The Fordham trade secrets panel discussingthe rise of trade secrets protection The IPKat is back in Fordham, with the Spring skies and the chirping birds gracing the streets of the Upper West Side. As a proud and long-standing partner with the Fordham IP Conference, now in its...",
-      "url": "http://ipkitten.blogspot.com/2026/04/fordham-33-report-5-trade-secrets.html",
-      "date": "2026-04-14T18:53:00.006Z",
-      "source": "The IPKat",
-      "sourceId": "ipkat",
-      "category": "blog",
-      "lang": "en",
-      "color": "#E63946"
-    },
-    {
       "id": "patently-o-aHR0cHM6Ly9wYXRlbnRseW8u",
       "title": "Mind the Gap: The Middle Layer of Obviousness Doctrine",
       "description": "Graham's four factors organize the evidence but don't resolve obviousness. The doctrines built atop them do the real analytical work. Continue reading this post on Patently-O.",
       "url": "https://patentlyo.com/patent/2026/04/mind-the-gap-the-middle-layer-of-obviousness-doctrine.html",
       "date": "2026-04-14T17:34:27.000Z",
-      "source": "Patently-O",
-      "sourceId": "patently-o",
-      "category": "blog",
-      "lang": "en",
-      "color": "#006B3C"
-    },
-    {
-      "id": "patently-o-aHR0cHM6Ly9wYXRlbnRseW8u",
-      "title": "PTAB Inventory Drops Below 2,000 for the First Time in 20 Years",
-      "description": "PTAB inventory drops below 2,000 for the first time as appeal pendency falls to 9 months and IPR institutions decline 43% under Dir. Squires. Continue reading this post on Patently-O.",
-      "url": "https://patentlyo.com/patent/2026/04/ptab-inventory-drops-below-2000-for-the-first-time-in-20-years.html",
-      "date": "2026-04-13T03:37:48.000Z",
       "source": "Patently-O",
       "sourceId": "patently-o",
       "category": "blog",
