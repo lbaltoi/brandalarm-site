@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-04-27T08:31:00.687Z",
-  "count": 57,
+  "updatedAt": "2026-04-28T08:29:18.674Z",
+  "count": 67,
   "sources": [
     {
       "id": "wipo",
@@ -27,6 +27,12 @@
       "color": "#1D3557"
     },
     {
+      "id": "ipwatchdog",
+      "name": "IPWatchdog",
+      "category": "blog",
+      "color": "#B8860B"
+    },
+    {
       "id": "spicyip",
       "name": "SpicyIP",
       "category": "blog",
@@ -46,6 +52,174 @@
     }
   ],
   "items": [
+    {
+      "id": "patently-o-aHR0cHM6Ly9wYXRlbnRseW8u",
+      "title": "The Director’s Non-Statutory Statute of Limitations",
+      "description": "Google's cert petition asks SCOTUS whether the PTO can deny IPR based on 'settled expectations' and whether courts can review such denials. Continue reading this post on Patently-O.",
+      "url": "https://patentlyo.com/patent/2026/04/can-the-director-invent-a-new-limitations-period-for-ipr.html",
+      "date": "2026-04-28T01:39:43.000Z",
+      "source": "Patently-O",
+      "sourceId": "patently-o",
+      "category": "blog",
+      "lang": "en",
+      "color": "#006B3C"
+    },
+    {
+      "id": "ipwatchdog-aHR0cHM6Ly9pcHdhdGNoZG9n",
+      "title": "SCOTUS Denies Petition Challenging Monetary Sanctions Against Counsel Absent Bad Faith",
+      "description": "The U.S. Supreme Court today denied certiorari in EscapeX IP, LLC v. Google LLC, letting stand a precedential decision of the U.S. Court of Appeals for the Federal Circuit (CAFC) affirming a district court’s award of more than $250,000 in attorneys’ fees to Google and finding...",
+      "url": "https://ipwatchdog.com/2026/04/27/scotus-denies-petition-challenging-monetary-sanctions-counsel-bad-faith/",
+      "date": "2026-04-27T18:24:33.000Z",
+      "source": "IPWatchdog",
+      "sourceId": "ipwatchdog",
+      "category": "blog",
+      "lang": "en",
+      "color": "#B8860B"
+    },
+    {
+      "id": "ipwatchdog-aHR0cHM6Ly9pcHdhdGNoZG9n",
+      "title": "When Trade Secret Injunctions Become Patent Noncompetes",
+      "description": "A recent U.S. Court of Appeals for the Federal Circuit decision applying California trade secret law offers a timely reminder that published patent materials cannot easily be recast as trade secrets. In International Medical Devices, Inc. v. Cornell, the Federal Circuit reversed...",
+      "url": "https://ipwatchdog.com/2026/04/27/when-trade-secret-injunctions-become-patent-noncompetes/",
+      "date": "2026-04-27T17:15:09.000Z",
+      "source": "IPWatchdog",
+      "sourceId": "ipwatchdog",
+      "category": "blog",
+      "lang": "en",
+      "color": "#B8860B"
+    },
+    {
+      "id": "ipkat-aHR0cDovL2lwa2l0dGVuLmJs",
+      "title": "ERA Summer Course on European Intellectual Property Law returns to Trier with IPKat readers’ discount",
+      "description": "Trier in summertimeThe Katfriends at ERA in beautiful Trier are always busy preparing and running conferences, events, and courses on all aspects of EU law, including IP.As has become tradition, they are offering their well-regarded Summer Course on European Intellectual...",
+      "url": "http://ipkitten.blogspot.com/2026/04/era-summer-course-on-european.html",
+      "date": "2026-04-27T15:15:00.002Z",
+      "source": "The IPKat",
+      "sourceId": "ipkat",
+      "category": "blog",
+      "lang": "en",
+      "color": "#E63946"
+    },
+    {
+      "id": "juve-aHR0cHM6Ly93d3cuanV2ZS1w",
+      "title": "Canfield now faces injunction in five European countries in QuantifiCare dispute",
+      "description": "Canfield may no longer sell its 3D imaging system Canfield Vectra H2 in Belgium, France, Italy, and the Netherlands. Last week the Düsseldorf local division under presiding judge Ronny Thomas ruled that Canfield had infringed QuantifiCare’s patent EP 3 156 843. The UPC judges...",
+      "url": "https://www.juve-patent.com/cases/canfield-faces-injunction-in-five-european-countries-in-quantificare-dispute/",
+      "date": "2026-04-27T15:02:48.000Z",
+      "source": "JUVE Patent",
+      "sourceId": "juve",
+      "category": "news",
+      "lang": "en",
+      "color": "#1D3557"
+    },
+    {
+      "id": "wtr-aHR0cHM6Ly93d3cud29ybGR0",
+      "title": "Real Madrid dethrones Barcelona and Neymar overtakes Messi in landmark year for football trademarks",
+      "description": "Exclusive WTR analysis reveals that Manchester United has extended its position as the world’s most trademark-active football club, but there are major shakeups elsewhere.",
+      "url": "https://www.worldtrademarkreview.com/article/real-madrid-dethrones-barcelona-and-neymar-overtakes-messi-in-landmark-year-football-trademarks",
+      "date": "2026-04-27T14:04:10.000Z",
+      "source": "World Trademark Review",
+      "sourceId": "wtr",
+      "category": "news",
+      "lang": "en",
+      "color": "#8B4513"
+    },
+    {
+      "id": "juve-aHR0cHM6Ly93d3cuanV2ZS1w",
+      "title": "Biogen is entitled to damages in Tecfidera case rules Regional Court Hamburg",
+      "description": "Biogen accuses the generic drug companies of violating market exclusivity for its multiple sclerosis drug Tecfidera by selling their dimethyl fumarate generics before the end of its market exclusivity in Germany — in the case of Viatris, as early as summer 2022. According to...",
+      "url": "https://www.juve-patent.com/cases/biogen-is-entitled-to-damages-in-tecfidera-case-rules-regional-court-hamburg/",
+      "date": "2026-04-27T14:00:26.000Z",
+      "source": "JUVE Patent",
+      "sourceId": "juve",
+      "category": "news",
+      "lang": "en",
+      "color": "#1D3557"
+    },
+    {
+      "id": "ipkat-aHR0cDovL2lwa2l0dGVuLmJs",
+      "title": "Fordham 33 (Report 9): Sports, media and entertainment",
+      "description": "Uncertainty was the theme of the sports, media and entertainment panel The IPKat was back in Fordham, with the Spring skies and the chirping birds gracing the streets of the Upper West Side. As a proud and long-standing partner with the Fordham IP Conference, now in its 33rd...",
+      "url": "http://ipkitten.blogspot.com/2026/04/fordham-33-report-9-sports-media-and.html",
+      "date": "2026-04-27T12:37:00.003Z",
+      "source": "The IPKat",
+      "sourceId": "ipkat",
+      "category": "blog",
+      "lang": "en",
+      "color": "#E63946"
+    },
+    {
+      "id": "ipkat-aHR0cDovL2lwa2l0dGVuLmJs",
+      "title": "Fordham 33 (Report 8): IP in Washington",
+      "description": "IP and Washington at Fordham The IPKat is back in Fordham, with the Spring skies and the chirping birds gracing the streets of the Upper West Side. As a proud and long-standing partner with the Fordham IP Conference, now in its 33rd year, the IPKat is thrilled to partner with...",
+      "url": "http://ipkitten.blogspot.com/2026/04/fordham-33-report-6-ip-in-washington.html",
+      "date": "2026-04-27T12:16:00.003Z",
+      "source": "The IPKat",
+      "sourceId": "ipkat",
+      "category": "blog",
+      "lang": "en",
+      "color": "#E63946"
+    },
+    {
+      "id": "wtr-aHR0cHM6Ly93d3cud29ybGR0",
+      "title": "Global trademark filings boom despite trade uncertainty, as iGaming and new markets power growth",
+      "description": "Clarivate's annual filing report reveals a surprisingly buoyant global trademark market – and a few growing industries offering fresh opportunities.",
+      "url": "https://www.worldtrademarkreview.com/article/global-trademark-filings-boom-despite-trade-uncertainty-igaming-and-new-markets-power-growth",
+      "date": "2026-04-27T12:15:49.000Z",
+      "source": "World Trademark Review",
+      "sourceId": "wtr",
+      "category": "news",
+      "lang": "en",
+      "color": "#8B4513"
+    },
+    {
+      "id": "ipwatchdog-aHR0cHM6Ly9pcHdhdGNoZG9n",
+      "title": "Operationalizing AI: From Passenger Experience to Orbital Logistics",
+      "description": "Welcome back to Cool AI Patents of the Month, where we highlight innovations that blur the line between science fiction and real-world engineering. Last month, we looked at AI-generated voice replicas, particularly in sports broadcasting. That concept is no longer theoretical....",
+      "url": "https://ipwatchdog.com/2026/04/27/operationalizing-ai-passenger-experience-orbital-logistics/",
+      "date": "2026-04-27T12:15:03.000Z",
+      "source": "IPWatchdog",
+      "sourceId": "ipwatchdog",
+      "category": "blog",
+      "lang": "en",
+      "color": "#B8860B"
+    },
+    {
+      "id": "ipkat-aHR0cDovL2lwa2l0dGVuLmJs",
+      "title": "Fordham 33 (Report 7): IP and Frontier Technologies",
+      "description": "The penultimate panel of Fordham 33 of course majored on AIThe IPKat was back in Fordham, with the Spring skies and the chirping birds gracing the streets of the Upper West Side. As a proud and long-standing partner with the Fordham IP Conference, now in its 33rd year, the IPKat...",
+      "url": "http://ipkitten.blogspot.com/2026/04/fordham-33-report-7-ip-and-frontier.html",
+      "date": "2026-04-27T12:07:00.002Z",
+      "source": "The IPKat",
+      "sourceId": "ipkat",
+      "category": "blog",
+      "lang": "en",
+      "color": "#E63946"
+    },
+    {
+      "id": "ipkat-aHR0cDovL2lwa2l0dGVuLmJs",
+      "title": "Fordham 33 (Report 6): Unified Patent Court",
+      "description": "The AmeriKat getting into the spiritof the proceedingsThe IPKat was back in Fordham, with the Spring skies and the chirping birds gracing the streets of the Upper West Side. As a proud and long-standing partner with the Fordham IP Conference, now in its 33rd year, the IPKat is...",
+      "url": "http://ipkitten.blogspot.com/2026/04/fordham-33-report-6-unified-patent-court.html",
+      "date": "2026-04-27T11:59:00.010Z",
+      "source": "The IPKat",
+      "sourceId": "ipkat",
+      "category": "blog",
+      "lang": "en",
+      "color": "#E63946"
+    },
+    {
+      "id": "ipkat-aHR0cDovL2lwa2l0dGVuLmJs",
+      "title": "Human definitions versus biological reality (T 630/24)",
+      "description": "As the recent furore over claim interpretation and description amendments illustrates, patent attorneys love nothing more than to argue about the meaning of words. As we know, words are contextual things, and can shift their meaning depending on the words around them and the...",
+      "url": "http://ipkitten.blogspot.com/2026/04/human-definitions-versus-biological.html",
+      "date": "2026-04-27T08:30:00.015Z",
+      "source": "The IPKat",
+      "sourceId": "ipkat",
+      "category": "blog",
+      "lang": "en",
+      "color": "#E63946"
+    },
     {
       "id": "spicyip-aHR0cHM6Ly9zcGljeWlwLmNv",
       "title": "Journalistic Expression or Commercial Shaming? When Media Criticism Meets Commercial Disparagement Law",
@@ -93,6 +267,18 @@
       "category": "official",
       "lang": "ro",
       "color": "#004B87"
+    },
+    {
+      "id": "ipwatchdog-aHR0cHM6Ly9pcHdhdGNoZG9n",
+      "title": "World IP Day 2026 Spotlights IP Issues in Sports",
+      "description": "The World Intellectual Property Organization (WIPO) established World IP Day to commemorate April 26, 1970, the date the WIPO Convention officially took effect. Each year, the occasion serves as a global reminder of the role that intellectual property plays in encouraging...",
+      "url": "https://ipwatchdog.com/2026/04/26/world-ip-day-2026-spotlights-ip-issues-sports/",
+      "date": "2026-04-26T16:15:28.000Z",
+      "source": "IPWatchdog",
+      "sourceId": "ipwatchdog",
+      "category": "blog",
+      "lang": "en",
+      "color": "#B8860B"
     },
     {
       "id": "wtr-aHR0cHM6Ly93d3cud29ybGR0",
@@ -203,6 +389,18 @@
       "color": "#005DA4"
     },
     {
+      "id": "ipwatchdog-aHR0cHM6Ly9pcHdhdGNoZG9n",
+      "title": "Other Barks & Bites for Friday, April 24: Judge Albright to Leave Federal Bench in August; China Rejects 1.27 Million Deceptive Trademark Applications; Music Labels Voluntarily Dismiss Verizon Copyright Suit",
+      "description": "This week in Other Barks & Bites: Judge Alan Albright indicates that he will leave the Western District of Texas bench in August to re-enter private practice; Daren Tang is reelected as WIPO's Director General; and more. The post Other Barks & Bites for Friday, April 24: Judge...",
+      "url": "https://ipwatchdog.com/2026/04/24/bites-barks-china-rejects-deceptive-trademark-applications/",
+      "date": "2026-04-24T18:00:50.000Z",
+      "source": "IPWatchdog",
+      "sourceId": "ipwatchdog",
+      "category": "blog",
+      "lang": "en",
+      "color": "#B8860B"
+    },
+    {
       "id": "spicyip-aHR0cHM6Ly9zcGljeWlwLmNv",
       "title": "It’s the time to Pisco: Delhi HC Dismisses Peru’s GI Hopes Again!",
       "description": "“A Tale of Two Countries”. That is how the Delhi HC Division Bench (“DB”) described the judgment dated 18th March 2026 in the Appeal by the Embassy of Peru against the July 2025 Pisco decision by Justice Mini Pushkarna. Extensively covered on our blog previously, in travelling...",
@@ -220,18 +418,6 @@
       "description": "If, like this Kat, you love all things pharma, biotech and patents, then the Pharma & Biotech Patent Litigation in Europe conference is for you. The IPKat is also happy to report that there is a special 10% discount in the registration fee, with discount code: D10-999-IPKAT26....",
       "url": "http://ipkitten.blogspot.com/2026/04/pharma-biotech-patent-litigation-in.html",
       "date": "2026-04-24T13:57:00.002Z",
-      "source": "The IPKat",
-      "sourceId": "ipkat",
-      "category": "blog",
-      "lang": "en",
-      "color": "#E63946"
-    },
-    {
-      "id": "ipkat-aHR0cDovL2lwa2l0dGVuLmJs",
-      "title": "Crystal Bar: Contempt application against litigant and its lawyers struck out",
-      "description": "This Kat has covered the dispute between Shenzhen SKE Technology Ltd (SKE) and Bargain Busting Ltd (BBL) previously (IPKat here). It is a case that perhaps ought to be relatively simple, in that it is a battle over who has the earliest rights to the words CRYSTAL BAR in relation...",
-      "url": "http://ipkitten.blogspot.com/2026/04/crystal-bar-contempt-application.html",
-      "date": "2026-04-24T13:53:00.010Z",
       "source": "The IPKat",
       "sourceId": "ipkat",
       "category": "blog",
@@ -285,6 +471,30 @@
       "category": "blog",
       "lang": "en",
       "color": "#006B3C"
+    },
+    {
+      "id": "ipwatchdog-aHR0cHM6Ly9pcHdhdGNoZG9n",
+      "title": "CAFC Affirms Ineligibility Holding for AR Patent Claims",
+      "description": "The U.S. Court of Appeals for the Federal Circuit (CAFC) on Thursday agreed with a district court that several claims of an augmented reality (AR) patent are directed to abstract ideas and thus invalid under 35 U.S.C. § 101. The opinion was authored by Judge Cunningham....",
+      "url": "https://ipwatchdog.com/2026/04/23/cafc-affirms-ineligibility-holding-ar-patent-claims/",
+      "date": "2026-04-23T19:15:51.000Z",
+      "source": "IPWatchdog",
+      "sourceId": "ipwatchdog",
+      "category": "blog",
+      "lang": "en",
+      "color": "#B8860B"
+    },
+    {
+      "id": "ipwatchdog-aHR0cHM6Ly9pcHdhdGNoZG9n",
+      "title": "Federal Circuit In Part Reverses PTAB Ruling that Some Centripetal Network Threat Detection Patent Claims are Non-Obvious",
+      "description": "The U.S. Court of Appeals for the Federal Circuit (CAFC) issued a decision Tuesday in Centripetal Networks, LLC v. Keysight Technologies, Inc., affirming in part and reversing in part a decision of the United States Patent and Trademark Office’s (USPTO) Patent Trial and Appeal...",
+      "url": "https://ipwatchdog.com/2026/04/23/federal-circuit-reverses-ptab-ruling-some-centripetal-network-threat-detection-patent-claims-non-obvious/",
+      "date": "2026-04-23T17:15:41.000Z",
+      "source": "IPWatchdog",
+      "sourceId": "ipwatchdog",
+      "category": "blog",
+      "lang": "en",
+      "color": "#B8860B"
     },
     {
       "id": "wtr-aHR0cHM6Ly93d3cud29ybGR0",
@@ -395,40 +605,40 @@
       "color": "#1D3557"
     },
     {
-      "id": "ipkat-aHR0cDovL2lwa2l0dGVuLmJs",
-      "title": "[Guest post] The well-known status of a non-European trade mark in the EU: The Frisby case",
-      "description": "The IPKat has received and is pleased to host the following guest contribution by Katfriend Salvatore Marcenaro (Wolf Méndez Abogados Asociados) providing updates on the Frisby case. Here’s what Salvatore writes: The well-known status of a non-European trade mark in the EU: The...",
-      "url": "http://ipkitten.blogspot.com/2026/04/guest-post-well-known-status-of-non.html",
-      "date": "2026-04-23T10:10:00.000Z",
-      "source": "The IPKat",
-      "sourceId": "ipkat",
+      "id": "ipwatchdog-aHR0cHM6Ly9pcHdhdGNoZG9n",
+      "title": "Gamevice Considers SCOTUS Cert Petition Over Alleged Procedural Improprieties in Nintendo Switch Patent Case",
+      "description": "On April 20, Simi Valley, CA-based gaming tablet developer Gamevice filed a response to Japanese game developer Nintendo’s motion to vacate portions of a Northern District of California judgment that had invalidated Gamevice patent claims to handheld computing accessories as...",
+      "url": "https://ipwatchdog.com/2026/04/23/gamevice-considers-scotus-cert-petition-procedural-improprieties-nintendo-switch/",
+      "date": "2026-04-23T12:15:33.000Z",
+      "source": "IPWatchdog",
+      "sourceId": "ipwatchdog",
       "category": "blog",
       "lang": "en",
-      "color": "#E63946"
+      "color": "#B8860B"
     },
     {
-      "id": "wtr-aHR0cHM6Ly93d3cud29ybGR0",
-      "title": "Risks associated with UDRP cancellation remedy after L’Oréal cancels 705 domain names",
-      "description": "Of the two remedies that exist under the UDRP, cancellation is much less popular since the domains can re-enter circulation by bad actors and financial risks are high. L’Oréal’s decision to pursue this action is thus unusual and warrants a closer look at different brands’...",
-      "url": "https://www.worldtrademarkreview.com/article/risks-associated-udrp-cancellation-remedy-after-loreal-cancels-705-domain-names",
-      "date": "2026-04-23T08:20:00.000Z",
-      "source": "World Trademark Review",
-      "sourceId": "wtr",
-      "category": "news",
+      "id": "ipwatchdog-aHR0cHM6Ly9pcHdhdGNoZG9n",
+      "title": "Broader Concerns Over AI Emerge in Senate Judiciary Hearing on Chinese IP Theft",
+      "description": "China was not the only actor being scrutinized today during a full Senate Judiciary Committee hearing, titled “Stealth Stealing: China’s Ongoing Theft of U.S. Innovation.” Senator Thom Tillis (R-NC) stood in for Senator Chuck Grassley (R-IA) as Chair and opened the hearing with...",
+      "url": "https://ipwatchdog.com/2026/04/22/senate-judiciary-hearing-on-chinese-ip-theft/",
+      "date": "2026-04-22T20:40:05.000Z",
+      "source": "IPWatchdog",
+      "sourceId": "ipwatchdog",
+      "category": "blog",
       "lang": "en",
-      "color": "#8B4513"
+      "color": "#B8860B"
     },
     {
-      "id": "wtr-aHR0cHM6Ly93d3cud29ybGR0",
-      "title": "US Congress urged to adopt Pro Codes Act as courts unsettle copyright status of incorporated standards",
-      "description": "The incentive for creating high-quality industry standards is being threatened by recent ‘fair use’ decisions, experts tell the House IP subcommittee.",
-      "url": "https://www.worldtrademarkreview.com/article/us-congress-urged-adopt-pro-codes-act-courts-unsettle-copyright-status-of-incorporated-standards",
-      "date": "2026-04-23T06:30:00.000Z",
-      "source": "World Trademark Review",
-      "sourceId": "wtr",
-      "category": "news",
+      "id": "ipwatchdog-aHR0cHM6Ly9pcHdhdGNoZG9n",
+      "title": "Congress is Lagging on Innovation Policy; Americans Are Paying the Price",
+      "description": "Intellectual property (IP) protections don't merely shield Americans' ideas and designs from theft—they underpin our entire economy and standard of living. Approximately 90% of the market value of the S&P 500 is in intangible assets, based on IP. Weakened IP protections erode...",
+      "url": "https://ipwatchdog.com/2026/04/22/congress-agging-innovation-policy-americans-paying-price/",
+      "date": "2026-04-22T16:15:57.000Z",
+      "source": "IPWatchdog",
+      "sourceId": "ipwatchdog",
+      "category": "blog",
       "lang": "en",
-      "color": "#8B4513"
+      "color": "#B8860B"
     },
     {
       "id": "juve-aHR0cHM6Ly93d3cuanV2ZS1w",
@@ -551,30 +761,6 @@
       "color": "#006B3C"
     },
     {
-      "id": "juve-aHR0cHM6Ly93d3cuanV2ZS1w",
-      "title": "Merz and A&O gain sales ban for generic fampridine products in Germany",
-      "description": "Merz is fighting in Germany and at the UPC over its drug Fampyra, which aims to improve walking ability in multiple sclerosis patients. At the centre of the dispute are EP 2 377 536 and EP 1 732 548. Both cover methods of using sustained release aminopyridine compositions and...",
-      "url": "https://www.juve-patent.com/cases/merz-and-ao-gain-sales-ban-for-generic-fampridine-products-in-germany/",
-      "date": "2026-04-20T16:12:23.000Z",
-      "source": "JUVE Patent",
-      "sourceId": "juve",
-      "category": "news",
-      "lang": "en",
-      "color": "#1D3557"
-    },
-    {
-      "id": "ipkat-aHR0cDovL2lwa2l0dGVuLmJs",
-      "title": "EU General Court rejects opposition to Irish Grass Fed Beef PGI",
-      "description": "Last week, the EU General Court dismissed an opposition to the Irish Grass Fed Beef PGI in Case T-62/24. A group called the Independent Farmers Of Ireland (IFOI) opposed the Protected Geographical Indication (PGI) on the grounds that they were deprived of procedural rights to...",
-      "url": "http://ipkitten.blogspot.com/2026/04/eu-general-court-rejects-opposition-to.html",
-      "date": "2026-04-20T14:25:00.001Z",
-      "source": "The IPKat",
-      "sourceId": "ipkat",
-      "category": "blog",
-      "lang": "en",
-      "color": "#E63946"
-    },
-    {
       "id": "spicyip-aHR0cHM6Ly9zcGljeWlwLmNv",
       "title": "AIR-1, Right of Publicity-0: Delhi HC’s CLATastrophic Mix-Up",
       "description": "This post is co-authored with Dr. Aakanksha Kumar. Dr. Aakanksha Kumar (She/Her) is an independent researcher and academic who also consults with content creators and advises Chhattisgarhi music artists on copyright-related matters. Previously, she served as Associate Professor,...",
@@ -585,30 +771,6 @@
       "category": "blog",
       "lang": "en",
       "color": "#DC143C"
-    },
-    {
-      "id": "juve-aHR0cHM6Ly93d3cuanV2ZS1w",
-      "title": "Another win for Abbott as Court of Appeal grants PI against Sinocare",
-      "description": "Abbott thus wins outright at the UPC in the second instance. The company filed two PI applications with The Hague local division in June 2024. Abbott alleges Sinocare and its distribution partner Menarini infringe its EP 4 344 633 and EP 3 988 471 and seeks to halt sales of...",
-      "url": "https://www.juve-patent.com/cases/another-win-for-abbott-as-court-of-appeal-grants-pi-against-sinocare/",
-      "date": "2026-04-20T12:33:03.000Z",
-      "source": "JUVE Patent",
-      "sourceId": "juve",
-      "category": "news",
-      "lang": "en",
-      "color": "#1D3557"
-    },
-    {
-      "id": "ipkat-aHR0cDovL2lwa2l0dGVuLmJs",
-      "title": "Neuschwansteiner – When a fairy-tale castle casts its spell on trade mark law",
-      "description": "Can the mystique of a world-famous castle prevent its name from functioning as a trade mark? In its Neuschwansteiner decision (case 26 W (pat) 34/17), the German Patent Court (\"GPC\") grappled with the case law of the Court of Justice of the EU (\"CJEU\") on geographical...",
-      "url": "http://ipkitten.blogspot.com/2026/04/neuschwansteiner-when-fairy-tale-castle.html",
-      "date": "2026-04-20T05:15:00.001Z",
-      "source": "The IPKat",
-      "sourceId": "ipkat",
-      "category": "blog",
-      "lang": "en",
-      "color": "#E63946"
     },
     {
       "id": "patently-o-aHR0cHM6Ly9wYXRlbnRseW8u",
@@ -623,18 +785,6 @@
       "color": "#006B3C"
     },
     {
-      "id": "ipkat-aHR0cDovL2lwa2l0dGVuLmJs",
-      "title": "Champagne problems? Punk solutions Amyl and the Sniffers-style",
-      "description": "Champagne Problem Series Image‘Hey! When you get down, oh you’re a lit one,Never been a dull one, Always been a big star’(Amyl and the Sniffers, Big Dreams)Big star indeed, Amy Louise Taylor. Musician, activist and all-round punk extraordinaire, best known as the songwriter and...",
-      "url": "http://ipkitten.blogspot.com/2026/04/champagne-problems-punk-solutions-amyl.html",
-      "date": "2026-04-17T13:40:00.002Z",
-      "source": "The IPKat",
-      "sourceId": "ipkat",
-      "category": "blog",
-      "lang": "en",
-      "color": "#E63946"
-    },
-    {
       "id": "patently-o-aHR0cHM6Ly9wYXRlbnRseW8u",
       "title": "Extra Credit Not Required: Teva v. Lilly and the Limits of Amgen’s Reach",
       "description": "Federal Circuit reverses JMOL in Teva v. Lilly, holding that method-of-use claims face a lower Section 112 bar when the genus is well known and not itself the invention. Continue reading this post on Patently-O.",
@@ -647,35 +797,11 @@
       "color": "#006B3C"
     },
     {
-      "id": "ipkat-aHR0cDovL2lwa2l0dGVuLmJs",
-      "title": "Never Too Late: If you missed the IPKat last week!",
-      "description": "It was a lively week on the IPKat, with a set of posts full of insights worth your attention. In case you didn’t catch everything, here’s your round-up: Fordham IP Conference Kat taking a short nap between conference sessionsKatfriends Sarah Bui and Seth B. Pearson took us to...",
-      "url": "http://ipkitten.blogspot.com/2026/04/never-too-late-if-you-missed-ipkat-last_16.html",
-      "date": "2026-04-16T08:05:00.002Z",
-      "source": "The IPKat",
-      "sourceId": "ipkat",
-      "category": "blog",
-      "lang": "en",
-      "color": "#E63946"
-    },
-    {
       "id": "patently-o-aHR0cHM6Ly9wYXRlbnRseW8u",
       "title": "Extraordinary by Design: How the USPTO Is Bypassing Its Own Reexamination Rules",
       "description": "USPTO's new pre-order procedure lets patent owners oppose ex parte reexamination before the SNQ determination, but the legal basis is shaky. Continue reading this post on Patently-O.",
       "url": "https://patentlyo.com/patent/2026/04/extraordinary-by-design-how-the-uspto-is-bypassing-its-own-reexamination-rules.html",
       "date": "2026-04-15T18:32:40.000Z",
-      "source": "Patently-O",
-      "sourceId": "patently-o",
-      "category": "blog",
-      "lang": "en",
-      "color": "#006B3C"
-    },
-    {
-      "id": "patently-o-aHR0cHM6Ly9wYXRlbnRseW8u",
-      "title": "Mind the Gap: The Middle Layer of Obviousness Doctrine",
-      "description": "Graham's four factors organize the evidence but don't resolve obviousness. The doctrines built atop them do the real analytical work. Continue reading this post on Patently-O.",
-      "url": "https://patentlyo.com/patent/2026/04/mind-the-gap-the-middle-layer-of-obviousness-doctrine.html",
-      "date": "2026-04-14T17:34:27.000Z",
       "source": "Patently-O",
       "sourceId": "patently-o",
       "category": "blog",
