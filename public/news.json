@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-28T08:29:18.674Z",
+  "updatedAt": "2026-04-29T08:23:31.708Z",
   "count": 67,
   "sources": [
     {
@@ -52,6 +52,162 @@
     }
   ],
   "items": [
+    {
+      "id": "ipkat-aHR0cDovL2lwa2l0dGVuLmJs",
+      "title": "Mirror, mirror on the wall — Who is the most distinctive of them all?",
+      "description": "The question whether photorealistic portraits of people’s faces are inherently distinctive and can be registered as trade marks has been the subject of some debate (IPKat here, here and here). Now the Court of Justice of the EU (“CJEU”) gets to weigh in in a reference for a...",
+      "url": "http://ipkitten.blogspot.com/2026/04/mirror-mirror-on-wall-who-is-most.html",
+      "date": "2026-04-29T04:40:00.000Z",
+      "source": "The IPKat",
+      "sourceId": "ipkat",
+      "category": "blog",
+      "lang": "en",
+      "color": "#E63946"
+    },
+    {
+      "id": "ipwatchdog-aHR0cHM6Ly9pcHdhdGNoZG9n",
+      "title": "Proactive IP Risk Management: A Patent Litigator’s Perspective | IPWatchdog Unleashed",
+      "description": "This week on IPWatchdog Unleashed, my conversation with Hilary Preston, partner at Vinson & Elkins and co-head of its intellectual property and technology litigation practice, underscores a fundamental shift underway in how sophisticated organizations approach intellectual...",
+      "url": "https://ipwatchdog.com/2026/04/28/proactive-ip-risk-management/",
+      "date": "2026-04-28T21:15:26.000Z",
+      "source": "IPWatchdog",
+      "sourceId": "ipwatchdog",
+      "category": "blog",
+      "lang": "en",
+      "color": "#B8860B"
+    },
+    {
+      "id": "ipwatchdog-aHR0cHM6Ly9pcHdhdGNoZG9n",
+      "title": "CAFC Distinguishes ‘Results-Oriented’ Claims from Claims with ‘Specificity and Structure’ in Eligibility Analysis",
+      "description": "The U.S. Court of Appeals for the Federal Circuit (CAFC) issued a precedential decision today in Constellation Designs, LLC v. LG Electronics Inc., vacating in part and affirming in part a decision of the United States District Court for the Eastern District of Texas. The CAFC...",
+      "url": "https://ipwatchdog.com/2026/04/28/cafc-distinguishes-results-oriented-claims-specificity-structure-eligibility-analysis/",
+      "date": "2026-04-28T19:52:22.000Z",
+      "source": "IPWatchdog",
+      "sourceId": "ipwatchdog",
+      "category": "blog",
+      "lang": "en",
+      "color": "#B8860B"
+    },
+    {
+      "id": "patently-o-aHR0cHM6Ly9wYXRlbnRseW8u",
+      "title": "Range of Motion En Banc Petition: The Plainly Dissimilar Test and the Functionality Question",
+      "description": "Range of Motion en banc petition asks whether the Federal Circuit's 'plainly dissimilar' threshold inverts Gorham's substantial-sameness test for design patents. Continue reading this post on Patently-O.",
+      "url": "https://patentlyo.com/patent/2026/04/range-of-motion-en-banc-petition-the-plainly-dissimilar-test-and-the-functionality-question.html",
+      "date": "2026-04-28T17:10:45.000Z",
+      "source": "Patently-O",
+      "sourceId": "patently-o",
+      "category": "blog",
+      "lang": "en",
+      "color": "#006B3C"
+    },
+    {
+      "id": "ipwatchdog-aHR0cHM6Ly9pcHdhdGNoZG9n",
+      "title": "Doctor’s Orders: The Search for a Workable Pleading Standard in Hikma v. Amarin",
+      "description": "Pharmaceutical patent litigators are no strangers to the delicate dance between the Hatch-Waxman Act and 35 U.S.C. § 271(b). On one side of this statutory tightrope lies the Hatch-Waxman Act’s Section VIII pathway, which was designed to expedite affordable generic competition by...",
+      "url": "https://ipwatchdog.com/2026/04/28/doctors-orders-search-workable-pleading-standard-hikma-v-amarin/",
+      "date": "2026-04-28T16:15:20.000Z",
+      "source": "IPWatchdog",
+      "sourceId": "ipwatchdog",
+      "category": "blog",
+      "lang": "en",
+      "color": "#B8860B"
+    },
+    {
+      "id": "wtr-aHR0cHM6Ly93d3cud29ybGR0",
+      "title": "US court blocks OpenAI from using IO despite removal of branding",
+      "description": "A US judge has extended an injunction blocking OpenAI’s use of IO for its new AI product.",
+      "url": "https://www.worldtrademarkreview.com/article/us-court-blocks-openai-using-io-despite-removal-of-branding",
+      "date": "2026-04-28T13:50:25.000Z",
+      "source": "World Trademark Review",
+      "sourceId": "wtr",
+      "category": "news",
+      "lang": "en",
+      "color": "#8B4513"
+    },
+    {
+      "id": "juve-aHR0cHM6Ly93d3cuanV2ZS1w",
+      "title": "Local division The Hague refuses to grant PI to Stratasys",
+      "description": "The panel at the local division The Hague, consisting of Margot Kokke, Mojca Mlakar, Robert van Peursem, and Koen Callewaert, did not grant a PI (case ID: UPC-CFI-305/2026). The American company Stratasys had filed a lawsuit against competitor Bambulab. Both companies compete in...",
+      "url": "https://www.juve-patent.com/cases/local-division-the-hague-refuses-to-grant-pi-to-stratasys/",
+      "date": "2026-04-28T13:34:42.000Z",
+      "source": "JUVE Patent",
+      "sourceId": "juve",
+      "category": "news",
+      "lang": "en",
+      "color": "#1D3557"
+    },
+    {
+      "id": "juve-aHR0cHM6Ly93d3cuanV2ZS1w",
+      "title": "Saint Gobain and Splanemann defend smart glass patent at EPO",
+      "description": "The market for innovations in speciality glass for the automotive industry is fiercely competitive. There have been several recent patent disputes in this industry, such as Fuyao Glass vs Saint Gobain and ACG concerning head-up displays and Sekisui Chemicals and Kuraray...",
+      "url": "https://www.juve-patent.com/cases/saint-gobain-and-splanemann-defend-smart-glass-patent-at-epo/",
+      "date": "2026-04-28T12:55:13.000Z",
+      "source": "JUVE Patent",
+      "sourceId": "juve",
+      "category": "news",
+      "lang": "en",
+      "color": "#1D3557"
+    },
+    {
+      "id": "wtr-aHR0cHM6Ly93d3cud29ybGR0",
+      "title": "Philippine Supreme Court sides with Nikon after 14 years of proceedings",
+      "description": "Nikon’s Supreme Court win underscores the power of cross‑class protection – and why registering well‑known marks early can avert years of costly uncertainty.",
+      "url": "https://www.worldtrademarkreview.com/article/philippine-supreme-court-sides-nikon-after-14-years-of-proceedings",
+      "date": "2026-04-28T12:00:00.000Z",
+      "source": "World Trademark Review",
+      "sourceId": "wtr",
+      "category": "news",
+      "lang": "en",
+      "color": "#8B4513"
+    },
+    {
+      "id": "spicyip-aHR0cHM6Ly9zcGljeWlwLmNv",
+      "title": "‘Venetoclax’ at the IPO: Why Generics Need More than Patent Refusals",
+      "description": "How much of a win is a patent rejection for domestic generics production? In this post, I discuss the specific points of IPO’s refusal as a continuation of Indian patent jurisprudence on Section 3(d), and why, irrespective of the essentiality of patent law to the discourse on...",
+      "url": "https://spicyip.com/2026/04/venetoclax-at-the-ipo-why-generics-need-more-than-patent-refusals.html",
+      "date": "2026-04-28T11:43:48.000Z",
+      "source": "SpicyIP",
+      "sourceId": "spicyip",
+      "category": "blog",
+      "lang": "en",
+      "color": "#DC143C"
+    },
+    {
+      "id": "spicyip-aHR0cHM6Ly9zcGljeWlwLmNv",
+      "title": "Surat Cut GI tag for Diamond and Terroir: an Unfinished Love Story",
+      "description": "The newly granted Surat Cut diamond GI tag promises to recognise craftsmanship, skill, and one of India’s most remarkable industrial success stories. But can a legal framework built to protect places truly capture value created by mobile communities whose expertise travels...",
+      "url": "https://spicyip.com/2026/04/surat-cut-gi-tag-for-diamond-and-terroir-an-unfinished-love-story.html",
+      "date": "2026-04-28T10:43:37.000Z",
+      "source": "SpicyIP",
+      "sourceId": "spicyip",
+      "category": "blog",
+      "lang": "en",
+      "color": "#DC143C"
+    },
+    {
+      "id": "ipwatchdog-aHR0cHM6Ly9pcHdhdGNoZG9n",
+      "title": "Eckert Seamans Seeks a Patent Agent or Patent Attorney for Pittsburgh Office",
+      "description": "Eckert Seamans is seeking a full-time, permanent Patent Agent or Patent Attorney with an electrical engineering background for their Pittsburgh, PA office. They are a full-service national law firm with a strong reputation and history of success that spans more than 65 years....",
+      "url": "https://ipwatchdog.com/2026/04/28/eckert-seamans-seeks-a-patent-agent-or-patent-attorney-for-pittsburgh-office/",
+      "date": "2026-04-28T09:15:26.000Z",
+      "source": "IPWatchdog",
+      "sourceId": "ipwatchdog",
+      "category": "blog",
+      "lang": "en",
+      "color": "#B8860B"
+    },
+    {
+      "id": "wtr-aHR0cHM6Ly93d3cud29ybGR0",
+      "title": "Meet WTR on our home turf in London",
+      "description": "The INTA Annual Meeting is coming to London this weekend – and we hope to see you there.",
+      "url": "https://www.worldtrademarkreview.com/article/meet-wtr-home-turf-in-london",
+      "date": "2026-04-28T09:00:00.000Z",
+      "source": "World Trademark Review",
+      "sourceId": "wtr",
+      "category": "news",
+      "lang": "en",
+      "color": "#8B4513"
+    },
     {
       "id": "patently-o-aHR0cHM6Ly9wYXRlbnRseW8u",
       "title": "The Director’s Non-Statutory Statute of Limitations",
@@ -413,18 +569,6 @@
       "color": "#DC143C"
     },
     {
-      "id": "ipkat-aHR0cDovL2lwa2l0dGVuLmJs",
-      "title": "Pharma & Biotech Patent Litigation in Europe conference returns with IPKat readers’ discount",
-      "description": "If, like this Kat, you love all things pharma, biotech and patents, then the Pharma & Biotech Patent Litigation in Europe conference is for you. The IPKat is also happy to report that there is a special 10% discount in the registration fee, with discount code: D10-999-IPKAT26....",
-      "url": "http://ipkitten.blogspot.com/2026/04/pharma-biotech-patent-litigation-in.html",
-      "date": "2026-04-24T13:57:00.002Z",
-      "source": "The IPKat",
-      "sourceId": "ipkat",
-      "category": "blog",
-      "lang": "en",
-      "color": "#E63946"
-    },
-    {
       "id": "juve-aHR0cHM6Ly93d3cuanV2ZS1w",
       "title": "Nokia wins anti-suit injunction against Geely’s interim-licence application",
       "description": "The connected cars dispute between Nokia and Geely, which has been pending since last summer, came to a head this week. After Geely filed an application for an interim licence in China, Nokia successfully filed an anti-suit injunction against a Chinese interim licence with both...",
@@ -483,54 +627,6 @@
       "category": "blog",
       "lang": "en",
       "color": "#B8860B"
-    },
-    {
-      "id": "ipwatchdog-aHR0cHM6Ly9pcHdhdGNoZG9n",
-      "title": "Federal Circuit In Part Reverses PTAB Ruling that Some Centripetal Network Threat Detection Patent Claims are Non-Obvious",
-      "description": "The U.S. Court of Appeals for the Federal Circuit (CAFC) issued a decision Tuesday in Centripetal Networks, LLC v. Keysight Technologies, Inc., affirming in part and reversing in part a decision of the United States Patent and Trademark Office’s (USPTO) Patent Trial and Appeal...",
-      "url": "https://ipwatchdog.com/2026/04/23/federal-circuit-reverses-ptab-ruling-some-centripetal-network-threat-detection-patent-claims-non-obvious/",
-      "date": "2026-04-23T17:15:41.000Z",
-      "source": "IPWatchdog",
-      "sourceId": "ipwatchdog",
-      "category": "blog",
-      "lang": "en",
-      "color": "#B8860B"
-    },
-    {
-      "id": "wtr-aHR0cHM6Ly93d3cud29ybGR0",
-      "title": "Hormuz disruption hits global stocks as WTR Brand Elite declines",
-      "description": "The WTR Brand Elite index fell four points between 1 February and 1 April 2026, with a March sell-off triggered by the effective shutdown of the Strait of Hormuz wiping out earlier gains and sending shockwaves through global markets.",
-      "url": "https://www.worldtrademarkreview.com/article/hormuz-disruption-hits-global-stocks-wtr-brand-elite-declines",
-      "date": "2026-04-23T16:50:00.000Z",
-      "source": "World Trademark Review",
-      "sourceId": "wtr",
-      "category": "news",
-      "lang": "en",
-      "color": "#8B4513"
-    },
-    {
-      "id": "wtr-aHR0cHM6Ly93d3cud29ybGR0",
-      "title": "Counterfeiters, dupes and brand ownership risks: practical enforcement tips for Southeast Asia",
-      "description": "Counterfeiters in Southeast Asia are producing convincing replicas, inventing “non‑existing models”, claiming OEM origin and using modest price reductions to deceive consumers and seize local trademarks, warns a senior IP specialist at audio electronics company HARMAN.",
-      "url": "https://www.worldtrademarkreview.com/article/counterfeiters-dupes-and-brand-ownership-risks-practical-enforcement-tips-southeast-asia",
-      "date": "2026-04-23T16:15:00.000Z",
-      "source": "World Trademark Review",
-      "sourceId": "wtr",
-      "category": "news",
-      "lang": "en",
-      "color": "#8B4513"
-    },
-    {
-      "id": "wtr-aHR0cHM6Ly93d3cud29ybGR0",
-      "title": "New technology makes bad-faith filings easier so brands must change tact, expert warns",
-      "description": "Cases in which bad faith is central to the outcome are rising across major jurisdictions.",
-      "url": "https://www.worldtrademarkreview.com/article/new-technology-makes-bad-faith-filings-easier-so-brands-must-change-tact-expert-warns",
-      "date": "2026-04-23T15:54:40.000Z",
-      "source": "World Trademark Review",
-      "sourceId": "wtr",
-      "category": "news",
-      "lang": "en",
-      "color": "#8B4513"
     },
     {
       "id": "juve-aHR0cHM6Ly93d3cuanV2ZS1w",
@@ -605,42 +701,6 @@
       "color": "#1D3557"
     },
     {
-      "id": "ipwatchdog-aHR0cHM6Ly9pcHdhdGNoZG9n",
-      "title": "Gamevice Considers SCOTUS Cert Petition Over Alleged Procedural Improprieties in Nintendo Switch Patent Case",
-      "description": "On April 20, Simi Valley, CA-based gaming tablet developer Gamevice filed a response to Japanese game developer Nintendo’s motion to vacate portions of a Northern District of California judgment that had invalidated Gamevice patent claims to handheld computing accessories as...",
-      "url": "https://ipwatchdog.com/2026/04/23/gamevice-considers-scotus-cert-petition-procedural-improprieties-nintendo-switch/",
-      "date": "2026-04-23T12:15:33.000Z",
-      "source": "IPWatchdog",
-      "sourceId": "ipwatchdog",
-      "category": "blog",
-      "lang": "en",
-      "color": "#B8860B"
-    },
-    {
-      "id": "ipwatchdog-aHR0cHM6Ly9pcHdhdGNoZG9n",
-      "title": "Broader Concerns Over AI Emerge in Senate Judiciary Hearing on Chinese IP Theft",
-      "description": "China was not the only actor being scrutinized today during a full Senate Judiciary Committee hearing, titled “Stealth Stealing: China’s Ongoing Theft of U.S. Innovation.” Senator Thom Tillis (R-NC) stood in for Senator Chuck Grassley (R-IA) as Chair and opened the hearing with...",
-      "url": "https://ipwatchdog.com/2026/04/22/senate-judiciary-hearing-on-chinese-ip-theft/",
-      "date": "2026-04-22T20:40:05.000Z",
-      "source": "IPWatchdog",
-      "sourceId": "ipwatchdog",
-      "category": "blog",
-      "lang": "en",
-      "color": "#B8860B"
-    },
-    {
-      "id": "ipwatchdog-aHR0cHM6Ly9pcHdhdGNoZG9n",
-      "title": "Congress is Lagging on Innovation Policy; Americans Are Paying the Price",
-      "description": "Intellectual property (IP) protections don't merely shield Americans' ideas and designs from theft—they underpin our entire economy and standard of living. Approximately 90% of the market value of the S&P 500 is in intangible assets, based on IP. Weakened IP protections erode...",
-      "url": "https://ipwatchdog.com/2026/04/22/congress-agging-innovation-policy-americans-paying-price/",
-      "date": "2026-04-22T16:15:57.000Z",
-      "source": "IPWatchdog",
-      "sourceId": "ipwatchdog",
-      "category": "blog",
-      "lang": "en",
-      "color": "#B8860B"
-    },
-    {
       "id": "juve-aHR0cHM6Ly93d3cuanV2ZS1w",
       "title": "HGF tech practice receives another boost with Barker Brettell partner",
       "description": "UK and European patent attorney Oliver Pooley has joined HGF’s Birmingham office. He will bolster the firm’s tech and engineering team. Pooley has a degree in physics and chemistry and a PhD in electronic and electrical engineering. His technical specialties include electronics,...",
@@ -675,30 +735,6 @@
       "category": "blog",
       "lang": "en",
       "color": "#006B3C"
-    },
-    {
-      "id": "juve-aHR0cHM6Ly93d3cuanV2ZS1w",
-      "title": "CMS strengthens London IP practice with McCarthy Denning partner",
-      "description": "Tom Carver officially joined CMS Cameron McKenna’s London practice on 20 April as partner. He brings experience in patents, trademarks, and design rights. In addition to law, Carver also holds a degree in genetics from the University of Nottingham. He has been involved in...",
-      "url": "https://www.juve-patent.com/people-and-business/cms-strengthens-london-ip-practice-with-mccarthy-denning-partner/",
-      "date": "2026-04-21T14:25:38.000Z",
-      "source": "JUVE Patent",
-      "sourceId": "juve",
-      "category": "news",
-      "lang": "en",
-      "color": "#1D3557"
-    },
-    {
-      "id": "juve-aHR0cHM6Ly93d3cuanV2ZS1w",
-      "title": "Brita prevails again in filter cartridge dispute",
-      "description": "Water filters are popular in households to remove certain substances, such as limescale, from tap water prior to consumption. The filters in water carafes are typically replaced at regular intervals to achieve the desired purity. Manufacturer Brita is currently taking action...",
-      "url": "https://www.juve-patent.com/cases/brita-prevails-again-in-filter-cartridge-dispute/",
-      "date": "2026-04-21T12:31:17.000Z",
-      "source": "JUVE Patent",
-      "sourceId": "juve",
-      "category": "news",
-      "lang": "en",
-      "color": "#1D3557"
     },
     {
       "id": "patently-o-aHR0cHM6Ly9wYXRlbnRseW8u",
@@ -737,18 +773,6 @@
       "color": "#005DA4"
     },
     {
-      "id": "spicyip-aHR0cHM6Ly9zcGljeWlwLmNv",
-      "title": "The Inventor is still Human: Indian Patent Office’s DABUS Refusal",
-      "description": "In keeping with a broad global trend, the Indian Patent Office has refused Dr. Stephen Thaler’s patent application which sought to recognise Dr. Thaler’s AI system DABUS as the inventor of a ‘food container and devices and methods for attracting enhanced attention’. The Indian...",
-      "url": "https://spicyip.com/2026/04/the-inventor-is-still-human-indian-patent-offices-dabus-refusal.html",
-      "date": "2026-04-21T04:56:21.000Z",
-      "source": "SpicyIP",
-      "sourceId": "spicyip",
-      "category": "blog",
-      "lang": "en",
-      "color": "#DC143C"
-    },
-    {
       "id": "patently-o-aHR0cHM6Ly9wYXRlbnRseW8u",
       "title": "Barry v. DePuy Returns: En Banc Petition Tests EcoFactor’s Reach on Rule 702 Gatekeeping",
       "description": "DePuy's en banc petition in Barry v. DePuy Synthes argues the panel reintroduced the weight-not-admissibility framework that EcoFactor and the 2023 Rule 702 amendments rejected. Continue reading this post on Patently-O.",
@@ -759,18 +783,6 @@
       "category": "blog",
       "lang": "en",
       "color": "#006B3C"
-    },
-    {
-      "id": "spicyip-aHR0cHM6Ly9zcGljeWlwLmNv",
-      "title": "AIR-1, Right of Publicity-0: Delhi HC’s CLATastrophic Mix-Up",
-      "description": "This post is co-authored with Dr. Aakanksha Kumar. Dr. Aakanksha Kumar (She/Her) is an independent researcher and academic who also consults with content creators and advises Chhattisgarhi music artists on copyright-related matters. Previously, she served as Associate Professor,...",
-      "url": "https://spicyip.com/2026/04/air-1-right-of-publicity-0-delhi-hcs-clatastrophic-mix-up.html",
-      "date": "2026-04-20T13:48:37.000Z",
-      "source": "SpicyIP",
-      "sourceId": "spicyip",
-      "category": "blog",
-      "lang": "en",
-      "color": "#DC143C"
     },
     {
       "id": "patently-o-aHR0cHM6Ly9wYXRlbnRseW8u",
@@ -790,18 +802,6 @@
       "description": "Federal Circuit reverses JMOL in Teva v. Lilly, holding that method-of-use claims face a lower Section 112 bar when the genus is well known and not itself the invention. Continue reading this post on Patently-O.",
       "url": "https://patentlyo.com/patent/2026/04/extra-credit-not-required-teva-v-lilly-and-the-limits-of-amgens-reach.html",
       "date": "2026-04-17T03:18:28.000Z",
-      "source": "Patently-O",
-      "sourceId": "patently-o",
-      "category": "blog",
-      "lang": "en",
-      "color": "#006B3C"
-    },
-    {
-      "id": "patently-o-aHR0cHM6Ly9wYXRlbnRseW8u",
-      "title": "Extraordinary by Design: How the USPTO Is Bypassing Its Own Reexamination Rules",
-      "description": "USPTO's new pre-order procedure lets patent owners oppose ex parte reexamination before the SNQ determination, but the legal basis is shaky. Continue reading this post on Patently-O.",
-      "url": "https://patentlyo.com/patent/2026/04/extraordinary-by-design-how-the-uspto-is-bypassing-its-own-reexamination-rules.html",
-      "date": "2026-04-15T18:32:40.000Z",
       "source": "Patently-O",
       "sourceId": "patently-o",
       "category": "blog",
